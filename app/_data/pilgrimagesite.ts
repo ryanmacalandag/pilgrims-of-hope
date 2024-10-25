@@ -10,6 +10,7 @@ export type PilgrimageSiteType = {
   description: string;
   type: string;
   contact: string[];
+  featured: boolean;
 }
 
 export const pilgrimageSites: PilgrimageSiteType[] = [
@@ -19,12 +20,13 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     diocese: 'Archdiocese of Sydney',
     street: '7 Mount Street',
     city: 'North Sydney',
-    state: 'NSW',
+    state: 'nsw',
     maplink: 'https://maps.app.goo.gl/UiR4SZg5RAxybZ3QA',
     image: '/sites/mary-mackillop-memorial-chapel.jpg',
     description: '',
     type: '',
-    contact: [ '(02) 8912 4890', ]
+    contact: [ '(02) 8912 4890', 'email@gmail.com' ],
+    featured: true,
   },
   {
     name: 'St Clement Monastery',
@@ -32,12 +34,13 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     diocese: 'Archdiocese of Canberra and Goulburn',
     street: '352 Kalangan Road',
     city: 'Galong',
-    state: 'NSW',
+    state: 'nsw',
     maplink: 'https://maps.app.goo.gl/HJJQmTpixYJKg5sF9',
     image: '/sites/st-celements-monastery.jpg',
     description: '',
     type: '',
-    contact: [ '(02) 8912 4890', ]
+    contact: [ '(02) 8912 4890', ],
+    featured: true,
   },
   {
     name: 'Mary MacKillop Memorial Chapel',
@@ -45,12 +48,13 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     diocese: 'Archdiocese of Sydney',
     street: '7 Mount Street',
     city: 'North Sydney',
-    state: 'NSW',
+    state: 'nsw',
     maplink: 'https://maps.app.goo.gl/UiR4SZg5RAxybZ3QA',
     image: '/sites/mary-mackillop-memorial-chapel.jpg',
     description: '',
     type: '',
-    contact: [ '(02) 8912 4890', ]
+    contact: [ '(02) 8912 4890', ],
+    featured: true,
   },
   {
     name: 'St Clement Monastery',
@@ -58,12 +62,13 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     diocese: 'Archdiocese of Canberra and Goulburn',
     street: '352 Kalangan Road',
     city: 'Galong',
-    state: 'NSW',
+    state: 'nsw',
     maplink: 'https://maps.app.goo.gl/HJJQmTpixYJKg5sF9',
     image: '/sites/st-celements-monastery.jpg',
     description: '',
     type: '',
-    contact: [ '(02) 8912 4890', ]
+    contact: [ '(02) 8912 4890', ],
+    featured: true,
   },
   {
     name: 'Mary MacKillop Memorial Chapel',
@@ -71,12 +76,13 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     diocese: 'Archdiocese of Sydney',
     street: '7 Mount Street',
     city: 'North Sydney',
-    state: 'NSW',
+    state: 'nsw',
     maplink: 'https://maps.app.goo.gl/UiR4SZg5RAxybZ3QA',
     image: '/sites/mary-mackillop-memorial-chapel.jpg',
     description: '',
     type: '',
-    contact: [ '(02) 8912 4890', ]
+    contact: [ '(02) 8912 4890', ],
+    featured: true,
   },
   {
     name: 'St Clement Monastery',
@@ -84,11 +90,12 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     diocese: 'Archdiocese of Canberra and Goulburn',
     street: '352 Kalangan Road',
     city: 'Galong',
-    state: 'NSW',
+    state: 'nsw',
     maplink: 'https://maps.app.goo.gl/HJJQmTpixYJKg5sF9',
     image: '/sites/st-celements-monastery.jpg',
     description: '',
     type: '',
-    contact: [ '(02) 8912 4890', 'pastoral.care@mmp.org.au']
+    contact: [ '(02) 8912 4890', 'pastoral.care@mmp.org.au'],
+    featured: true,
   },
 ]

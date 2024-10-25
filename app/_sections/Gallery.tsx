@@ -1,18 +1,29 @@
 import React from 'react'
-import { pilgrimageSites } from '../_data/pilgrimagesite'
+import { PilgrimageSiteType } from '../_data/pilgrimagesite'
 import Image from 'next/image';
 import Link from 'next/link';
 import { BiRightArrowAlt } from 'react-icons/bi';
 
-export default function Gallery() {
+type GalleryPropsType = {
+  filteredSites: PilgrimageSiteType[];
+}
 
-  const sites = pilgrimageSites;
+export default function Gallery( {filteredSites}: GalleryPropsType ) {
+
+  const sites = filteredSites;
 
   return (
     <section>
-      <div className='w-full max-w-screen-lg mx-auto px-6 py-8'>
-        <div id='gallery' className='grid grid-cols-12 gap-8'>
+      <div className='w-full max-w-screen-lg mx-auto px-6 py-4'>
+        <div id='gallery' className='grid grid-cols-12 gap-4'>
+          
           {
+            sites.length == 0 ?
+
+            (
+              <p className='col-span-12 text-center h-[30dvh] flex justify-center items-center'>No site found.</p>
+            )
+            :
             sites.map((site,key) => {
               return (
                 <div key={key} className='col-span-12 sm:col-span-4 lg:col-span-3 flex flex-col gap-2 overflow-hidden hover:shadow-lg font-serif bg-white'>
