@@ -15,7 +15,7 @@ export default function Gallery() {
           {
             sites.map((site,key) => {
               return (
-                <div key={key} className='col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col gap-2 overflow-hidden hover:shadow-lg font-serif bg-white'>
+                <div key={key} className='col-span-12 sm:col-span-4 lg:col-span-3 flex flex-col gap-2 overflow-hidden hover:shadow-lg font-serif bg-white'>
                   <div className='w-full h-fit aspect-video sm:aspect-square overflow-hidden'>
                     <Link href={'/sites/' + site.slug}>
                       <Image

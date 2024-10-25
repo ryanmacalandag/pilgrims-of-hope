@@ -35,7 +35,7 @@ export default async function Page({ params } : { params : ParamsType}) {
             alt={site!.name}
             width={1100}
             height={300}
-            className="w-full h-auto object-cover object-center"  
+            className="w-full h-full object-cover object-center"  
           />
         </div>
         <div className="grid grid-cols-12 gap-4 pl-12 ">
