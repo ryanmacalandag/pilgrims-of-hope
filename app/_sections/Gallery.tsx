@@ -13,7 +13,7 @@ export default function Gallery() {
           {
             sites.map((site,key) => {
               return (
-                <div key={key} className='group col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col gap-2 rounded-xl overflow-hidden font-serif'>
+                <div key={key} className='group col-span-12 sm:col-span-6 lg:col-span-3 flex flex-col gap-2 rounded-xl overflow-hidden font-serif bg-white'>
                   <div className='w-full h-fit aspect-video sm:aspect-square overflow-hidden'>
                     <Image
                       src={site.image}
@@ -23,9 +23,9 @@ export default function Gallery() {
                       className='w-full h-full object-cover hover:scale-105 transition duration-300'
                     />
                   </div>
-                  <div>
-                    <h2>{site.name}</h2>
-                    <p className='font-sans text-md text-stone-500'>{site.diocese}</p>
+                  <div className='flex flex-col gap-2 px-4 py-3'>
+                    <h2 className='leading-tight'>{site.name}</h2>
+                    <p className='font-sans text-sm text-stone-500 leading-4'>{site.diocese}</p>
                   </div>
                 </div>
               )
