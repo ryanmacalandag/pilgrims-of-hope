@@ -16,6 +16,9 @@ const config: Config = {
         'parchment': "url('/bg/parchment-light.jpg')",
         'shale': "url('/bg/shale.jpg')",
       },
+      aspectRatio: {
+        'banner': '10 / 3',
+      },
       fontFamily: {
         'serif': "var(--font-serif)",
         'sans': "var(--font-sans)",

@@ -5,11 +5,11 @@ export default function Footer() {
   return (
     <footer className='relative w-full mt-12'>
 
-      <div className='w-full max-w-screen-lg mx-auto px-6 py-16 border-t border-stone-600 border-dotted'>
+      <div className='w-full mx-auto px-6 py-16 border-t border-orange-400 border-dotted'>
         <p className='w-full text-center text-sm'>Copyright ©2024 All rights reserved.</p>
       </div>
 
-      <div className="flex-grow-0">
+      <div className="w-full">
         <Image
           src='/bg/edge-mountains.svg'
           alt="mountains"

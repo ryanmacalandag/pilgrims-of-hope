@@ -2,6 +2,7 @@ import React from 'react'
 import { pilgrimageSites } from '../_data/pilgrimagesite'
 import Image from 'next/image';
 import Link from 'next/link';
+import { BiRightArrowAlt } from 'react-icons/bi';
 
 export default function Gallery() {
 
@@ -9,14 +10,14 @@ export default function Gallery() {
 
   return (
     <section>
-      <div className='w-full max-w-screen-lg mx-auto px-6 py-12'>
+      <div className='w-full max-w-screen-lg mx-auto px-6 py-8'>
         <div id='gallery' className='grid grid-cols-12 gap-8'>
           {
             sites.map((site,key) => {
               return (
-                <div key={key} className='group col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col gap-2 rounded-xl overflow-hidden shadow-lg font-serif bg-white'>
-                  <Link href={'/sites/' + site.slug}>
-                    <div className='w-full h-fit aspect-video sm:aspect-square overflow-hidden'>
+                <div key={key} className='col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col gap-2 overflow-hidden hover:shadow-lg font-serif bg-white'>
+                  <div className='w-full h-fit aspect-video sm:aspect-square overflow-hidden'>
+                    <Link href={'/sites/' + site.slug}>
                       <Image
                         src={site.image}
                         alt={site.name}
@@ -24,12 +25,17 @@ export default function Gallery() {
                         height={500}
                         className='w-full h-full object-cover hover:scale-105 transition duration-300'
                       />
+                    </Link>
+                  </div>
+                  <div className='flex flex-col gap-2 px-6 py-6'>
+                    <h2 className='leading-tight'>{site.name}</h2>
+                    <p className='font-sans text-sm text-stone-500 leading-4'>{site.diocese}</p>
+                    <div className='group relative w-full h-8 border-b-4 border-dotted border-orange-400/60 hover:border-stone-800/40 mb-2'>
+                      <Link href={'/sites/' + site.slug}>
+                        <BiRightArrowAlt size={32} className='absolute bottom-0 right-0 translate-y-1/2 text-white bg-orange-500 group-hover:bg-stone-800 rounded-full p-1 transition duration-300'></BiRightArrowAlt>
+                      </Link>
                     </div>
-                    <div className='flex flex-col gap-2 px-4 py-3'>
-                      <h2 className='leading-tight'>{site.name}</h2>
-                      <p className='font-sans text-sm text-stone-500 leading-4'>{site.diocese}</p>
-                    </div>
-                  </Link>
+                  </div>
                 </div>
               )
             })
