@@ -12,6 +12,14 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'parchment': "url('/bg/parchment-light.jpg')",
+        'shale': "url('/bg/shale.jpg')",
+      },
+      fontFamily: {
+        'serif': "var(--font-serif)",
+        'sans': "var(--font-sans)",
+      },
     },
   },
   plugins: [],
