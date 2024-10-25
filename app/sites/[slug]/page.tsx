@@ -1,4 +1,3 @@
-// import { MainNav } from "@/app/_components/MainNav";
 import { BackButton } from "@/app/_components/BackButton";
 import { pilgrimageSites } from "@/app/_data/pilgrimagesite"
 import Footer from "@/app/_sections/Footer";
@@ -36,7 +35,7 @@ export default async function Page({ params } : { params : ParamsType}) {
             alt={site!.name}
             width={1100}
             height={300}
-            className="object-cover object-bottom"
+            className="w-full h-auto object-cover object-center"  
           />
         </div>
         <div className="grid grid-cols-12 gap-4 pl-12 ">
@@ -67,6 +66,7 @@ export default async function Page({ params } : { params : ParamsType}) {
           <div className="w-full sm:w-fit px-12">
             <Link
               href={site!.maplink}
+              target="_blank"
               className="flex flex-row justify-center items-center gap-3 bg-teal-700 hover:bg-teal-600 text-white font-bold px-8 py-4 mt-4 transition duration-300"
             ><BiMapPin size={22}></BiMapPin>Google Maps</Link>
           </div>
