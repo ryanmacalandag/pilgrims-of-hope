@@ -24,10 +24,10 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/mary-mackillop-memorial-chapel.jpg',
     description: '',
     type: '',
-    contact: [ '', ]
+    contact: [ '(02) 8912 4890', ]
   },
   {
-    name: 'St Clement&apos;s Monastery',
+    name: 'St Clement Monastery',
     slug: 'st-celements-monastery',
     diocese: 'Archdiocese of Canberra and Goulburn',
     street: '352 Kalangan Road',
@@ -37,7 +37,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/st-celements-monastery.jpg',
     description: '',
     type: '',
-    contact: [ '', ]
+    contact: [ '(02) 8912 4890', ]
   },
   {
     name: 'Mary MacKillop Memorial Chapel',
@@ -50,10 +50,10 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/mary-mackillop-memorial-chapel.jpg',
     description: '',
     type: '',
-    contact: [ '', ]
+    contact: [ '(02) 8912 4890', ]
   },
   {
-    name: 'St Clement&apos;s Monastery',
+    name: 'St Clement Monastery',
     slug: 'st-celements-monastery',
     diocese: 'Archdiocese of Canberra and Goulburn',
     street: '352 Kalangan Road',
@@ -63,7 +63,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/st-celements-monastery.jpg',
     description: '',
     type: '',
-    contact: [ '', ]
+    contact: [ '(02) 8912 4890', ]
   },
   {
     name: 'Mary MacKillop Memorial Chapel',
@@ -76,10 +76,10 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/mary-mackillop-memorial-chapel.jpg',
     description: '',
     type: '',
-    contact: [ '', ]
+    contact: [ '(02) 8912 4890', ]
   },
   {
-    name: 'St Clement&apos;s Monastery',
+    name: 'St Clement Monastery',
     slug: 'st-celements-monastery',
     diocese: 'Archdiocese of Canberra and Goulburn',
     street: '352 Kalangan Road',
@@ -89,6 +89,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/st-celements-monastery.jpg',
     description: '',
     type: '',
-    contact: [ '', ]
+    contact: [ '(02) 8912 4890', 'pastoral.care@mmp.org.au']
   },
 ]

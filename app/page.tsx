@@ -6,7 +6,7 @@ export default function Home() {
     <div className="w-full h-full min-h-dvh relative flex flex-col justify-between">
       <HeroHome></HeroHome>
 
-      <div className="flex-grow-0">
+      <div className="w-full flex-grow-0">
         <Image
           src='/bg/edge-mountains.svg'
           alt="mountains"
