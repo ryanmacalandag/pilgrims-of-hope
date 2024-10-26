@@ -3,7 +3,7 @@ import { PilgrimageSiteType } from '../_data/pilgrimagesite'
 import { BackButton } from "@/app/_components/BackButton";
 import Image from "next/image";
 import Link from "next/link";
-import { BiEnvelope, BiMapPin, BiPhone } from "react-icons/bi";
+import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
 import ImageModal from './ImageModal';
 
 type SiteDetailsPropsType = {
@@ -18,13 +18,13 @@ export default function SiteDetails( {site}:SiteDetailsPropsType ) {
         <h1 className="font-serif text-2xl sm:text-2xl lg:text-4xl text-balance pl-12 pr-6">{site?.name}</h1>
         <div className="w-full aspect-video md:aspect-banner overflow-hidden">
           <Image
-            src={site!.image}
-            alt={site!.name}
+            src={site.image}
+            alt={site.name}
             width={1100}
             height={300}
             className="w-full h-full object-cover object-center"  
           />
-          { false && <ImageModal name={site!.name} image={site!.image}></ImageModal> }
+          { false && <ImageModal name={site.name} image={site.image}></ImageModal> }
         </div>
         <div className="grid grid-cols-12 gap-4 pl-12 ">
           <div className="col-span-12 sm:col-span-6">
@@ -56,7 +56,7 @@ export default function SiteDetails( {site}:SiteDetailsPropsType ) {
               href={site!.maplink}
               target="_blank"
               className="flex flex-row justify-center items-center gap-3 bg-teal-700 hover:bg-teal-600 text-white font-bold px-8 py-4 mt-4 transition duration-300"
-            ><BiMapPin size={22}></BiMapPin>Google Maps</Link>
+            ><BiMap size={22}></BiMap>Google Maps</Link>
           </div>
       </section>
   )

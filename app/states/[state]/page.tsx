@@ -28,8 +28,9 @@ export default async function Page({ params } : { params : ParamsType}) {
       <MainNav></MainNav>
       <StatesFilter selected={state}></StatesFilter>
       <section>
-        <div className="w-full max-w-screen-lg mx-auto px-6 pt-2 md:pt-6">
-          <h2 className="text-xs tracking-widest font-bold uppercase">Showing all results from: &quot;{state}&quot;</h2>
+        <div className="w-full max-w-screen-lg mx-auto flex flex-row justify-between items-center px-6 pt-2 md:pt-6">
+          <p className="text-xs text-stone-600 tracking-widest uppercase">Showing results for: {state}</p>
+          <p className="text-xs text-stone-600 tracking-widest uppercase">Showing {filteredSites.length} Sites</p>
         </div>
       </section>
       <Gallery filteredSites={filteredSites}></Gallery>
