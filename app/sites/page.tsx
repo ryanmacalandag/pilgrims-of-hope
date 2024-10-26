@@ -12,10 +12,12 @@ export default function Sites() {
   return (
     <div>
       <MainNav></MainNav>
-      <StatesFilter></StatesFilter>
+      <StatesFilter selected="featured"></StatesFilter>
       <section>
-        <div className="w-full max-w-screen-lg mx-auto px-6 pt-2 md:pt-6">
-          <h2 className="text-xs tracking-widest font-bold uppercase">All Featured Sites</h2>
+        <div className="w-full max-w-screen-lg mx-auto flex flex-row justify-between items-center px-6 pt-2 md:pt-6">
+          <p className="text-xs text-stone-600 tracking-widest font-bold uppercase">Featured Sites</p>
+          <p className="text-xs text-stone-600 tracking-widest font-bold uppercase">Showing {allFeaturedSites.length} Sites</p>
+          
         </div>
       </section>
       <Gallery filteredSites={allFeaturedSites} ></Gallery>

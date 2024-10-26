@@ -39,7 +39,7 @@ export default function Gallery( {filteredSites}: GalleryPropsType ) {
                     </Link>
                   </div>
                   <div className='flex flex-col gap-2 px-6 py-6'>
-                    <h2 className='leading-tight'>{site.name}</h2>
+                    <h2 className='text-lg leading-tight'>{site.name}</h2>
                     <p className='font-sans text-sm text-stone-500 leading-4'>{site.diocese}</p>
                     <div className='group relative w-full h-8 border-b-4 border-dotted border-orange-400/60 hover:border-stone-800/40 mb-2'>
                       <Link href={'/sites/' + site.slug}>
