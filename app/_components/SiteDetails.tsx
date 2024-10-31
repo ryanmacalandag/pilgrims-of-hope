@@ -13,7 +13,7 @@ type SiteDetailsPropsType = {
 function imageLoader(name:string,city:string,state:string) {
   const address = [name.split(' ').join('+'),city.split(' ').join('+'),state.split(' ').join('+')].join('+')
   const encoded = encodeURI(address)
-  const staticMap = 'https://maps.googleapis.com/maps/api/staticmap?center=' + encoded + '&zoom=17&maptype=hybrid&markers=size:mid&size=640x640&scale=1&key=' + process.env.GOOGLE_MAPS_API_KEY
+  const staticMap = 'https://maps.googleapis.com/maps/api/staticmap?center=' + encoded + '&zoom=17&maptype=hybrid&markers=size:mid&size=640x640&scale=1&key=' + process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
   console.log(Buffer.from('/maps/api/staticmap?center=&zoom=17&maptype=hybrid&markers=size:mid&size=640x640&scale=1&key=AIzaSyAGQmi7lczym5EcREB-rFZGyAHN6gQH3Z0').toString('base64'))
   return staticMap
 }
