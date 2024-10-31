@@ -5,10 +5,10 @@ export type PilgrimageSiteType = {
   street: string;
   city: string;
   state: string;
-  maplink: string;
+  maplink?: string;
   image: string;
   description: string[];
-  type: string;
+  type?: string;
   contact: string[];
   featured: boolean;
 }
@@ -17,6 +17,24 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
   {
     name: 'Mary MacKillop Memorial Chapel',
     slug: 'mary-mackillop-memorial-chapel',
+    diocese: 'Archdiocese of Sydney',
+    street: '7 Mount Street',
+    city: 'North Sydney',
+    state: 'NSW',
+    maplink: 'https://maps.app.goo.gl/UiR4SZg5RAxybZ3QA',
+    image: '/sites/mary-mackillop-memorial-chapel.jpg',
+    description: [
+      'The Chapel was built in 1913 at the instigation of Mother Baptista Molloy in memory of Mary MacKillop. The land was donated in memory of the Daly family. The Chapel was dedicated by the Very Rev Michael Kelly, Archbishop of Sydney on 18 January 1914.',
+      'On 28 January 1914, Mary’s remains were moved from Gore Hill Cemetery, her original resting place, and reinterred in front of Our Lady’s altar in the vault donated by Mary’s long-time friend, Johanna Barr-Smith.',
+      'In 1994, Mary’s remains were moved to what was the original vestry of the Chapel. The Chapel was used by the Sisters of Saint Joseph for many years but since Mary’s beatification in 1995, has become a place of pilgrimage for thousands of people who come to pray and reflect at her tomb now in its own special place.',
+    ],
+    type: '',
+    contact: [ '(02) 8912 4890', 'email@gmail.com' ],
+    featured: true,
+  },
+  {
+    name: 'Sacred Hearet Cathedral',
+    slug: 'sacred-heart-cathedral-bendigo',
     diocese: 'Archdiocese of Sydney',
     street: '7 Mount Street',
     city: 'North Sydney',
