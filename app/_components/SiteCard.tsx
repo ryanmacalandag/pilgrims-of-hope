@@ -10,7 +10,7 @@ type SiteCardPropType = {
 
 export default function SiteCard({site}:SiteCardPropType) {
   return (
-    <div className='group col-span-12 sm:col-span-4 lg:col-span-3 flex flex-col gap-2 overflow-hidden hover:shadow-lg font-serif bg-white'>
+    <div className='group col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col gap-2 overflow-hidden hover:shadow-lg font-serif bg-white'>
       <div className='w-full h-fit aspect-video sm:aspect-portrait overflow-hidden'>
         <Link href={'/sites/' + site.slug}>
           <Image
@@ -24,8 +24,12 @@ export default function SiteCard({site}:SiteCardPropType) {
       </div>
       <div className='flex flex-col flex-grow justify-between gap-2 py-6 pr-6'>
         <div className='flex flex-col gap-2 px-6'>
-          <h2 className='text-lg leading-tight'>{site.name}</h2>
-          <p className='font-sans text-sm text-stone-500 leading-4'>{site.diocese}</p>
+          <Link href={'/sites/' + site.slug}>
+            <h2 className='leading-snug hover:text-teal-950/80'>{site.name}</h2>
+          </Link>
+          <Link href={'/states/' + site.diocese.toLowerCase().split(' ').join('-')}>
+            <p className='font-sans text-sm text-stone-500 leading-4 hover:text-orange-700/50'>{site.diocese}</p>
+          </Link>
         </div>
         <div className='relative w-full h-8 border-b-2 border-dotted border-orange-400/60 group-hover:border-stone-800/40 mb-2'>
           <Link href={'/sites/' + site.slug} className=''>

@@ -23,8 +23,15 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
   return (
     <section className="w-full flex-grow max-w-screen-lg mx-auto flex flex-col gap-6 mt-12">
         <BackButton></BackButton>
-        <div className='flex flex-col gap-1 mt-2 pl-12'>
-          <p className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-5 py-1 sm:py-2 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.diocese}</p>
+        <div className='flex flex-col gap-2 mt-2 pl-12'>
+          <div className='flex gap-2'>
+            <Link
+              href={'/states/' + site.state.toLowerCase()}
+            >
+              <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.state}</div>
+            </Link>
+            <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.diocese}</div>
+          </div>
           <h1 className="font-serif text-3xl sm:text-4xl lg:text-4xl text-balance">{site?.name}</h1>
         </div>
         <div className="w-full aspect-video md:aspect-banner overflow-hidden">
@@ -37,13 +44,13 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
           />
           { false && <ImageModal name={site.name} image={site.image}></ImageModal> }
         </div>
-        <div className="grid grid-cols-12 gap-4 pl-12 pr-0 sm:pr-6">
+        <div className="grid grid-cols-12 gap-4 pl-12 pr-0 sm:pr-6 py-4 sm:py-8">
           <div className="col-span-12 md:col-span-8">
             <div className='my-2 flex flex-col gap-4 pr-8'>
               {
                 site.description.map((text,key) => {
                   return (
-                    <p key={key} className='text-lg first:text-xl first:font-serif text-stone-800/80 first:text-stone-950 first:mb-3 leading-relaxed'>{ text.replace(/&#39;/g,'\'') }</p>
+                    <p key={key} className='first:text-xl first:font-serif text-stone-800/80 first:text-stone-950 first:mb-3 first:leading-8 leading-relaxed'>{ text.replace(/&#39;/g,'\'') }</p>
                   )
                 })
               }
@@ -51,13 +58,11 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
           </div>
           <div className='col-span-12 md:col-span-4 flex flex-col gap-6 text-stone-700'>
             <div className="*:border-b *:border-stone-400 *:border-dotted *:py-2">
-              <h4 className="text-xs text-teal-800 font-bold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2"><BiEnvelope></BiEnvelope> Address</h4>
-              <p>{site!.street}</p>
-              <p>{site!.city}</p>
-              <p>{site!.state}</p>
+              <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2"><BiEnvelope size={16}></BiEnvelope> Address</h4>
+              <p>{site!.street + ', ' + site!.city + ', ' + site!.state }</p>
             </div>
             <div className="*:border-b *:border-stone-500 *:border-dotted *:py-2">
-              <h4 className="text-xs text-teal-800 font-bold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2"><BiPhone></BiPhone> Contact</h4>
+              <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2"><BiPhone size={16}></BiPhone> Contact</h4>
               {
                 site!.contact.map((contact) => {
                   return (
@@ -69,7 +74,7 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
               }
             </div>
             <div className="col-span-12 sm:col-span-12 ">
-              <h4 className="text-xs text-teal-800 font-bold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2 mb-2 border-b border-stone-400 border-dotted py-2"><BiMap size={22}></BiMap> Find on Map</h4>
+              <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2 mb-2 border-b border-stone-400 border-dotted py-2"><BiMap size={16}></BiMap> Google Map</h4>
               <div className='w-full h-52 overflow-hidden bg-stone-500/20'>
                 <Link
                   href={'https://www.google.com/maps/search/?api=1&zoom=8&query=' + site.name.split(' ').join('+') + ' ' + site.city.split(' ').join('+') + ' ' + site.state.split(' ').join('+')}

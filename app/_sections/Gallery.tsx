@@ -18,7 +18,7 @@ export default function Gallery( {filteredSites}: GalleryPropsType ) {
             sites.length == 0 ?
 
             (
-              <p className='col-span-12 text-center h-[30dvh] flex justify-center items-center'>Nothing found.</p>
+              <p className='col-span-12 text-center font-serif text-stone-800/70 h-[30dvh] flex justify-center items-center'>Nothing found.</p>
             )
             :
             sites.map((site,key) => {
