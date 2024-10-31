@@ -12,7 +12,7 @@ export default function SiteCard({site}:SiteCardPropType) {
   return (
     <div className='group col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col gap-2 overflow-hidden shadow-sm hover:shadow-lg font-serif bg-white'>
       <div className='w-full h-fit aspect-video sm:aspect-video overflow-hidden'>
-        <Link href={'/sites/' + site.slug} aria-label={site.name}>
+        <Link href={'/sites/' + site.slug} aria-label={site.name.replace(/&#39;/g,'\'')}>
           <Image
             src={site!.image}
             alt={site!.name}
@@ -25,7 +25,7 @@ export default function SiteCard({site}:SiteCardPropType) {
       <div className='flex flex-col flex-grow justify-between gap-2 pt-3 md:pt-6 pb-5 md:pb-6 pr-6'>
         <div className='flex flex-col gap-2 px-6'>
           <Link href={'/sites/' + site.slug} aria-label={site.name}>
-            <h2 className='leading-snug hover:text-teal-950/80'>{site.name}</h2>
+            <h2 className='leading-snug hover:text-teal-950/80'>{site.name.replace(/&#39;/g,'\'')}</h2>
           </Link>
           <Link href={'/dioceses/' + site.diocese.toLowerCase().split(' ').join('-')} aria-label={site.diocese}>
             <p className='font-sans text-sm text-stone-500 leading-4 hover:text-orange-700/50'>{site.diocese}</p>

@@ -10,19 +10,22 @@ type SiteDetailsPropsType = {
   site: PilgrimageSiteType;
 }
 
-function imageLoader(name:string,city:string,state:string) {
-  const address = [name.split(' ').join('+'),city.split(' ').join('+'),state.split(' ').join('+')].join('+')
-  const encoded = encodeURI(address)
+function imageLoader(name:string,  type:string, city:string, state:string) {
+  const address = [name.split(' ').join('+'),type.split(' ').join('+'),city.split(' ').join('+'),state.split(' ').join('+')].join('+')
+  const encoded = encodeURI(address.replace('\'',''))
+  console.log(encoded)
   const staticMap = 'https://maps.googleapis.com/maps/api/staticmap?center=' + encoded + '&zoom=17&maptype=hybrid&markers=size:mid&size=640x640&scale=1&key=' + process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
   return staticMap
 }
 
 export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
+
+  console.log(site.website?.length)
   
   return (
     <section className="w-full flex-grow max-w-screen-lg mx-auto flex flex-col gap-6 mt-12">
         <BackButton></BackButton>
-        <div className='flex flex-col gap-2 mt-2 pl-12'>
+        <div className='flex flex-col gap-2 mt-2 pl-12 overflow-hidden'>
           <div className='flex gap-2'>
             <Link
               href={'/states/' + site.state.toLowerCase()}
@@ -38,7 +41,7 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
             </Link>
             {/* <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.diocese}</div> */}
           </div>
-          <h1 className="font-serif text-3xl sm:text-4xl lg:text-4xl text-balance">{site?.name}</h1>
+          <h1 className="font-serif text-3xl sm:text-4xl lg:text-4xl text-balance">{site?.name.replace(/&#39;/g,'\'')}</h1>
         </div>
         <div className="group w-full aspect-video md:aspect-banner overflow-hidden">
           <Image
@@ -56,7 +59,9 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
               {
                 site.description.map((text,key) => {
                   return (
-                    <p key={key} className='first:text-xl first:font-serif text-stone-800/80 first:text-stone-950 first:mb-3 first:leading-8 leading-relaxed'>{ text.replace(/&#39;/g,'\'') }</p>
+                    <p key={key} className='first:text-xl first:font-serif text-stone-800/80 first:text-stone-950 first:mb-3 first:leading-8 leading-relaxed'>
+                      { text.replace(/&#39;/g,'\'') }
+                    </p>
                   )
                 })
               }
@@ -70,26 +75,27 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
             <div className="*:border-b *:border-stone-500 *:border-dotted *:py-2">
               <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2"><BiPhone size={16}></BiPhone> Contact</h4>
               {
-                site!.contact.map((contact) => {
+                site!.contact.map((contact,key) => {
                   return (
-                    <div key={contact}>
-                      <p>{contact}</p>
-                    </div>
+                      <p key={key}>{contact}</p>
                   )
                 })
               }
+              <p className={site.website?.length === 0 ? 'hidden' : 'flex'}>
+                <Link href={site.website!} aria-label='Visit website'>{site.website}</Link>
+              </p>
             </div>
             <div className="col-span-12 sm:col-span-12 ">
               <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2 mb-2 border-b border-stone-400 border-dotted py-2"><BiMap size={16}></BiMap> Google Map</h4>
               <div className='w-full h-52 overflow-hidden bg-stone-500/20'>
                 <Link
-                  href={'https://www.google.com/maps/search/?api=1&zoom=8&query=' + site.name.split(' ').join('+') + ' ' + site.city.split(' ').join('+') + ' ' + site.state.split(' ').join('+')}
+                  href={'https://www.google.com/maps/search/?api=1&zoom=8&query=' + site.name.replace(/&#39;/g,'\'').split(' ').join('+') + '+' + site.type!.split(' ').join('+') + '+' + site.city.split(' ').join('+') + '+' + site.state.split(' ').join('+')}
                   target="_blank"
                   aria-label="View on Google Maps"
                   className="group"
                 >
                   <Image
-                    src={await imageLoader(site.name,site.city,site.state)}
+                    src={await imageLoader(site.name.replace(/&#39;/g,'\''),site.type!,site.city,site.state)}
                     alt={site.name}
                     width={320}
                     height={240}
