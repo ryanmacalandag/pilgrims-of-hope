@@ -14,7 +14,6 @@ function imageLoader(name:string,city:string,state:string) {
   const address = [name.split(' ').join('+'),city.split(' ').join('+'),state.split(' ').join('+')].join('+')
   const encoded = encodeURI(address)
   const staticMap = 'https://maps.googleapis.com/maps/api/staticmap?center=' + encoded + '&zoom=17&maptype=hybrid&markers=size:mid&size=640x640&scale=1&key=' + process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
-  console.log(Buffer.from('/maps/api/staticmap?center=&zoom=17&maptype=hybrid&markers=size:mid&size=640x640&scale=1&key=AIzaSyAGQmi7lczym5EcREB-rFZGyAHN6gQH3Z0').toString('base64'))
   return staticMap
 }
 
@@ -27,20 +26,27 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
           <div className='flex gap-2'>
             <Link
               href={'/states/' + site.state.toLowerCase()}
+              aria-label={site.state}
             >
               <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.state}</div>
             </Link>
-            <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.diocese}</div>
+            <Link
+              href={'/dioceses/' + site.diocese.toLowerCase().split(' ').join('-')}
+              aria-label={site.state}
+            >
+              <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.diocese}</div>
+            </Link>
+            {/* <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.diocese}</div> */}
           </div>
           <h1 className="font-serif text-3xl sm:text-4xl lg:text-4xl text-balance">{site?.name}</h1>
         </div>
-        <div className="w-full aspect-video md:aspect-banner overflow-hidden">
+        <div className="group w-full aspect-video md:aspect-banner overflow-hidden">
           <Image
             src={site.image}
             alt={site.name}
             width={1100}
             height={300}
-            className="w-full h-full object-cover object-center"  
+            className="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500"  
           />
           { false && <ImageModal name={site.name} image={site.image}></ImageModal> }
         </div>
@@ -79,13 +85,14 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
                 <Link
                   href={'https://www.google.com/maps/search/?api=1&zoom=8&query=' + site.name.split(' ').join('+') + ' ' + site.city.split(' ').join('+') + ' ' + site.state.split(' ').join('+')}
                   target="_blank"
+                  aria-label="View on Google Maps"
                   className="group"
                 >
                   <Image
                     src={await imageLoader(site.name,site.city,site.state)}
                     alt={site.name}
-                    width={640}
-                    height={640}
+                    width={320}
+                    height={240}
                     className='w-full min-w-full h-full object-cover object-center group-hover:scale-150 transition duration-300'
                   />
                 </Link>
@@ -93,6 +100,7 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
             </div>
           </div>
         </div>
+        <BackButton></BackButton>
       </section>
   )
 }
