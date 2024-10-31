@@ -11,7 +11,7 @@ type SiteCardPropType = {
 export default function SiteCard({site}:SiteCardPropType) {
   return (
     <div className='group col-span-12 sm:col-span-4 lg:col-span-3 flex flex-col gap-2 overflow-hidden hover:shadow-lg font-serif bg-white'>
-      <div className='w-full h-fit aspect-video sm:aspect-square overflow-hidden'>
+      <div className='w-full h-fit aspect-video sm:aspect-portrait overflow-hidden'>
         <Link href={'/sites/' + site.slug}>
           <Image
             src={site!.image}

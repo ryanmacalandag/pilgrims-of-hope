@@ -43,7 +43,7 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
               {
                 site.description.map((text,key) => {
                   return (
-                    <p key={key} className='text-lg first:text-xl leading-relaxed'>{ text.replace(/&#39;/g,'\'') }</p>
+                    <p key={key} className='text-lg first:text-2xl first:font-serif text-stone-800/80 first:text-stone-950 first:mb-3 leading-relaxed'>{ text.replace(/&#39;/g,'\'') }</p>
                   )
                 })
               }
