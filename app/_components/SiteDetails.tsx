@@ -81,8 +81,8 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
                   )
                 })
               }
-              <p className={site.website?.length === 0 ? 'hidden' : 'flex'}>
-                <Link href={site.website!} aria-label='Visit website'>{site.website}</Link>
+              <p className={site.website?.length === 0 ? 'hidden' : 'flex hover:text-orange-700/50'}>
+                <Link href={site.website!} target='_blank' aria-label='Visit website'>{site.website}</Link>
               </p>
             </div>
             <div className="col-span-12 sm:col-span-12 ">

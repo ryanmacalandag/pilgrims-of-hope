@@ -10,7 +10,7 @@ type SiteCardPropType = {
 
 export default function SiteCard({site}:SiteCardPropType) {
   return (
-    <div className='group col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col gap-2 overflow-hidden shadow-sm hover:shadow-lg font-serif bg-white'>
+    <div className='group col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col gap-2 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 font-serif bg-white transition duration-300'>
       <div className='w-full h-fit aspect-video sm:aspect-video overflow-hidden'>
         <Link href={'/sites/' + site.slug} aria-label={site.name.replace(/&#39;/g,'\'')}>
           <Image
