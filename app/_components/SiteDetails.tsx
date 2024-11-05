@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
 import ImageModal from './ImageModal';
+import SocialShareButtons from './SocialShareButtons';
 
 type SiteDetailsPropsType = {
   site: PilgrimageSiteType;
@@ -106,6 +107,7 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
             </div>
           </div>
         </div>
+        <SocialShareButtons></SocialShareButtons>
         <BackButton></BackButton>
       </section>
   )
