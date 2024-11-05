@@ -49,13 +49,13 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
           >
             <div className='relative flex flex-col justify-center items-center'> 
               <p className='absolute top-0 left-0 z-20 w-full h-full flex justify-center items-center gap-2 text-center text-stone-100 text-sm tracking-wider uppercase translate-y-12 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition duration-300'><BiZoomIn size={18}></BiZoomIn>Click to zoom</p>
-              <div className='absolute w-full h-full z-10 top-0 left-0 bg-transparent group-hover:bg-stone-500/50 transition duration-200'></div>
+              <div className='absolute w-full h-full z-10 top-0 left-0 bg-transparent group-hover:bg-stone-700/60 transition duration-200'></div>
               <Image
                 src={site.image}
                 alt={site.name}
                 width={1100}
                 height={300}
-                className="w-full h-full aspect-banner object-cover object-center cursor-zoom-in group-hover:scale-105 transition duration-500"  
+                className="w-full h-full aspect-video md:aspect-banner object-cover object-center cursor-zoom-in group-hover:scale-105 transition duration-500"  
               />
             </div>
           </Link>
