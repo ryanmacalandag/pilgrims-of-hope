@@ -19,7 +19,7 @@ export default function SocialShareButtons() {
         className='w-full sm:w-fit flex gap-3 pr-4 justify-between items-center bg-sky-700 saturate-50 hover:saturate-100 hover:-translate-y-2 text-white text-xs uppercase font-sans font-extrabold tracking-wider transition duration-300'
       >
         <BiLogoLinkedin size={20} className='w-fit h-fit px-4 py-5 bg-sky-800'></BiLogoLinkedin>
-        Share on Linked
+        Share on LinkedIn
       </Link>
     </div>
   )

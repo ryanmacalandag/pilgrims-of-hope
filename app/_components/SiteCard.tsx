@@ -33,7 +33,7 @@ export default function SiteCard({site}:SiteCardPropType) {
         </div>
         <div className='relative w-full h-4 md:h-8 border-b-2 border-dotted border-orange-400/60 group-hover:border-stone-800/40 mb-2'>
           <Link href={'/sites/' + site.slug} aria-label='view details'>
-            <BiRightArrowAlt size={40} className='group-hover:translate-x-2 absolute bottom-0 right-0 translate-y-1/2 text-white bg-orange-500 group-hover:bg-stone-800 rounded-full p-1 transition duration-300'></BiRightArrowAlt>
+            <BiRightArrowAlt size={32} className='group-hover:translate-x-2 absolute bottom-0 right-0 translate-y-1/2 text-white bg-orange-500 group-hover:bg-stone-800 rounded-full p-1 transition duration-300'></BiRightArrowAlt>
           </Link>
         </div>
       </div>

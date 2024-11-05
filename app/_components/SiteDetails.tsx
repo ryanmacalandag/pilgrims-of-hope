@@ -3,8 +3,7 @@ import { PilgrimageSiteType } from '../_data/pilgrimagesite'
 import { BackButton } from "@/app/_components/BackButton";
 import Image from "next/image";
 import Link from "next/link";
-import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
-import ImageModal from './ImageModal';
+import { BiEnvelope, BiMap, BiPhone, BiZoomIn } from "react-icons/bi";
 import SocialShareButtons from './SocialShareButtons';
 
 type SiteDetailsPropsType = {
@@ -14,7 +13,6 @@ type SiteDetailsPropsType = {
 function imageLoader(name:string,  type:string, city:string, state:string) {
   const address = [name.split(' ').join('+'),type.split(' ').join('+'),city.split(' ').join('+'),state.split(' ').join('+')].join('+')
   const encoded = encodeURI(address.replace('\'',''))
-  console.log(encoded)
   const staticMap = 'https://maps.googleapis.com/maps/api/staticmap?center=' + encoded + '&zoom=17&maptype=hybrid&markers=size:mid&size=640x640&scale=1&key=' + process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
   return staticMap
 }
@@ -45,14 +43,22 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
           <h1 className="font-serif text-3xl sm:text-4xl lg:text-4xl text-balance">{site?.name.replace(/&#39;/g,'\'')}</h1>
         </div>
         <div className="group w-full aspect-video md:aspect-banner overflow-hidden">
-          <Image
-            src={site.image}
-            alt={site.name}
-            width={1100}
-            height={300}
-            className="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500"  
-          />
-          { false && <ImageModal name={site.name} image={site.image}></ImageModal> }
+          <Link
+            href={'/photos/' + site.slug}
+            className='cursor-zoom-in'
+          >
+            <div className='relative flex flex-col justify-center items-center'> 
+              <p className='absolute top-0 left-0 z-20 w-full h-full flex justify-center items-center gap-2 text-center text-stone-100 text-sm tracking-wider uppercase translate-y-12 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition duration-300'><BiZoomIn size={18}></BiZoomIn>Click to zoom</p>
+              <div className='absolute w-full h-full z-10 top-0 left-0 bg-transparent group-hover:bg-stone-500/50 transition duration-200'></div>
+              <Image
+                src={site.image}
+                alt={site.name}
+                width={1100}
+                height={300}
+                className="w-full h-full aspect-banner object-cover object-center cursor-zoom-in group-hover:scale-105 transition duration-500"  
+              />
+            </div>
+          </Link>
         </div>
         <div className="grid grid-cols-12 gap-4 pl-12 pr-0 sm:pr-6 py-4 sm:py-8">
           <div className="col-span-12 md:col-span-8">
