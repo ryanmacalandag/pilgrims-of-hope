@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiUser } from 'react-icons/bi'
 import Image from 'next/image'
 
 export default function PopeFrancisQuotes() {
