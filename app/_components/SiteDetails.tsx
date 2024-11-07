@@ -30,13 +30,13 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
               href={'/states/' + site.state.toLowerCase()}
               aria-label={site.state}
             >
-              <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.state}</div>
+              <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider'>{site!.state}</div>
             </Link>
             <Link
               href={'/dioceses/' + site.diocese.toLowerCase().split(' ').join('-')}
               aria-label={site.state}
             >
-              <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.diocese}</div>
+              <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider'>{site!.diocese}</div>
             </Link>
             {/* <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.diocese}</div> */}
           </div>

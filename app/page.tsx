@@ -1,21 +1,23 @@
-import HeroHome from "./_sections/HeroHome";
-import Image from "next/image";
+import { MainNav } from "./_sections/MainNav";
+import { pilgrimageSites } from "./_data/pilgrimagesite";
+import StatesFilter from "./_components/StatesFilter";
+import BannerDownloadPDF from "./_sections/BannerDownloadPDF";
+import Footer from "./_sections/Footer";
+import Gallery from "./_sections/Gallery";
+import PopeFrancisQuotes from "./_sections/PopeFrancisQuotes";
 
-export default function Home() {
+export default function Sites() {
+
+  const allFeaturedSites = pilgrimageSites.filter((s) => s.featured)
+
   return (
-    <div className="w-full h-full min-h-dvh relative flex flex-col justify-between">
-      <HeroHome></HeroHome>
-
-      <div className="w-full flex-grow-0">
-        <Image
-          src='/bg/edge-mountains.svg'
-          alt="mountains"
-          width={1200}
-          height={50}
-          className="w-full"
-        />
-      </div>
-      <div className="absolute -z-10 bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-stone-300 via-transparent to-transparent"></div>
+    <div>
+      <MainNav></MainNav>
+      <StatesFilter selected="featured"></StatesFilter>
+      <Gallery filteredSites={allFeaturedSites} filterBy="Featured"></Gallery>
+      <PopeFrancisQuotes></PopeFrancisQuotes>
+      <BannerDownloadPDF></BannerDownloadPDF>
+      <Footer></Footer>
     </div>
   );
 }

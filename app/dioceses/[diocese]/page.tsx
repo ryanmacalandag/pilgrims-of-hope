@@ -2,7 +2,7 @@ import { pilgrimageSites } from "@/app/_data/pilgrimagesite"
 import { getAllDioceses } from "@/app/_data/getAllDioceses";
 import Footer from "@/app/_sections/Footer";
 import Gallery from "@/app/_sections/Gallery";
-import { MainNav } from "@/app/_components/MainNav";
+import { MainNav } from "@/app/_sections/MainNav";
 import StatesFilter from "@/app/_components/StatesFilter";
 
 // Return a list of `params` to populate the [slug] dynamic segment
@@ -26,13 +26,7 @@ export default async function Page({ params } : { params : ParamsType}) {
     <div className="h-full flex flex-col">
       <MainNav></MainNav>
       <StatesFilter selected={diocese}></StatesFilter>
-      <section>
-        <div className="w-full max-w-screen-lg mx-auto flex flex-row justify-between items-center px-6 pt-2 md:pt-6">
-          <p className="text-xs text-stone-600 tracking-widest uppercase">Results for: {diocese.split('-').join(' ')}</p>
-          <p className="text-xs text-stone-600 tracking-widest uppercase">Displaying {filteredSites.length} sites</p>
-        </div>
-      </section>
-      <Gallery filteredSites={filteredSites}></Gallery>
+      <Gallery filteredSites={filteredSites} filterBy={diocese}></Gallery>
       <Footer></Footer>
     </div>
   )
