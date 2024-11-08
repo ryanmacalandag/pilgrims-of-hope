@@ -15,7 +15,7 @@ export default function Gallery( {filteredSites, filterBy}: GalleryPropsType ) {
   return (
     <section>
       <FilterLabel filterBy={filterBy} quantity={filteredSites.length}></FilterLabel>
-      <div className='w-full max-w-screen-2xl mx-auto px-6 md:px-12 py-4'>
+      <div className='w-full max-w-screen-xl mx-auto px-6 md:px-12 py-4'>
         <div id='gallery' className='grid grid-cols-12 gap-4'>
           {
             sites.length === 0 ?

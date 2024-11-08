@@ -22,7 +22,7 @@ export default async function SiteDetails( {site}:SiteDetailsPropsType ) {
   console.log(site.website?.length)
   
   return (
-    <section className="w-full flex-grow max-w-screen-lg mx-auto flex flex-col gap-6 mt-12">
+    <section className="w-full flex-grow max-w-screen-xl mx-auto flex flex-col gap-6 mt-12">
         <BackButton></BackButton>
         <div className='flex flex-col gap-2 mt-2 pl-12 overflow-hidden'>
           <div className='flex gap-2'>

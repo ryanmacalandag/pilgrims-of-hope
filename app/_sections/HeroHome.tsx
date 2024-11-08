@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function HeroHome() {
   return (
     <section id='home' className='w-full flex-grow flex justify-center items-center'>
-      <div className='w-full h-full max-w-screen-lg mx-auto flex flex-col flex-grow gap-6 justify-center items-center px-6 py-12'>
+      <div className='w-full h-full max-w-screen-xl mx-auto flex flex-col flex-grow gap-6 justify-center items-center px-6 py-12'>
         <div className='w-60 lg:w-96 max-w-full'>
           <Logo></Logo>
         </div>
