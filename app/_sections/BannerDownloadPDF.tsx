@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function BannerDownloadPDF() {
   return (
     <section className='py-0'>
-      <div className="group relative w-full max-w-screen-2xl mx-auto px-0 sm:px-12 overflow-hidden sm:overflow-visible">
+      <div className="group relative w-full max-w-screen-xl mx-auto px-0 sm:px-12 overflow-hidden sm:overflow-visible">
         <div className='relative flex md:flex-row flex-col justify-between items-start md:items-center gap-10 text-white bg-gradient-to-tr from-stone-800 via-stone-800/80 to-transparent rounded-none sm:rounded-xl px-10 sm:px-12 lg:px-16 py-16 my-8 lg:my-16 group-hover:shadow-xl group-hover:brightness-125 overflow-hidden transition duration-300'>
           <div className='w-full flex flex-col gap-3'>
             <div className='w-full md:w-3/5 flex gap-2 items-center text-2xl md:text-3xl font-serif text-left md:text-balance'>Download the PDF version</div>
