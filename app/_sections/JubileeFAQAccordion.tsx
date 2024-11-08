@@ -5,7 +5,7 @@ import { BiChevronRight, BiMailSend } from 'react-icons/bi'
 
 export default function JubileeFAQAccordion() {
   return (
-    <div className='flex flex-col gap-8 lg:gap-12 px-8 md:px-12 lg:px-16 py-12 md:py-10 lg:py-16'>
+    <div className='flex flex-col gap-8 lg:gap-12 px-8 md:px-12 lg:px-16 py-12 md:py-12 lg:py-16'>
       <div className='border-b-2 border-green-500/40 border-dotted pb-1'>
         <h3 className='text-sm md:text-base text-left font-sans font-bold text-green-700 uppercase tracking-wider'>Frequently Asked Questions</h3>
       </div>
