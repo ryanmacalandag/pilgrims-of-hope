@@ -7,8 +7,7 @@ import Gallery from "./_sections/Gallery";
 import Jubilee2025Primer from "./_sections/Jubilee2025Primer";
 
 export default function Sites() {
-
-  const allFeaturedSites = pilgrimageSites.filter((s) => s.featured)
+  const allFeaturedSites = pilgrimageSites.filter((s) => s.featured);
 
   return (
     <div>

@@ -13,15 +13,15 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        'parchment': "url('/bg/parchment-light.jpg')",
-        'shale': "url('/bg/shale.jpg')",
+        parchment: "url('/bg/parchment-light.jpg')",
+        shale: "url('/bg/shale.jpg')",
       },
       aspectRatio: {
-        'banner': '10 / 3',
+        banner: "10 / 3",
       },
       fontFamily: {
-        'serif': "var(--font-serif)",
-        'sans': "var(--font-sans)",
+        serif: "var(--font-serif)",
+        sans: "var(--font-sans)",
       },
     },
   },

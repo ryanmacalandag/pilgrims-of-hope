@@ -6,8 +6,7 @@ import Footer from "../_sections/Footer";
 import Gallery from "../_sections/Gallery";
 
 export default function Sites() {
-
-  const allFeaturedSites = pilgrimageSites.filter((s) => s.featured)
+  const allFeaturedSites = pilgrimageSites.filter((s) => s.featured);
 
   return (
     <div>
