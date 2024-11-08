@@ -66,7 +66,7 @@ export default function JubileeFAQAccordion() {
                           {item.question}
                         </h4>
                       </div>
-                      <p className='max-h-0 group-aria-[checked=true]:max-h-[600px] overflow-hidden transition-max-h duration-500 delay-75 mb-2 group-aria-[checked=true]:mb-8 text-base md:text-base pl-8 '>
+                      <p className='max-h-0 group-aria-[checked=true]:max-h-[600px] overflow-hidden transition-max-h duration-500 delay-75 my-0 group-aria-[checked=true]:mt-2 mb-2 group-aria-[checked=true]:mb-8 text-base md:text-base pl-8 '>
                         {item.answer}
                       </p>
                     </Checkbox>

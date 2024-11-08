@@ -10,6 +10,8 @@ type SiteCardPropType = {
 
 export default function SiteCard({site}:SiteCardPropType) {
   return (
+    <>
+    {/* Site Card */}
     <div className='group col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 grid grid-cols-12 gap-0 sm:gap-2 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 bg-white transition duration-300'>
       <div className='col-span-4 sm:col-span-12 aspect-auto sm:aspect-video overflow-hidden'>
         <Link href={'/sites/' + site.slug} aria-label={site.name.replace(/&#39;/g,'\'')}>
@@ -38,5 +40,6 @@ export default function SiteCard({site}:SiteCardPropType) {
         </div>
       </div>
     </div>
+    </>
     )
 }
