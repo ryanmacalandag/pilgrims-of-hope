@@ -1,7 +1,7 @@
 import React from 'react'
 import PopeFrancisQuotes from './PopeFrancisQuotes'
 import JubileeMainTopics from './JubileeMainTopics'
-import JubileeFAQ from './JubileeFAQ'
+import JubileeFAQAccordion from './JubileeFAQAccordion'
 
 export default function Jubilee2025Primer() {
   return (
@@ -13,7 +13,7 @@ export default function Jubilee2025Primer() {
           </div>
           <PopeFrancisQuotes></PopeFrancisQuotes>
           <JubileeMainTopics></JubileeMainTopics>
-          <JubileeFAQ></JubileeFAQ>
+          <JubileeFAQAccordion></JubileeFAQAccordion>
         </div>
       </div>
     </section>
