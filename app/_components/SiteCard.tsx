@@ -10,8 +10,8 @@ type SiteCardPropType = {
 
 export default function SiteCard({site}:SiteCardPropType) {
   return (
-    <div className='group col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 flex flex-col gap-2 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 font-serif bg-white transition duration-300'>
-      <div className='w-full h-fit aspect-video sm:aspect-video overflow-hidden'>
+    <div className='group col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 grid grid-cols-12 gap-0 sm:gap-2 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 font-serif bg-white transition duration-300'>
+      <div className='col-span-4 sm:col-span-12 aspect-auto sm:aspect-video overflow-hidden'>
         <Link href={'/sites/' + site.slug} aria-label={site.name.replace(/&#39;/g,'\'')}>
           <Image
             src={site!.image}
@@ -22,8 +22,8 @@ export default function SiteCard({site}:SiteCardPropType) {
           />
         </Link>
       </div>
-      <div className='flex flex-col flex-grow justify-between gap-2 pt-3 md:pt-6 pb-5 md:pb-6 pr-6'>
-        <div className='flex flex-col gap-2 px-6'>
+      <div className='col-span-8 sm:col-span-12 flex flex-col justify-between gap-2 pt-6 sm:pt-6 pb-5 md:pb-6 pr-4 sm:pr-6'>
+        <div className='flex flex-col gap-2 px-4 sm:px-6'>
           <Link href={'/sites/' + site.slug} aria-label={site.name}>
             <h2 className='leading-snug hover:text-teal-950/80'>{site.name.replace(/&#39;/g,'\'')}</h2>
           </Link>
