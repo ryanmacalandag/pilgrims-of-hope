@@ -77,7 +77,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
       </div>
       <div className="grid grid-cols-12 gap-4 pl-12 pr-0 sm:pr-6 py-4 sm:py-8">
         <div className="col-span-12 md:col-span-8">
-          <div className="my-2 flex flex-col gap-4 pr-8">
+          <div className="my-2 space-y-6 pr-8">
             {site.description.map((text, key) => {
               return (
                 <p
@@ -91,13 +91,13 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
           </div>
         </div>
         <div className="col-span-12 md:col-span-4 flex flex-col gap-6 text-stone-700">
-          <div className="*:border-b *:border-stone-400 *:border-dotted *:py-2">
+          <div className="divide-y divide-stone-400 divide-dotted *:py-2">
             <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
               <BiEnvelope size={16}></BiEnvelope> Address
             </h4>
             <p>{site!.street + ", " + site!.city + ", " + site!.state}</p>
           </div>
-          <div className="*:border-b *:border-stone-500 *:border-dotted *:py-2">
+          <div className="divide-y divide-stone-400 divide-dotted *:py-2">
             <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
               <BiPhone size={16}></BiPhone> Contact
             </h4>

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function PopeFrancisQuotes() {
   return (
     <div className="flex flex-col gap-8 text-center py-8 md:py-10 lg:py-16">
-      <p className="w-full max-w-screen-lg mx-auto text-balance font-serif italic tracking-tight text-base md:text-xl px-6">
+      <p className="w-full max-w-screen-lg mx-auto text-balance font-serif tracking-tight text-base md:text-xl px-6">
         &quot;For all of us, may the Jubilee be an opportunity to be renewed in
         hope. God&apos;s word helps us find reasons for that hope. Taking it as
         our guide, let us return to the message that the Apostle Paul wished to

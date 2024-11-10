@@ -21,8 +21,8 @@ export default function SiteCard({ site }: SiteCardPropType) {
             <Image
               src={site!.image}
               alt={site!.name}
-              width={320}
-              height={180}
+              width={115}
+              height={169}
               className="w-full h-full object-cover hover:scale-105 transition duration-300"
             />
           </Link>

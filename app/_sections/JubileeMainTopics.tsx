@@ -17,8 +17,8 @@ export default function JubileeMainTopics() {
           <Image
             src="/jubilee/jubilee-main-topic-1.jpg"
             alt="main topic 1"
-            width={1080}
-            height={720}
+            width={395}
+            height={148}
             className="absolute top-0 left-0 z-0 w-full h-full object-cover object-center group-hover:scale-105 transition duration-300"
           />
           <div className="absolute bottom-0 left-0 z-0 w-full h-2/3 bg-gradient-to-t from-black/80 via-black/40 to-transparent translate-y-full group-hover:translate-y-1 transition duration-300"></div>
