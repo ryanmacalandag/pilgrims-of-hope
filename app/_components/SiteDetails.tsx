@@ -185,7 +185,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
           </div>
         </div>
       </div>
-      <SocialShareButtons></SocialShareButtons>
+      <SocialShareButtons site={site}></SocialShareButtons>
       <BackButton></BackButton>
     </section>
   );
