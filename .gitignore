@@ -26,7 +26,8 @@
 *.pem
 
 # images
-/public/sites/*.psd
+public/sites/*.psd
+public/sites/opengraph-image.psd
 public/sites/site-image.psd
 
 # debug
