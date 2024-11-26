@@ -12,7 +12,7 @@ export default function SiteCard({ site }: SiteCardPropType) {
   return (
     <>
       {/* Site Card */}
-      <div className="group col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 grid grid-cols-12 gap-0 sm:gap-2 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 bg-white transition duration-300">
+      <div className="group col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 grid grid-cols-12 gap-0 sm:gap-0 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 bg-white transition duration-300">
         <div className="col-span-4 sm:col-span-12 aspect-auto sm:aspect-video overflow-hidden">
           <Link
             href={"/sites/" + site.slug}
@@ -21,14 +21,14 @@ export default function SiteCard({ site }: SiteCardPropType) {
             <Image
               src={site!.image}
               alt={site!.name}
-              width={115}
-              height={169}
+              width={250}
+              height={250}
               className="w-full h-full object-cover hover:scale-105 transition duration-300"
             />
           </Link>
         </div>
-        <div className="col-span-8 sm:col-span-12 flex flex-col justify-between gap-2 pt-6 sm:pt-6 pb-5 md:pb-6 pr-4 sm:pr-6">
-          <div className="flex flex-col gap-2 px-4 sm:px-6">
+        <div className="col-span-8 sm:col-span-12 self-stretch items-stretch flex flex-col flex-grow justify-between gap-2 pt-6 sm:pt-6 pb-5 md:pb-6 pr-4 sm:pr-6">
+          <div className="flex flex-col flex-grow gap-2 px-4 sm:px-6">
             <Link href={"/sites/" + site.slug} aria-label={site.name}>
               <h2 className="text-lg md:text-xl font-serif leading-tight hover:text-teal-950/80">
                 {site.name.replace(/&#39;/g, "'")}
