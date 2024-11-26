@@ -89,7 +89,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
               );
             })}
             {site.sources && (
-              <div className="flex flex-col mt-16 py-3 border-y">
+              <div className="flex flex-col mt-16 py-3 border-y break-all">
                 <p>Source(s):</p>
                 {site.sources.map((src, key) => {
                   return (
@@ -137,7 +137,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
               return <p key={key}>{contact}</p>;
             })}
             {site.website && (
-              <p className="flex text-orange-700 hover:brightness-150">
+              <p className="flex text-orange-700 hover:brightness-150 break-all">
                 <Link
                   href={site.website!}
                   target="_blank"
