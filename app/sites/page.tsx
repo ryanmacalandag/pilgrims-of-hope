@@ -5,6 +5,10 @@ import BannerDownloadPDF from "../_sections/BannerDownloadPDF";
 import Footer from "../_sections/Footer";
 import Gallery from "../_sections/Gallery";
 
+export const metadata = {
+  title: "All Sites",
+};
+
 export default function Sites() {
   const allFeaturedSites = pilgrimageSites.filter((s) => s.featured);
 

@@ -5,6 +5,10 @@ import Gallery from "@/app/_sections/Gallery";
 import { MainNav } from "@/app/_sections/MainNav";
 import StatesFilter from "@/app/_components/StatesFilter";
 
+export const metadata = {
+  title: "Filter by state",
+};
+
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
   const states = await statesAU;

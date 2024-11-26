@@ -4,10 +4,28 @@ import "./globals.css";
 // Supports weights 100-900
 import "@fontsource-variable/roboto-slab";
 import "@fontsource-variable/noto-sans";
+import { openGraphImage } from "./shared-metadata";
 
 export const metadata: Metadata = {
-  title: "Pilgrims of Hope",
-  description: "Find pilgrimage sites and trails near you.",
+  metadataBase: new URL("https://pilgrimageofhope.catholic.au"),
+  title: {
+    default: "Pilgrims of Hope | Guide to Jubilee 2025",
+    template: "%s - Jubilee 2025: Pilgrims of Hope",
+  },
+  description: "Australia's guide to the Jubilee 2025 pilgrimage sites.",
+  ...openGraphImage,
+  icons: {
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    title: "Pilgrims of Hope | Guide to Jubilee 2025",
+    description: "Australia&#39;s guide to the Jubilee 2025 pilgrimage sites.",
+    url: "https://pilgrimageofhope.catholic.au",
+    siteName: "Pilgrimage of Hope",
+    images: "/opengraph-image.jpg",
+    type: "website",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({

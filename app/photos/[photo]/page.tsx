@@ -1,6 +1,10 @@
 import ImageModal from "@/app/_components/ImageModal";
 import { pilgrimageSites } from "@/app/_data/pilgrimagesite";
 
+export const metadata = {
+  title: "Photos",
+};
+
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
   const sites = await pilgrimageSites;
