@@ -25,6 +25,10 @@
 .DS_Store
 *.pem
 
+# images
+/public/sites/*.psd
+public/sites/site-image.psd
+
 # debug
 npm-debug.log*
 yarn-debug.log*

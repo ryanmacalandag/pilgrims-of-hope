@@ -133,7 +133,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
             <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
               <BiPhone size={16}></BiPhone> Contact
             </h4>
-            {site!.contact.map((contact, key) => {
+            {site.contact!.map((contact, key) => {
               return <p key={key}>{contact}</p>;
             })}
             {site.website && (

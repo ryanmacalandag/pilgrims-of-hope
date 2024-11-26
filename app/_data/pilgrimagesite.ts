@@ -10,7 +10,7 @@ export type PilgrimageSiteType = {
   description: string[];
   sources?: string[];
   types?: string[];
-  contact?: string[];
+  contact: string[];
   website?: string;
   featured: boolean;
 };
@@ -290,9 +290,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'No description available',
     ],
-    sources: [
-      '',
-    ],
     types: [
       'church',
       'relic',
@@ -315,9 +312,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/st-michaels-cathedral-wagga-wagga.jpg',
     description: [
       'No description available',
-    ],
-    sources: [
-      '',
     ],
     types: [
       'cathedral',
@@ -370,9 +364,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'No description available',
     ],
-    sources: [
-      '',
-    ],
     types: [
       'church',
     ],
@@ -394,9 +385,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/the-plinth-on-the-old-road-causeway.jpg',
     description: [
       'Linking the two cities commemorating the stay by Mary MacKillop in the hotel there (after she was refused bed and lodging at the Mercy Sisters in Albury by the then Vicar General).',
-    ],
-    sources: [
-      '',
     ],
     types: [
       'commemorative',
@@ -420,9 +408,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'No description available',
     ],
-    sources: [
-      '',
-    ],
     types: [
       'church',
     ],
@@ -445,9 +430,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'No description available',
     ],
-    sources: [
-      '',
-    ],
     types: [
       'church',
     ],
@@ -469,9 +451,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/grave-of-rev-dr-henry-backhaus.jpg',
     description: [
       'Pioneer priest on Bendigo goldfields, at St Kilian&#39;s Church, Bendigo',
-    ],
-    sources: [
-      '',
     ],
     types: [
       'grave',
@@ -496,9 +475,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
       'Pioneer priest of north-east Victoria, at St Patrick&#39;s Church, Wangaratta.',
       'Rev. George Galen is buried inside St Patrick’s Church, Wangaratta (need to visit when Church is open or prearrange).',
     ],
-    sources: [
-      '',
-    ],
     types: [
       'grave',
     ],
@@ -522,9 +498,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
       'A 600-year old red gum where Dean Tierney celebrated the first Wagunyah Mass in 1869.',
       'A two-kilometre track winding along the Murray River starts near the tree. A plaque was placed at the site in 1946 by the Catholic Women&#39;s Guild.',
     ],
-    sources: [
-      '',
-    ],
     types: [
       'commemorative',
     ],
@@ -546,9 +519,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'Mary MacKillop was present at Numurkah for the institute&#39;s expansion into Victoria in 1890. Mary also stayed 3 nights at Numurkah in 1896 and one night in 1899. She founded St Joseph&#39;s School, Numurkah, as the first Josephite school in Victoria.',
       'The gardens are on Parish land between the Church and the School. St John the Baptist Catholic Church.',
-    ],
-    sources: [
-      '',
     ],
     types: [
       'commemorative',
@@ -572,9 +542,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'No description available',
     ],
-    sources: [
-      '',
-    ],
     types: [
       'cathedral',
     ],
@@ -596,9 +563,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/carmelite-monastery-nedlands.jpg',
     description: [
       'No description available',
-    ],
-    sources: [
-      '',
     ],
     types: [
       'monastery',
@@ -622,9 +586,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/st-john-paul-ii-catholic-church-banksia-grove.jpg',
     description: [
       'Image: ©Silverstone Photography/DWA Architects/Metrocon for St John Paul II Church, Banksia Grove',
-    ],
-    sources: [
-      '',
     ],
     types: [
       'church',
@@ -675,9 +636,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'No description available',
     ],
-    sources: [
-      '',
-    ],
     types: [
       'shrine',
       'chapel',
@@ -700,9 +658,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/monsignor-hawes-heritage-trail.jpg',
     description: [
       'No description available',
-    ],
-    sources: [
-      '',
     ],
     types: [
       'trail',
@@ -749,9 +704,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/st-marouns-cathedral.jpg',
     description: [
       'No description available',
-    ],
-    sources: [
-      '',
     ],
     types: [
       'cathedral',
@@ -803,9 +755,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'No description available',
     ],
-    sources: [
-      '',
-    ],
     types: [
       'church',
     ],
@@ -828,9 +777,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'No description available',
     ],
-    sources: [
-      '',
-    ],
     types: [
       'church',
     ],
@@ -851,9 +797,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/holy-trinity-catholic-church-westbury.jpg',
     description: [
       'No description available',
-    ],
-    sources: [
-      '',
     ],
     types: [
       'church',
@@ -892,29 +835,5 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     website:
       '',
     featured: true,
-  },
-  {
-    name: '',
-    slug: '',
-    diocese: '',
-    street: '',
-    city: '',
-    state: '',
-    image: '/sites/our-lady-of-the-rosary-cathedral-broken-bay.jpg',
-    description: [
-      'No description available',
-    ],
-    sources: [
-      '',
-    ],
-    types: [
-      '',
-    ],
-    contact: [
-      '',
-    ],
-    website:
-      '',
-    featured: false,
   },
 ];
