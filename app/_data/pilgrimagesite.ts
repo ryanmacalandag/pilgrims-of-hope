@@ -653,8 +653,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     slug: 'monsignor-hawes-heritage-trail',
     diocese: 'Diocese of Geraldton',
     street: '',
-    city: '',
-    state: '',
+    city: 'Geraldton',
+    state: 'WA',
     image: '/sites/monsignor-hawes-heritage-trail.jpg',
     description: [
       'No description available',
@@ -674,8 +674,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     slug: 'camino-san-francisco',
     diocese: 'Diocese of Geraldton',
     street: '',
-    city: '',
-    state: '',
+    city: 'Geraldton',
+    state: 'WA',
     image: '/sites/camino-san-francisco.jpg',
     description: [
       'No description available',
@@ -831,6 +831,161 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     contact: [
       '(03) 6381 1122',
       'campbelltowncatholic.parish@aohtas.org.au',
+    ],
+    website:
+      '',
+    featured: true,
+  },
+  {
+    name: 'St John the Evangelist Church, Richmond',
+    slug: 'st-john-the-evangelist-church-richmond',
+    diocese: 'Archdiocese of Hobart',
+    street: '38 St John’s Circle',
+    city: 'Richmond',
+    state: 'TAS',
+    image: '/sites/st-john-the-evangelist-church-richmond.jpg',
+    description: [
+      'In its setting beyond the historic 1825 bridge spanning the Coal River, St John the Evangelist Church in the hugely popular tourist destination of Richmond can justly claim the title of Tasmania&#39;s most visited and photographed church. It also has the distinction of being the oldest continuously-used Catholic church in Australia, having been opened on 31 December 1837.',
+      'The roots of St John&#39;s Church can be traced back to Australia&#39;s first Catholic bishop, John Bede Polding OSB (1794 to 1877), who visited Van Diemen&#39;s Land—as Tasmania was then known—in August 1835 on route to taking up his posting in Sydney. Before leaving, Polding travelled to Richmond where he blessed the foundation stone for a new church, making this the first formal act of an Australian Catholic bishop, and left plans for the building by the Bath architect Henry Edmund Goodridge (c.1800 to 63). This small rectangular box served the community well for over twenty years until its pastor Fr William Dunne, having just erected the charming St Patrick&#39;s, Colebrook, from plans by the great English architect Pugin (1812 to 52), decided in 1858 to enlarge it using elements from another Pugin design by adding a chancel, sacristy and steeple. The old church became the nave of the augmented building which was opened on 15 February 1859. In the hands of the local supervising architect Frederick Thomas (1817 to 85), Pugin&#39;s elegant details lost a little in the process of being grafted onto Goodridge&#39;s simple box, but the resulting ensemble has delighted locals and visitors alike for over 160 years.',
+      'By 1880 the spire, a wooden structure, had developed a dangerous lean. Whether it fell down or was dismantled is not known, but it was replaced in 1893 by a much shorter one. This was in turn replaced in 1972 by the present copper-clad spire, a shorter version of the original to better match the proportions of the tower below it.',
+      'St John&#39;s Church has much of interest in its fittings and furnishings. The crosses atop the nave and chancel are based by Pugin on those of medieval English churches, and the baptismal font, another Pugin design, is of limestone and was brought out to Australia by Bishop Willson in 1844, the year he took up his position as first Bishop of Hobart Town. To the rear of the altar is a vibrant 1859 stained glass window, the only known Australian work of Joseph Bell, an artist based in Bristol, England, and to its left is a large painting of 1828 depicting the Adoration of the Magi. It is by Mather Brown (1761 to 1831), a major early American artist.',
+    ],
+    sources: [
+      'https://hobart.catholic.org.au/2019/10/08/heritage-treasures-st-john-the-evangelist-church-richmond/',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 6260 2189',
+      'richmond@aohtas.org.au',
+    ],
+    website:
+      'https://hobart.catholic.org.au',
+    featured: true,
+  },
+  {
+    name: 'Diocesan Shrine of Our Lady of Victories, Lutana',
+    slug: 'diocesan-shrine-of-our-lady-of-victories-lutana',
+    diocese: 'Archdiocese of Hobart',
+    street: '12 Ashbolt Crescent',
+    city: 'Lutana',
+    state: 'TAS',
+    image: '/sites/diocesan-shrine-of-our-lady-of-victories-lutana.jpg',
+    description: [
+      'No description available',
+    ],
+    types: [
+      'church',
+      'shrine',
+    ],
+    contact: [
+      '(03) 9412 8471',
+      'moonahlutana@aohtas.org.au',
+    ],
+    website:
+      '',
+    featured: true,
+  },
+  {
+    name: 'Sts Peter and Paul Ukrainian Cathedral',
+    slug: 'sts-peter-and-paul-ukrainian-cathedral',
+    diocese: 'Ukrainian Eparchy',
+    street: '35 Canning Street',
+    city: 'North Melbourne',
+    state: 'VIC',
+    image: '/sites/sts-peter-and-paul-ukrainian-cathedral.jpg',
+    description: [
+      'Ukrainians who came to Australia did not have their own church. That is why on 4 June 1950, two priests Fr. Pavlo Smal and Fr. Dr. Ivan Prasko gathered the faithful to start fundraising for the purchase of a plot of land and the construction of their own church in Melbourne.',
+      'After 8 years, in 1958, a plot of land was bought in North Melbourne, on which a new church for Ukrainians in Australia was to be built. On 18 October of the same year, the site was consecrated. This event was attended by Metropolitan Maksym Hermanyuk, CSsR, Archbishop Ivan Buchko, Bishop Izidor Boretskyi, parish priest Fr. Dr. Ivan Prasko and all Ukrainian priests in Australia: Fr. Dr. Petro Diachyshyn, Fr. Mykola Kopyakivskyi, CSsR, Fr. Dmytro Kaczmar, Fr. John Bowden, Fr. Yuriy Spolitakevych, Fr. Stefan Maslo, CSsR, and Fr. Mykola Ivanco.',
+      'On 11 April 1959, a meeting of the faithful was held in the People&#39;s House in Melbourne to choose a project for the construction of the church. After this meeting, Orion Wenhrynowycz&#39;s project was chosen. The plan of the future Cathedral was prepared by the firm Smith and Tracy, and the construction of the temple was to be started by the firm Clemens Lang Ford after the competition.',
+      'Construction began in December 1961, and on 26 August 1962, the cornerstone was laid and consecrated by Archbishop Ivan Buchko and Bishop Ivan Prasko.',
+      'The blessing of the Cathedral took place on Easter, 14 April 1963, which was attended by more than 3,000 people.',
+      'The solemn consecration of the Cathedral with the iconostasis took place on 3 December 1967, which was attended by many faithful. A procession with the relics of St. Martyr Josaphat took place around the church, and later the relics were invested in the altar.',
+    ],
+    sources: [
+      'https://catholicukes.au/eparchy/cathedral/',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(03) 9320 2566',
+      'melbourneparish@catholicukes.org.au',
+    ],
+    website:
+      'https://catholicukes.au/eparchy/cathedral/',
+    featured: true,
+  },
+  {
+    name: 'St Volodymyr&#39;s Church',
+    slug: 'st-volodymyrs-church',
+    diocese: 'Ukrainian Eparchy',
+    street: '82 Archibald Street',
+    city: 'Lyneham',
+    state: 'ACT',
+    image: '/sites/st-volodymyrs-church.jpg',
+    description: [
+      'The memorial church of St. Volodymyr in Canberra is the newest Ukrainian Church in Australia and was built in 1988 to mark the Millennium of Christianity in Ukraine.',
+      'Prior to the Church&#39;s opening, Ukrainian Catholic parishioners attended services conducted by the local parish priest in a chapel within a house, which also served as the presbytery. The house had been purchased through local parishioner donation in 1972. Shortly afterwards, the Church Brotherhood was established with Ivan Pojdynec as the first president.',
+      'In 1973, Patriarch Cardinal Joseph Slipyj visited Australia to attend the Eucharistic Congress in Melbourne. He also visited Ukrainian Catholic parishes throughout Australia. During his visit to the Canberra-Queanbeyan parish, Cardinal Slipyj decided that the capital city of Australia should have a Ukrainian Catholic Church and centre to represent the Ukrainian people. He immediately established a church building fund with a substantial personal contribution.',
+      'The Bishop of Australia and New Zealand, Ivan Prasko appointed Father Ivan Shewciw of the Sydney parish as project manager. Local parishioners successfully applied to the ACT Government for a grant of a suitable parcel of land for the new centre and over the following years, Ukrainians from all parishes in Australia and New Zealand donated to the building fund. An Australian building company was subsequently engaged to commence construction.',
+      'A blessing ceremony was held on the land on 14th June 1982 and on 25th December of the same year, the foundation stone was laid. Just on a year later, on 16th December 1983, over one thousand people attended a special blessing of the new church of St. Volodymyr.',
+      'Following the blessing of the church in 1983, almost ten years elapsed before it was consecrated. It was as if through God&#39;s Will that the important Church was consecrated by the Confessor of the Faith, Bishop Pawlo Wasylyk. This was significant since both Bishop Pawlo and Patriarch Cardinal Joseph Slipyj, the founder of St. Volodymyr&#39;s, had together endured imprisonment and persecution by the occupying Soviets in the gulags of Siberia. The consecration of the church occurred on Sunday, 28th July 1991 and this date, which is also the feast day of St. Volodymyr, has become an important day in the Church&#39;s calendar.',
+    ],
+    sources: [
+      'https://volodymyrparish.ucoz.org/index/st_volodymyr_39_s_church/0-11',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(02) 6247 2141',
+      'st.volodymyr.parish@gmail.com',
+    ],
+    website:
+      'https://www.volodymyrparish.ucoz.org/ ',
+    featured: true,
+  },
+  {
+    name: 'Our Lady Queen of Peace Cathedral',
+    slug: 'our-lady-queen-of-peace-cathedral',
+    diocese: 'Diocese of Broome',
+    street: '32 Weld Street',
+    city: 'Broome',
+    state: 'WA',
+    image: '/sites/our-lady-queen-of-peace-cathedral.jpg',
+    description: [
+      'No description available',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(08) 9193 5888',
+      'broomeparish@broomediocese.org',
+    ],
+    website:
+      'https://broomediocese.org',
+    featured: true,
+  },
+  {
+    name: 'Sacred Heart Church, Beagle Bay',
+    slug: 'sacred-heart-church-beagle-bay',
+    diocese: 'Diocese of Broome',
+    street: 'PMB 90',
+    city: 'Broome',
+    state: 'WA',
+    image: '/sites/sacred-heart-church-beagle-bay.jpg',
+    description: [
+      'No description available',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(08) 9192 4917',
+      'dampierpeninsulaparish@broomediocese.org',
     ],
     website:
       '',
