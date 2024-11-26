@@ -7,7 +7,7 @@ import "@fontsource-variable/noto-sans";
 import { openGraphImage } from "./shared-metadata";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pilgrimageofhope.catholic.au"),
+  metadataBase: new URL("https://pilgrims-of-hope.vercel.app"),
   title: {
     default: "Pilgrims of Hope | Guide to Jubilee 2025",
     template: "%s - Jubilee 2025: Pilgrims of Hope",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pilgrims of Hope | Guide to Jubilee 2025",
     description: "Australia&#39;s guide to the Jubilee 2025 pilgrimage sites.",
-    url: "https://pilgrimageofhope.catholic.au",
+    url: "https://pilgrims-of-hope.vercel.app",
     siteName: "Pilgrimage of Hope",
     images: "/opengraph-image.jpg",
     type: "website",
