@@ -6,7 +6,7 @@ export default function HomeHero() {
     <section className="w-full bg-stone-100">
       <div className="w-full max-w-screen-xl mx-auto grid grid-cols-12 gap-4 px-6 sm:px-12 py-16 md:py-12 xl:py-20">
         <div className="col-span-12 md:col-span-12 flex flex-col gap-4">
-          <h1 className="w-full lg:max-w-screen-md mx-auto text-3xl md:text-4xl xl:text-5xl font-serif text-balance text-center mt-4">
+          <h1 className="w-full lg:max-w-screen-md mx-auto text-3xl md:text-4xl xl:text-4.5xl font-serif text-balance text-center mt-4">
             Here is your guide to navigating the Jubilee Year 2025 in Australia
           </h1>
           <p></p>
@@ -19,7 +19,7 @@ export default function HomeHero() {
               Jubilee 2025 Primer
             </Link>
             <Link
-              href="/sites/all/"
+              href="/sites/"
               aria-label="Download printable PDF"
               className="w-fit whitespace-nowrap uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-8 py-4 transition duration-300"
             >

@@ -27,7 +27,11 @@ const config: Config = {
       },
       fontSize: {
         xxs: ".7rem",
-      }
+        "4.5xl": [
+          "2.65rem",
+          "3.65rem"
+        ] 
+      },
     },
   },
   plugins: [],

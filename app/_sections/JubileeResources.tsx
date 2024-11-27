@@ -65,7 +65,7 @@ export default function JubileeResources() {
               return (
                 <div
                   key={key}
-                  className="col-span-4 sm:col-span-3 flex flex-col justify-between items-center overflow-hidden aspect-document rounded-lg bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl transition duration-300"
+                  className="col-span-4 lg:col-span-3 flex flex-col justify-between items-center overflow-hidden aspect-document rounded-lg bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl transition duration-300"
                 >
                   <div className="flex flex-grow content-center items-center">
                     <BiFile size={48}></BiFile>
