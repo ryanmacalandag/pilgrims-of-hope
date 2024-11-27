@@ -991,4 +991,348 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
       '',
     featured: true,
   },
+  {
+    name: 'Our Lady of the Assumption Church',
+    slug: 'our-lady-of-the-assumption-church',
+    diocese: 'Diocese of Broome',
+    street: 'PMB 293',
+    city: 'Wyndham',
+    state: 'WA',
+    image: '/sites/our-lady-of-the-assumption-church.jpg',
+    description: [
+      'No description available',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(08) 9161 4342',
+      'kalumburuparish@broomediocese.org',
+    ],
+    website:
+      '',
+    featured: false,
+  },
+  {
+    name: 'St Mary&#39;s Cathedral, Sale',
+    slug: 'st-marys-cathedral-sale',
+    diocese: 'Diocese of Sale',
+    street: '47 Foster Street',
+    city: 'Sale',
+    state: 'VIC',
+    image: '/sites/st-marys-cathedral-sale.jpg',
+    description: [
+      'St Mary&#39;s Cathedral, Sale is the cathedral church of the diocese, under the patronage of Our Lady of Perpetual Help. Purpose-built as a cathedral, St Mary&#39;s boasts a Romanesque onyx high altar, notable stained glass windows and a large statue of Mary Help of Christians as its features. Four of Sale&#39;s bishops are buried in the cathedral: Bishop Corbett lies in the main section of the church beneath the front rows of pews on the right hand side and Bishops Ryan, Lyons and Fox are interred in the Lady Chapel.',
+      'The main part of St Mary&#39;s Cathedral with its distinctive east-facing Gothic windows was constructed in 1886 by pioneer priest Fr James Hegarty. He initiated work on this red brick church when it was rumoured that Sale would become the seat of a Gippsland-based diocese and he wanted to ensure that the town had a church worthy of being called a cathedral.',
+      'This Cathedral Church, built in 1886-1887 to the design of Barker and Henderson, is notable for the broad polygonal plaster-vaulted apse which, together with the side chapel, is elaborately pained and decorated. The interior also includes marble fittings with mosaic panels, stained glass windows and an anonymous pipe organ in the rear gallery. Originally of brick with decorated Gothic window tracery of Waurn Ponds stone, the church is now cement faced. The first Bishop of Sale, Dr James Corbett, was appointed to the see in 1857, having previously been parish priest of St Mary&#39;s, East St Kilda, where he was closely associated with the architect William Wardell.',
+    ],
+    sources: [
+      'https://www.stmaryscathedralsale.com.au/testimonials/',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(03) 5144 4100',
+      'sale@cdsale.org.au',
+    ],
+    website:
+      'https://www.stmaryscathedralsale.com.au/',
+    featured: false,
+  },
+  {
+    name: 'St Mary&#39;s Church Bairnsdale',
+    slug: 'st-marys-church-bairnsdale',
+    diocese: 'Diocese of Sale',
+    street: '23 Pyke Street',
+    city: 'Bairnsdale',
+    state: 'VIC',
+    image: '/sites/st-marys-church-bairnsdale.jpg',
+    description: [
+      'St. Mary&#39;s is one of the most notable landmarks of Bairnsdale. Construction of the Church commenced in 1913, replacing an earlier brick church which had been built thirty years earlier in 1883.',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 5152 2942',
+      'stmarybairnsdale@gmail.com',
+    ],
+    website:
+      'https://stmarysbairnsdale.au/',
+    featured: false,
+  },
+  {
+    name: 'The Mary MacKillop Walk',
+    slug: 'the-mary-mackillop-walk',
+    diocese: 'Diocese of Ballarat',
+    street: '',
+    city: 'Ballarat',
+    state: 'VIC',
+    image: '/sites/the-mary-mackillop-walk.jpg',
+    description: [
+      'No description available',
+    ],
+    types: [
+      'trail',
+    ],
+    contact: [
+      '',
+    ],
+    website:
+      'https://www.aussiecamino.org/',
+    featured: false,
+  },
+  {
+    name: 'St Patrick&#39;s Cathedral',
+    slug: 'st-patricks-cathedral-ballarat',
+    diocese: 'Diocese of Ballarat',
+    street: '3 Lyons Street South',
+    city: 'Ballarat',
+    state: 'VIC',
+    image: '/sites/st-patricks-cathedral-ballarat.jpg',
+    description: [
+      'On February 7th, 1858, Bishop James Alipius Goold OSA laid the foundation stone for the church. Use commenced on a regular basis for Mass in 1863.',
+      'In 1887 a High Altar, which can be seen still today, as well as Stations of the Cross were purchased from Rome. The Altar is made from Carrara marble',
+      'The stained glass windows were introduced in 1883, the first being that in the Sanctuary.',
+      'An extensive renovation and liturgical re-ordering of the Cathedral took place in 1999.',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(03) 5331 2933',
+      'ballarat@ballarat.catholic.org.au',
+    ],
+    website:
+      'https://stpatscathedral.weebly.com/',
+    featured: false,
+  },
+  {
+    name: 'St Francis Xavier&#39;s Cathedral',
+    slug: 'st-francis-xavier-cathedral',
+    diocese: 'Diocese of Wollongong',
+    street: '36 Harbour Street',
+    city: 'Wollongong',
+    state: 'NSW',
+    image: '/sites/st-francis-xavier-cathedral.jpg',
+    description: [
+      'Saint Francis Xavier&#39;s church was established by Monsignor John Rigney in 1838. This was the first Catholic place of worship in the Illawarra. Archbishop Polding had a fondness for the Illawarra. The existing church was begun in 1848, was extended at the turn of the century and, again, in the 1930s. In 1951 the church was raised to cathedral status when Wollongong was declared a diocese by Pope Pius XII. The first Bishop, Thomas McCabe and his successor, William Murray, had plans for the construction of a new cathedral. However, after the restoration projects of Bishop Philip Wilson in 1999 and Bishop Peter Ingham in 2009, the current Bishop decided not to proceed with this plan. With a rapidly expanding region in the Macarthur and the downturn in the world economy Bishop Peter confirmed his decision by dedicating the Cathedral of Saint Francis Xavier on 16th March, 2010, on the death anniversary of Archbishop John Bede Polding, one hundred and sixty-two years after the church was begun.',
+      'Over the years the Wollongong parish has given birth to other parishes. In this sense, Saint Francis Xavier is truly the mother church of all the parishes in the Illawarra. In 2006 there were approximately 4,300 Catholics in the parish . It has an ageing population. One feature of the parish is the high percentage of visitors who come to the Masses.',
+      'The Saint Francis Xavier Assets Committee has been formed to examine ways in which the existing school premises can be used once the school has moved to the Fairy Meadow site. One of the urgent challenges for the parish is the ongoing funding required for the maintenance of the Cathedral.',
+      'In May 2020, the Cathedral was internally renewed.',
+    ],
+    sources: [
+      'https://www.lumenchristi.org.au/item/23-st-francis-xavier-cathedral-wollongong',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(02) 4211 0500',
+      'wollongong@dow.org.au',
+    ],
+    website:
+      'http://www.lumenchristi.org.au/',
+    featured: false,
+  },
+  {
+    name: 'Our Lady Help of Christians Catholic Church',
+    slug: 'our-lady-help-of-christians-catholic-church',
+    diocese: 'Diocese of Wollongong',
+    street: '80 Demetrius Road',
+    city: 'Rosemeadow',
+    state: 'NSW',
+    image: '/sites/our-lady-help-of-christians-catholic-church.jpg',
+    description: [
+      'In 1984, Masses began to be celebrated in the Ambarvale area by priests from St. John&#39;s Parish, Campbelltown.',
+      'The Catholic community of Our Lady Help Of Christians began to take shape in 1985 when Fr. Paul Ryan took up permanent residence in Ambarvale. Although Mass was being celebrated prior to Fr. Ryan&#39;s arrival, his move to Ambarvale was the first formal step towards the development of the Parish Centre at Rosemeadow, as the area soon after came to be known.',
+      'In 1986, Fr. Adrian Van Klooster became the area&#39;s second priest. During Fr. Adrian&#39;s time, the church was built and officially blessed and opened by Bishop W E Murray, Bishop of Wollongong, on March 1, 1987.',
+      'In August, 1992, Fr. Christopher Sarkis was appointed proper pastor, taking up residence in Donalbain Circuit. With the restoration of the Presbytery completed in 1994, Fr. Sarkis moved there in May of that year.',
+      'On 8 December, 1994, the Parish Of Our Lady Help Of Christians, incorporating St. Bede&#39;s Church at Appin, was canonically erected by Bishop W.E. Murray, Bishop of Wollongong. Fr. Sarkis was appointed as the Parish&#39;s first Parish Priest.',
+      'Since his arrival at Rosemeadow, Fr. Sarkis had a dream for a new church for the parish. This dream became a reality with the Solemn Dedication of the new Our Lady Help of Christians Parish Church on Friday 8 March, 2019.',
+      'Planning for the new church began in 1994. In 2003 the development of surplus parish land began with the aim of providing funds for the new church. In 2008, this land was rezoned for residential development. The parish entered into a joint venture with Miltonbrook Developments as the managing agent for the parish. A Development Application was granted in June 2010 and first sales of the rezoned land began in 2012.',
+      'The first official announcement of the building of the new church appeared in the Parish Bulletin of 30 October 2016. In it, Father announced the approval of a Development Application by Campbelltown Council. This was the culmination of 15 years of planning and negotiation with various government departments, both local and state, from rezoning of land, to planning, development and sales. Fr. Sarkis further noted that discussion and planning of the actual church with architects, together with the various requirements and permissions needed from the Diocese of Wollongong, had been ongoing. Work on the new church was expected to begin on March 2017.',
+      'On 29 June 2017, the final building plans and contract were signed with FAL Construction as the successful builder for the new church.',
+      'Work on the new church began in July 2017 and was completed in early 2019.',
+      'On Sunday 3 September 2017, the parish celebrated Foundation Day with the Blessing of the land on which the church was to be built. The Most Reverend Bishop Peter Ingham - Bishop of Wollongong celebrated the 10.00am Mass, after which parishioners processed up to the land for the official blessing and dedication of the site for the new church.',
+      'The first Mass was celebrated in the church on 23 February, 2019. Friday 8 March, 2019, saw the Solemn Dedication of Our Lady Help of Christians Parish Church. The Principal Celebrant was The Most Reverend Bishop Brian Mascord - Bishop of Wollongong. Fr. Sean Cullen acted as Master of Ceremonies. Over 1,100 people were in attendance at the Mass.',
+    ],
+    sources: [
+      'https://www.olhcrosemeadow.org.au/about/parish-history/',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(02) 4628 1385',
+      'rosemeadow@dow.org.au',
+    ],
+    website:
+      'http://www.olhcrosemeadow.org.au/',
+    featured: false,
+  },
+  {
+    name: 'Immaculate Conception Catholic Church',
+    slug: 'immaculate-conception-catholic-church',
+    diocese: 'Diocese of Wollongong',
+    street: '48-50 Princes Highway',
+    city: 'Unanderra',
+    state: 'NSW',
+    image: '/sites/immaculate-conception-catholic-church.jpg',
+    description: [
+      'The Parish of Unanderra was established on 16 November 1952. The first parish priest was Fr Tarcisius Prevedello who was assisted by Brother John Setti. They belonged to the Scalabrinian Missionaries, which at that time was known as the Pious Society of Saint Charles.',
+      'On 21 November 1954 the beautiful Parish Church of the Immaculate Conception was blessed and opened by Bishop McCabe. The architects were Hirst & Kennedy of Wollongong. The Scalabrinian Order provided £15,000 for the building of the church.',
+      'The parish church was solemnly dedicated by Bishop William Murray on 14 November 1992, and on 25 March 1993 was declared the diocesan shrine to Our Lady.',
+      'On 21 December 1997 extensions to the church, including two new confessionals and the portico, were blessed by Bishop Philip Wilson.',
+      'The parish observed its golden jubilee of establishment in November and December 2002.',
+      'The 50th anniversary of the opening of Immaculate Conception Church was observed on 21 November 2004 with Bishop Peter Ingham leading a celebration of Mass with Solemn Evening Prayer, followed by a parish dinner in St Pius X school hall in Unanderra.',
+    ],
+    sources: [
+      'https://www.unanderraparish.org.au/history.html',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(02) 4271 1068',
+      'unanderra@dow.org.au',
+    ],
+    website:
+      'http://www.unanderraparish.org.au/',
+    featured: false,
+  },
+  {
+    name: 'St Joseph&#39;s Catholic Church',
+    slug: 'st-josephs-catholic-church',
+    diocese: 'Diocese of Wollongong',
+    street: '130 Moss Vale Road',
+    city: 'Kangaroo Valley',
+    state: 'NSW',
+    image: '/sites/st-josephs-catholic-church.jpg',
+    description: [
+      '',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(02) 4423 1712',
+      'nowra@dow.org.au',
+    ],
+    website:
+      'http://nowraparish.au/',
+    featured: false,
+  },
+  {
+    name: 'Shrine of Our Lady of Mercy',
+    slug: 'shrine-of-our-lady-of-mercy',
+    diocese: 'Diocese of Wollongong',
+    street: '120 Hanging Rock Road',
+    city: 'Sutton Forest',
+    state: 'NSW',
+    image: '/sites/shrine-of-our-lady-of-mercy.jpg',
+    description: [
+      'Fr. Augustine Lazur arrived in Australia in 1981 and established the Shrine of our Lady of Mercy in the Southern Highlands of New South Wales in 1984. The Shrine Church is dedicated to Our Lady under the title of Our Lady of Mercy, as represented by a replica of the icon of the Black Madonna. The original icon of the Black Madonna has been under the custodianship of the Pauline Fathers since 1382, and they promote devotion to her where ever they go. So naturally, when building a new shrine, she becomes the centre of devotion.',
+      'But the Shrine has grown much since its founding and now has many smaller shrines built by pilgrims and devoted to the best-loved saints of all over the world. People of many different nationalities come to Penrose Park to visit their shrines for days of prayer.',
+      'The Shrine has several days when many pilgrims come to visit the Shrine. Particularly popular is the Fatima Day devotions, on the 13th of Every Month, which sometimes draws crowds of over a thousand pilgrims. Visit our events page to see more about what happens at the Shrine.',
+    ],
+    sources: [
+      'https://penrosepark.com.au/',
+    ],
+    types: [
+      'shrine',
+      'church',
+    ],
+    contact: [
+      '(02) 4878 9192',
+      'penrosepark@osppe.org.au',
+    ],
+    website:
+      'http://www.penrosepark.com.au/',
+    featured: false,
+  },
+  {
+    name: 'St Mary Star of the Sea Catholic Church',
+    slug: 'st-mary-star-of-the-sea-catholic-church',
+    diocese: 'Diocese of Wollongong',
+    street: 'Lot 1 Corks Lane',
+    city: 'Milton',
+    state: 'NSW',
+    image: '/sites/st-mary-star-of-the-sea-catholic-church.jpg',
+    description: [
+      '',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(02) 4455 1313',
+      'milton@dow.org.au',
+    ],
+    website:
+      'http://www.milton.dow.org.au/',
+    featured: false,
+  },
+  {
+    name: 'Sacred Heart Cathedral',
+    slug: 'sacred-heart-cathedral-townsville',
+    diocese: 'Diocese of Townsville',
+    street: '270 Stanley Street',
+    city: 'Townsville',
+    state: 'QLD',
+    image: '/sites/sacred-heart-cathedral-townsville.jpg',
+    description: [
+      'In January 1892, the Church of St Joseph on the Strand collapsed into a small creek, which had become a raging torrent after a downpour, described as "practically a waterspout", struck Townsville. It was after this, and a series of other calamities, that the decision was made to build the main church in Townsville on the foundation of rock on Castle Hill. The foundation stone for the new Church of the Sacred Heart was laid on 7 October 1900 and the church was completed and opened on 16 November 1902. It remained the parish church until it was consecrated as a Cathedral in 1930, when the Diocese of Townsville was divided from the Diocese of Rockhampton.',
+      'To mark the 75th Jubilee of the Diocese, Bishop Michael Putney commenced the $3 million project to refurbish the Sacred Heart Cathedral. The Cathedral was closed on 1 August, 2004 and reopened 23 June, 2006.',
+    ],
+    sources: [
+      'https://www.tsv.catholic.org.au/cathedral-parish-sacred-heart-cathedral/',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(07) 4771 4461',
+      'cathedralparish@tsv.catholic.org.au',
+    ],
+    website:
+      'https://www.tsv.catholic.org.au/cathedral-parish-sacred-heart-cathedral/',
+    featured: false,
+  },
+  {
+    name: 'St Mary&#39;s Cathedral',
+    slug: 'st-marys-cathedral-darwin',
+    diocese: 'Diocese of Darwin',
+    street: '90 Smith Street',
+    city: 'Darwin',
+    state: 'NT',
+    image: '/sites/st-marys-cathedral-darwin.jpg',
+    description: [
+      'St Mary&#39;s Star of the Sea Cathedral is situated in the heart of the central business district of Darwin, and is the principal church of the Diocese of Darwin.',
+      'It serves a congregation that varies in numbers on a seasonal basis. In the Dry Season (April to September) it attracts a substantial number of visitors, both from other Parishes within the Diocese, and from interstate and overseas, who visit the Cathedral both for weekend Masses, and as part of the tourists&#39; exploration of Darwin. ',
+      'In September 1882, four Jesuit priests, led by Fr Anthony Strele, established a Catholic Mission Station, and within a few years built a church on the site of the current Presbytery.',
+      'The existing Cathedral grew out of a need for a new and larger church, as Darwin grew after the end of the 2nd World War.',
+      'The idea of the War Memorial Cathedral in Darwin was actually first mooted by war troops stationed there after St. Mary&#39;s Church had been severely damaged in an air-raid in 1942.  The troops had a close affinity with St. Mary&#39;s while they were in Darwin.  Some of the Chaplains were MSCs and the troops worshipped at St. Mary&#39;s which was, and still is, the garrison Church.',
+      'As Darwin grew after the war, the need for a new St. Mary&#39;s became more evident.  Mr Ian Ferrier, of the firm J.P. Donoghue, Cusick and Edwards of Brisbane, designed the new building.',
+      'The first sod was turned on 16th December, 1957, and the foundation stone was blessed by Bishop O&#39;Loughlin on 13th July, 1958.  This stone was cut from a piece of crystalline metamorphosed rock from Rum Jungle, the site of the first uranium mine in the Territory.  The stone shows extensive silification.  It is rich in symbolism, uniting as it does what was a powerful centre of Territory development with the vital centre of spiritual inspiration.  Mr Carl Johansson was in charge of building operations until 1962 when Mr John D&#39;Arcy took over.',
+      'The Cathedral was blessed and opened by Bishop O&#39;Loughlin on 19th August, 1962, and consecrated on 20th August, 1972.  It is dedicated as St. Mary&#39;s, Star of the Sea, and is the centre of the Church&#39;s activity in the Diocese of Darwin.  At the same time the Cathedral is a war memorial to those servicemen, Australian, American, British and Dutch, who lost their lives in the area during the war, and to the civilian residents who died in the war.  The memorial character is reflected in a series of stained glass panels in the west window donated by the Australian and American Armed forces, and depicting their respective emblems.',
+      'The lines of the Cathedral&#39;s contemporary neo-gothic design are majestic.  Special features are a series of parabolic arches, 16 metres high, and the extensive use of local sawn stone.  The white porcellanite stone was cut from the cliffs of Darwin Harbour in the Church&#39;s own quarry at Larrakeyah.  Apart from the walls, porcellanite was used in the baptismal font and pulpit.',
+      'The Cathedral is dominated at the main entrance by a 26 metre tower, topped by a cross 6 metres high.  The graceful tower sets off the building contours.  A spiral staircase gives access to a gallery at the top, commanding a panoramic view of the city of Darwin.  The roof of the Cathedral is copper.',
+      'Designed to meet local tropical needs, the entire length of both nave walls can be opened up by a series of glass panel doors.  Windows in the walls above provide further ventilation and are protected by the broad roofing overhang and concrete grille.',
+    ],
+    sources: [
+      'https://darwin.catholic.org.au/history/',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(08) 8981 2863',
+      'cathedral@darwin.catholic.org.au',
+    ],
+    website:
+      'https://stmaryscathedral.com.au/ ',
+    featured: false,
+  },
 ];

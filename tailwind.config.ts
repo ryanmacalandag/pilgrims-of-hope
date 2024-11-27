@@ -19,7 +19,7 @@ const config: Config = {
       aspectRatio: {
         banner: "10 / 3",
         document: "4 / 5",
-        portrait: "3 / 5",
+        portrait: "3.5 / 5",
       },
       fontFamily: {
         serif: "var(--font-serif)",

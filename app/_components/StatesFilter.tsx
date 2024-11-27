@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { BiHome } from "react-icons/bi";
+import { BiStar } from "react-icons/bi";
 export const statesAU = ["act", "nsw", "nt", "vic", "sa", "tas", "qld", "wa"];
 
 export default function StatesFilter({ selected }: { selected: string }) {
@@ -16,7 +16,7 @@ export default function StatesFilter({ selected }: { selected: string }) {
           "w-fit flex justify-center hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-[6px] sm:py-[9px] transition duration-300 text-sm font-sans uppercase tracking-wider"
         }
       >
-        <BiHome></BiHome>
+        <BiStar></BiStar>
       </Link>
       <Link
         href={"/sites/all/"}
