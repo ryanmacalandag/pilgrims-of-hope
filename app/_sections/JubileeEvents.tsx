@@ -19,7 +19,7 @@ export const upcomingEvents: JubileeEvent[] = [
   },
   {
     date: "1 January 2025",
-    title: "Opening of Holy Door at St Mary Major'&#39;s",
+    title: "Opening of Holy Door at St Mary Major&#39;s",
     location: "Basilica di San Pietro in Vaticano",
     link: "https://www.iubilaeum2025.va/en/pellegrinaggio/calendario-giubileo/GrandiEventi/apertura-porta-santa-santa-maria-maggiore.html",
   },
@@ -96,7 +96,7 @@ export default function JubileeEvents() {
               >
                 <span className="w-4/12">{evnt.date}</span>
                 <span className="w-6/12">
-                  {evnt.title.replace("&#39;", "")}
+                  {evnt.title.replace("&#39;", "'")}
                 </span>
                 <Link
                   href={

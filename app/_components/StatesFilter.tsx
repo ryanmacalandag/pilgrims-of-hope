@@ -11,9 +11,9 @@ export default function StatesFilter({ selected }: { selected: string }) {
         aria-label="view all featured"
         className={
           (selected == "featured"
-            ? "text-stone-100 bg-teal-700 font-bold "
+            ? "text-stone-100 bg-green-700 font-bold "
             : "text-stone-700 bg-stone-300/60 ") +
-          "w-fit flex justify-center hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-[6px] sm:py-[9px] transition duration-300 text-sm font-sans uppercase tracking-wider"
+          "w-fit flex justify-center hover:text-white hover:bg-green-700 rounded-full px-3 sm:px-3 py-[6px] sm:py-[9px] transition duration-300 text-sm font-sans uppercase tracking-wider"
         }
       >
         <BiStar></BiStar>
@@ -23,9 +23,9 @@ export default function StatesFilter({ selected }: { selected: string }) {
         aria-label="view all sites"
         className={
           (selected == "all"
-            ? "text-stone-100 bg-teal-700 font-bold "
+            ? "text-stone-100 bg-green-700 font-bold "
             : "bg-stone-500 text-stone-100 ") +
-          "w-fit h-full flex justify-center hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-5 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider"
+          "w-fit h-full flex justify-center hover:text-white hover:bg-green-700 rounded-full px-3 sm:px-5 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider"
         }
       >
         All
@@ -38,9 +38,9 @@ export default function StatesFilter({ selected }: { selected: string }) {
             key={key}
             className={
               (selected == state
-                ? "text-stone-100 bg-teal-700 font-bold "
+                ? "text-stone-100 bg-green-700 font-bold "
                 : "text-stone-700 bg-stone-300/60 ") +
-              "w-fit h-full flex justify-center hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-5 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider"
+              "w-fit h-full flex justify-center hover:text-white hover:bg-green-700 rounded-full px-3 sm:px-5 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider"
             }
           >
             {state}

@@ -22,12 +22,12 @@ export default function SiteCardPortrait({
               <h3 className="text-base sm:text-lg md:text-2xl font-serif leading-tight group-hover:text-orange-300">
                 {site.name.replace(/&#39;/g, "'")}
               </h3>
-              <div className="w-fit text-xxs font-bold tracking-widest px-[6px] leading-4 text-stone-800 bg-stone-300">
+              <div className="w-fit text-xxs font-bold tracking-widest px-[6px] py-1 leading-4 text-white bg-black/80">
                 {site.state}
               </div>
-              <div className="relative max-w-[80%] w-[80px] sm:w-[30px] group-hover:w-[550px] h-4 md:h-8 border-b-2 border-dotted border-white/60 group-hover:border-orange-300 mb-2 transition-max-w duration-1000">
+              <div className="relative max-w-[90%] w-[80px] sm:w-[180px] group-hover:w-[550px] h-4 md:h-8 border-b-2 border-dotted group-hover:orange-500 border-orange-300 mb-2 transition-max-w duration-500">
                 <div>
-                  <BiRightArrowAlt className="absolute bottom-0 right-0 translate-y-1/2 translate-x-full size-6 md:size-8 text-stone-800 group-hover:text-white bg-stone-100 group-hover:bg-orange-500 rounded-full p-1 transition duration-200"></BiRightArrowAlt>
+                  <BiRightArrowAlt className="absolute bottom-0 right-0 translate-y-1/2 size-6 md:size-8 text-stone-800 group-hover:text-white group-hover:bg-orange-500 bg-orange-300 rounded-full p-1 transition duration-200"></BiRightArrowAlt>
                 </div>
               </div>
             </div>
@@ -38,7 +38,7 @@ export default function SiteCardPortrait({
               height={475}
               className="absolute top-0 left-0 z-10 w-full h-full object-cover hover:scale-105 transition duration-300"
             />
-            <div className="absolute z-10 bottom-0 w-full h-2/3 bg-gradient-to-t from-stone-800/90 via-stone-800/90 to-transparent"></div>
+            <div className="absolute z-10 bottom-0 w-full h-2/3 bg-gradient-to-t from-black/70 via-black/70 to-transparent"></div>
           </Link>
         </div>
       </div>

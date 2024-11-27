@@ -87,11 +87,11 @@ export default function JubileeFAQAccordion() {
                         className="w-fit min-w-6 rotate-0 group-aria-[checked=true]:rotate-90 transition duration-300"
                       ></BiChevronRight>
                       <h4 className="text-lg *:md:text-xl font-serif font-bold">
-                        {item.question}
+                        {item.question.replace(/&#39;/g, "'")}
                       </h4>
                     </div>
                     <p className="max-h-0 group-aria-[checked=true]:max-h-[600px] overflow-hidden transition-max-h duration-500 delay-75 my-0 group-aria-[checked=true]:mt-2 mb-2 group-aria-[checked=true]:mb-8 text-base md:text-base pl-8 ">
-                      {item.answer}
+                      {item.answer.replace(/&#39;/g, "'")}
                     </p>
                   </Checkbox>
                 </div>

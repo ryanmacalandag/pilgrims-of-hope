@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="relative w-full mt-12">
-      <div className="w-full max-w-screen-xl mx-auto flex flex-col gap-2 px-6 py-16 border-0 border-orange-400 border-dotted">
+      <div className="w-full max-w-screen-xl mx-auto flex flex-col gap-2 px-6 py-16">
         <p className="font-serif text-center text-lg sm:text-xl">
           pilgrimsofhope.catholic.au
         </p>

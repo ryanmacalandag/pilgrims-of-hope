@@ -38,7 +38,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
             href={"/states/" + site.state.toLowerCase()}
             aria-label={site.state}
           >
-            <div className="text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider">
+            <div className="text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-green-700 rounded-full px-3 sm:px-3 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider">
               {site!.state}
             </div>
           </Link>
@@ -48,11 +48,11 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
             }
             aria-label={site.diocese}
           >
-            <div className="text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider">
+            <div className="text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-green-700 rounded-full px-3 sm:px-3 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider">
               {site!.diocese}
             </div>
           </Link>
-          {/* <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-teal-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.diocese}</div> */}
+          {/* <div className='text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center text-nowrap hover:text-white hover:bg-green-700 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xs font-sans font-bold uppercase tracking-wider'>{site!.diocese}</div> */}
         </div>
         <h1 className="font-serif text-3xl sm:text-4xl lg:text-4xl text-balance pr-4">
           {site?.name.replace(/&#39;/g, "'")}
@@ -107,9 +107,9 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
             )}
           </div>
         </div>
-        <div className="col-span-12 md:col-span-4 flex flex-col gap-6 text-stone-700 border-t-2 sm:border-t-0 border-teal-700 pt-6 sm:pt-0">
+        <div className="col-span-12 md:col-span-4 flex flex-col gap-6 text-stone-700 border-t-2 sm:border-t-0 border-green-700 pt-6 sm:pt-0">
           <div className="divide-y divide-stone-400 divide-dotted *:py-2">
-            <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
+            <h4 className="text-xs text-green-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
               <BiHome size={16}></BiHome>Diocese
             </h4>
             <div className="flex text-orange-700 hover:brightness-150">
@@ -124,13 +124,13 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
             </div>
           </div>
           <div className="divide-y divide-stone-400 divide-dotted *:py-2">
-            <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
+            <h4 className="text-xs text-green-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
               <BiEnvelope size={16}></BiEnvelope> Address
             </h4>
             <p>{site!.street + ", " + site!.city + ", " + site!.state}</p>
           </div>
           <div className="divide-y divide-stone-400 divide-dotted *:py-2">
-            <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
+            <h4 className="text-xs text-green-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
               <BiPhone size={16}></BiPhone> Contact
             </h4>
             {site.contact!.map((contact, key) => {
@@ -149,7 +149,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
             )}
           </div>
           <div className="col-span-12 sm:col-span-12 ">
-            <h4 className="text-xs text-teal-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2 mb-2 border-b border-stone-400 border-dotted py-2">
+            <h4 className="text-xs text-green-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2 mb-2 border-b border-stone-400 border-dotted py-2">
               <BiMap size={16}></BiMap> Google Map
             </h4>
             <div className="w-full h-52 overflow-hidden bg-stone-500/20">
