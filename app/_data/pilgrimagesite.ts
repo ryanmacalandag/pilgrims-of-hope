@@ -83,7 +83,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     contact: ['(02) 8912 4890', 'info@stclement.com.au'],
     website: '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Christopher&#39;s Cathedral',
@@ -128,7 +128,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     contact: ['(02) 6239 9863', 'goulburn@cg.org.au'],
     website: '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Our Lady Star of the Sea',
@@ -151,7 +151,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     contact: ['0435 036 236 (Pambula Parish)', 'pambula@cg.org.au'],
     website: 'http://cg.org.au/pambula/home.aspx',
-    featured: true,
+    featured: false,
   },
   {
     name: 'The Cathedral of St Michael and St John ',
@@ -179,7 +179,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://bathurst.catholic.org.au/parishes-and-mass-times/cathedral-parish-of-st-michael-and-st-john-bathurst/',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Diocesan Shrine of Our Lady of the Immaculate Conception', 
@@ -200,7 +200,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Our Lady of the Rosary Cathedral',
@@ -226,7 +226,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Patrick&#39;s Church East Gosford, with the Relic of St John Paul II',
@@ -254,7 +254,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Our Lady of Dolours Church Chatswood with the Relic of Blessed Carlo Acutis',
@@ -277,7 +277,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Mary&#39;s Church Manly, with the Relic of St John Vianney',
@@ -300,7 +300,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Michael&#39;s Cathedral, Wagga Wagga',
@@ -322,7 +322,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'www.stpatricksalbury.org.au',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Patrick&#39;s Church Albury',
@@ -351,7 +351,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://www.stpatricksalbury.org.au',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Sacred Heart Church, Griffith',
@@ -417,7 +417,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Joseph&#39;s Church, Leeton',
@@ -439,7 +439,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Grave of Rev. Dr Henry Backhaus',
@@ -461,7 +461,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Grave of Rev. George Galen',
@@ -484,7 +484,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Wagunyah Mass Tree',
@@ -506,7 +506,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Mary MacKillop Indigenous Gardens and Historic Trail',
@@ -551,7 +551,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://fremantlestpatricks.org.au/',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Carmelite Monastery, Nedlands',
@@ -574,7 +574,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://www.holytrinitycarmel.com.au/',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St John Paul II Catholic Church, Banksia Grove',
@@ -596,7 +596,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://www.facebook.com/SJP2BanksiaGrove',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Mary&#39;s Cathedral Perth',
@@ -623,7 +623,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://stmaryscathedralperth.com.au/',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Schoenstatt Shrine',
@@ -646,7 +646,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://schoenstattwa.org.au/about-us/#the-shrine',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Monsignor Hawes Heritage Trail',
@@ -667,7 +667,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://www.monsignorhawes.com/hawes-heritage-trail/',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Camino San Francisco',
@@ -692,7 +692,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://www.monsignorhawes.com/camino-san-francisco-2024-information-for-registration/',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Maroun&#39;s Cathedral',
@@ -714,7 +714,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://maronitecathedralredfern.org.au/',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Our Lady of Lebanon Co-Cathedral',
@@ -742,7 +742,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://olol.org.au/',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Charbel&#39;s Church',
@@ -785,7 +785,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Holy Trinity Catholic Church, Westbury',
@@ -834,7 +834,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St John the Evangelist Church, Richmond',
@@ -862,7 +862,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://hobart.catholic.org.au',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Diocesan Shrine of Our Lady of Victories, Lutana',
@@ -885,7 +885,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Sts Peter and Paul Ukrainian Cathedral',
@@ -915,7 +915,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://catholicukes.au/eparchy/cathedral/',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Volodymyr&#39;s Church',
@@ -945,7 +945,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://www.volodymyrparish.ucoz.org/ ',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Our Lady Queen of Peace Cathedral',
@@ -967,10 +967,10 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://broomediocese.org',
-    featured: true,
+    featured: false,
   },
   {
-    name: 'Sacred Heart Church, Beagle Bay',
+    name: 'Beagle Bay &#39;Mother of Pearl&#39; Church',
     slug: 'sacred-heart-church-beagle-bay',
     diocese: 'Diocese of Broome',
     street: 'PMB 90',

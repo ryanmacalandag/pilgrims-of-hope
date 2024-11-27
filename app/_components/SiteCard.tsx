@@ -30,9 +30,9 @@ export default function SiteCard({ site }: SiteCardPropType) {
         <div className="col-span-8 sm:col-span-12 self-stretch items-stretch flex flex-col flex-grow justify-between gap-2 pt-6 sm:pt-6 pb-5 md:pb-6 pr-4 sm:pr-6">
           <div className="flex flex-col flex-grow gap-2 px-4 sm:px-6">
             <Link href={"/sites/" + site.slug} aria-label={site.name}>
-              <h2 className="text-lg md:text-xl font-serif leading-tight hover:text-teal-950/80">
+              <h3 className="text-lg md:text-xl font-serif leading-tight hover:text-teal-950/80">
                 {site.name.replace(/&#39;/g, "'")}
-              </h2>
+              </h3>
             </Link>
             <Link
               href={

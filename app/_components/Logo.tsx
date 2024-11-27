@@ -4,7 +4,7 @@ import React from "react";
 
 export const Logo = () => {
   return (
-    <div className="group w-full h-full">
+    <div className="group w-full h-full pb-4 pt-4">
       <Link href={"/"} aria-label="Pilgrims of Hope logo">
         <Image
           src={"/branding/pilgrims-logo.svg"}
