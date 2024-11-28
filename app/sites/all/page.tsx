@@ -6,7 +6,7 @@ import Footer from "@/app/_sections/Footer";
 import Gallery from "@/app/_sections/Gallery";
 
 export const metadata = {
-  title: "All Sites",
+  title: "Australian Catholic Pilgrimage Sites",
 };
 
 export default function Sites() {

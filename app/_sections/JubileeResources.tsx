@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BiCloudDownload, BiFile } from "react-icons/bi";
 
@@ -63,17 +64,19 @@ export default function JubileeResources() {
           <div className="grid grid-cols-12 gap-4">
             {downloads.map((items, key) => {
               return (
-                <div
+                <Link
+                  href={items.url}
+                  target="_blank"
                   key={key}
-                  className="col-span-4 lg:col-span-3 flex flex-col justify-between items-center overflow-hidden aspect-document rounded-lg bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl transition duration-300"
+                  className="group col-span-4 lg:col-span-3 flex flex-col justify-between items-center overflow-hidden aspect-document rounded-lg bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl transition duration-300"
                 >
-                  <div className="flex flex-grow content-center items-center">
+                  <div className="flex flex-grow content-center items-center text-stone-600 group-hover:text-green-700 transition duration-300">
                     <BiFile size={48}></BiFile>
                   </div>
                   <p className="w-full flex justify-center uppercase text-xxs bg-yellow-500/30 py-2">
                     {items.title}
                   </p>
-                </div>
+                </Link>
               );
             })}
           </div>

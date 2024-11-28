@@ -395,7 +395,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Mel&#39;s Church, Narrandera',
@@ -1298,7 +1298,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://www.tsv.catholic.org.au/cathedral-parish-sacred-heart-cathedral/',
-    featured: false,
+    featured: true,
   },
   {
     name: 'St Mary&#39;s Cathedral',

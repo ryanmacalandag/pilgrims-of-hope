@@ -16,7 +16,7 @@ const jubileeFAQ = [
   {
     question: "When does the Jubilee 2025 begin, and how long does it last?",
     answer:
-      "The Jubilee 2025 officially begins on December 8, 2024, with the opening of the Holy Door at St. Peter’s Basilica in Rome. It will run until November 2025, culminating in various celebrations, pilgrimages, and ceremonies dedicated to fostering unity, compassion, and faith.",
+      "The Jubilee 2025 officially begins on December 24, 2024, with the opening of the Holy Door at St. Peter\’s Basilica in Rome. It will run until November 2025, culminating in various celebrations, pilgrimages, and ceremonies dedicated to fostering unity, compassion, and faith.",
   },
   {
     question: "What are the main themes of Jubilee 2025?",

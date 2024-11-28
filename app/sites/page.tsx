@@ -1,26 +1,24 @@
 import { MainNav } from "../_sections/MainNav";
-import { pilgrimageSites } from "../_data/pilgrimagesite";
 import StatesFilter from "../_components/StatesFilter";
 import Footer from "../_sections/Footer";
-import GalleryPortrait from "../_sections/GalleryPortrait";
-import ViewAllButton from "../_components/ViewAllButton";
+import JubileeFeaturedPilgrimageSites from "../_sections/JubileeFeaturedPilgrimageSites";
+import JubileePlanningPilgrimage from "../_sections/JubileePlanningPilgrimage";
 
 export const metadata = {
-  title: "All Sites",
+  title: "Australian Catholic Pilgrimage Sites",
 };
 
 export default function Sites() {
-  const allFeaturedSites = pilgrimageSites.filter((s) => s.featured);
-
   return (
     <div>
       <MainNav></MainNav>
       <StatesFilter selected="featured"></StatesFilter>
-      <GalleryPortrait
-        filteredSites={allFeaturedSites}
-        filterBy="Featured"
-      ></GalleryPortrait>
-      <ViewAllButton></ViewAllButton>
+      <div className="w-full max-w-screen-xl mx-auto px-6 md:px-12">
+        <div className="md:px-6 py-10 md:py-20 bg-white rounded-xl shadow-lg space-y-16">
+          <JubileeFeaturedPilgrimageSites></JubileeFeaturedPilgrimageSites>
+          <JubileePlanningPilgrimage></JubileePlanningPilgrimage>
+        </div>
+      </div>
       <Footer></Footer>
     </div>
   );
