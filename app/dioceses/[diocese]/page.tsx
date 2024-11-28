@@ -32,7 +32,11 @@ export default async function Page({ params }: { params: ParamsType }) {
     <div className="h-full flex flex-col">
       <MainNav></MainNav>
       <StatesFilter selected={diocese}></StatesFilter>
-      <Gallery filteredSites={filteredSites} filterBy={diocese}></Gallery>
+      <Gallery
+        filteredSites={filteredSites}
+        filterBy={diocese}
+        page={1}
+      ></Gallery>
       <Footer></Footer>
     </div>
   );

@@ -54,7 +54,7 @@ export default function JubileeFAQAccordion() {
       </div>
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-12 md:col-span-5 mb-6">
-          <div className="flex flex-col gap-6 pl-0 md:pl-0">
+          <div className="flex flex-col gap-4 pl-0 md:pl-0">
             <p className="text-2xl md:text-3xl font-serif text-balance">
               Here are some questions you might ask
             </p>

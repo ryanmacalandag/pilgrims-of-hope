@@ -4,9 +4,13 @@ import { BiGridAlt } from "react-icons/bi";
 export default function FilterLabel({
   filterBy,
   quantity,
+  page,
+  max,
 }: {
   filterBy: string;
   quantity: number;
+  page: number;
+  max: number;
 }) {
   return (
     <section>
@@ -17,7 +21,8 @@ export default function FilterLabel({
             <span>{filterBy.split("-").join(" ")}</span> Sites
           </h2>
           <p className="text-righ text-sm md:text-base text-left font-sans font-bold text-green-700 uppercase tracking-wider">
-            Showing {quantity} Site{quantity !== 1 ? "s" : ""}
+            {max * page > quantity ? quantity : max * page}/{quantity} Site
+            {quantity !== 1 ? "s" : ""}
           </p>
         </div>
       </div>

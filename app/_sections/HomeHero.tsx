@@ -5,14 +5,14 @@ export default function HomeHero() {
   return (
     <section className="relative w-full">
       <div className="w-full max-w-screen-xl mx-auto grid grid-cols-12 gap-4 px-6 sm:px-12 pt-8 md:pt-12 xl:pt-12">
-        <div className="col-span-12 md:col-span-12 flex flex-col gap-4">
-          <h1 className="w-full lg:max-w-screen-md mx-auto text-3xl md:text-4xl xl:text-4.5xl font-serif text-balance text-center tracking-tight mt-12">
-            Welcome to the Jubilee 2025 Guide
+        <div className="col-span-12 md:col-span-12 flex flex-col gap-2 md:gap-4">
+          <h1 className="w-full lg:max-w-screen-md mx-auto text-3xl md:text-4xl xl:text-4.5xl font-serif text-balance text-left sm:text-center tracking-tight mt-4">
+            Jubilee 2025 Resources for Catholics across Australia
           </h1>
-          <p className="text-center">
+          <p className="text-left sm:text-center text-base sm:text-md">
             Here is your guide to navigating the Jubilee Year 2025 in Australia.
           </p>
-          <div className="w-full flex flex-wrap gap-3 justify-center items-center mt-6">
+          <div className="w-full flex flex-wrap gap-3 justify-start sm:justify-center items-center mt-6">
             <Link
               href="#primer"
               aria-label="Download printable PDF"

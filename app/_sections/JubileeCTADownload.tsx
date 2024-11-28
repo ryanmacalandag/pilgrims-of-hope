@@ -17,7 +17,7 @@ export default function JubileeCTADownload() {
             href="https://www.iubilaeum2025.va/en/calendario/calendario-generale.html"
             target="_blank"
             aria-label="View Jubilee 2025 Calendar"
-            className="w-full flex justify-center uppercase text-sm font-bold tracking-widest border border-stone-100 hover:bg-stone-100 hover:text-green-600 px-8 py-4 mt-4 transition duration-300"
+            className="w-full flex justify-center uppercase text-sm font-bold tracking-widest border border-stone-100 hover:bg-stone-100 hover:text-green-600 px-4 md:px-8 py-4 mt-4 transition duration-300"
           >
             Open Google Drive ⇢
           </Link>

@@ -13,8 +13,8 @@ export default function Sites() {
     <div>
       <MainNav></MainNav>
       <StatesFilter selected="featured"></StatesFilter>
-      <div className="w-full max-w-screen-xl mx-auto px-6 md:px-12">
-        <div className="md:px-6 py-10 md:py-20 bg-white rounded-xl shadow-lg space-y-16">
+      <div className="w-full max-w-screen-xl mx-auto px-4 md:px-12">
+        <div className="py-10 md:py-20 bg-white rounded-xl shadow-lg space-y-16">
           <JubileeFeaturedPilgrimageSites></JubileeFeaturedPilgrimageSites>
           <JubileePlanningPilgrimage></JubileePlanningPilgrimage>
         </div>

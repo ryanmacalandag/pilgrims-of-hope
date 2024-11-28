@@ -12,8 +12,8 @@ export default function SiteCard({ site }: SiteCardPropType) {
   return (
     <>
       {/* Site Card */}
-      <div className="group col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 grid grid-cols-12 gap-0 sm:gap-0 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 bg-white transition duration-300">
-        <div className="col-span-4 sm:col-span-12 aspect-auto sm:aspect-video overflow-hidden">
+      <div className="group col-span-12 xs:col-span-6 sm:col-span-4 md:col-span-4 lg:col-span-3 grid grid-cols-12 grid-rows-none md:grid-rows-2 place-items-stretch p-4 gap-4 sm:gap-0 overflow-hidden shadow-md hover:shadow-lg hover:-translate-y-1 bg-white rounded-lg transition duration-300">
+        <div className="row-span-1 col-span-4 sm:col-span-12 aspect-square sm:aspect-video rounded overflow-hidden">
           <Link
             href={"/sites/" + site.slug}
             aria-label={site.name.replace(/&#39;/g, "'")}
@@ -27,8 +27,8 @@ export default function SiteCard({ site }: SiteCardPropType) {
             />
           </Link>
         </div>
-        <div className="col-span-8 sm:col-span-12 self-stretch items-stretch flex flex-col flex-grow justify-between gap-2 pt-6 sm:pt-6 pb-5 md:pb-6 pr-4 sm:pr-6">
-          <div className="flex flex-col flex-grow gap-2 px-4 sm:px-6">
+        <div className="row-span-1 h-full col-span-8 sm:col-span-12 flex flex-col justify-between gap-2 pt-0 sm:pt-4 pb-2 md:pb-4 pr-4 sm:pr-6">
+          <div className="flex flex-col justify-start gap-2 ">
             <Link href={"/sites/" + site.slug} aria-label={site.name}>
               <h3 className="text-lg md:text-xl font-serif leading-tight hover:text-teal-950/80">
                 {site.name.replace(/&#39;/g, "'")}
@@ -45,7 +45,7 @@ export default function SiteCard({ site }: SiteCardPropType) {
               </p>
             </Link>
           </div>
-          <div className="relative w-full h-4 md:h-8 border-b-2 border-dotted border-orange-400/60 group-hover:border-stone-800/40 mb-2">
+          <div className="relative w-full h-4 md:h-8 border-b-2 border-dotted border-orange-400/60 group-hover:border-stone-800/40">
             <Link href={"/sites/" + site.slug} aria-label="view details">
               <BiRightArrowAlt
                 size={32}
