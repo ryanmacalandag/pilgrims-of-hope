@@ -28,7 +28,6 @@ export default function JubileeFeaturedPilgrimageSites() {
             <div className="w-full flex gap-3 justify-start md:justify-start items-center">
               <Link
                 href="/sites/all"
-                target="_blank"
                 aria-label="View Jubilee 2025 Calendar"
                 className="w-fit uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-8 py-4 mt-4 transition duration-300"
               >
