@@ -5,6 +5,8 @@ import Gallery from "@/app/_sections/Gallery";
 import { MainNav } from "@/app/_sections/MainNav";
 import StatesFilter from "@/app/_components/StatesFilter";
 
+const MAX_ITEMS: number = 8;
+
 export const metadata = {
   title: "Filter by diocese",
 };
@@ -35,6 +37,7 @@ export default async function Page({ params }: { params: ParamsType }) {
       <Gallery
         filteredSites={filteredSites}
         filterBy={diocese}
+        max={MAX_ITEMS}
         page={1}
       ></Gallery>
       <Footer></Footer>

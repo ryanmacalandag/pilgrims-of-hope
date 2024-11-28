@@ -151,7 +151,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     contact: ['0435 036 236 (Pambula Parish)', 'pambula@cg.org.au'],
     website: 'http://cg.org.au/pambula/home.aspx',
-    featured: false,
+    featured: true,
   },
   {
     name: 'The Cathedral of St Michael and St John ',
@@ -395,7 +395,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: false,
+    featured: true,
   },
   {
     name: 'St Mel&#39;s Church, Narrandera',
@@ -692,7 +692,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://www.monsignorhawes.com/camino-san-francisco-2024-information-for-registration/',
-    featured: false,
+    featured: true,
   },
   {
     name: 'St Maroun&#39;s Cathedral',
@@ -862,7 +862,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://hobart.catholic.org.au',
-    featured: false,
+    featured: true,
   },
   {
     name: 'Diocesan Shrine of Our Lady of Victories, Lutana',
@@ -1298,7 +1298,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://www.tsv.catholic.org.au/cathedral-parish-sacred-heart-cathedral/',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Mary&#39;s Cathedral',
@@ -1333,6 +1333,6 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://stmaryscathedral.com.au/ ',
-    featured: false,
+    featured: true,
   },
 ];

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function JubileeCTADownload() {
   return (
-    <div className="flex flex-col gap-8 lg:gap-12 px-8 md:px-12 lg:px-16">
+    <div className="flex flex-col gap-8 lg:gap-12 px-4 md:px-12 lg:px-16">
       <div className="grid grid-cols-12 gap-4 items-center px-12 lg:px-20 py-16 text-white bg-green-800 border rounded-lg">
         <div className="col-span-12 md:col-span-6 xl:col-span-8">
           <div className="flex flex-col gap-6 pl-0 md:pl-0">
