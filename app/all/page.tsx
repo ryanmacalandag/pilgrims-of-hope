@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <div>
       <MainNav></MainNav>
-      <SitesMap></SitesMap>
+      <SitesMap location="Alice Springs Northern Territory"></SitesMap>
       <StatesFilter selected="all"></StatesFilter>
       <Gallery
         filteredSites={allSites.slice(0, MAX_ITEMS)}

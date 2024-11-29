@@ -4,6 +4,7 @@ import Footer from "@/app/_sections/Footer";
 import Gallery from "@/app/_sections/Gallery";
 import { MainNav } from "@/app/_sections/MainNav";
 import StatesFilter from "@/app/_components/StatesFilter";
+import SitesMap from "@/app/_sections/SitesMap";
 
 const MAX_ITEMS: number = 1000;
 
@@ -32,6 +33,7 @@ export default async function Page({ params }: { params: ParamsType }) {
   return (
     <div className="h-full flex flex-col">
       <MainNav></MainNav>
+      <SitesMap location={state}></SitesMap>
       <StatesFilter selected={state}></StatesFilter>
       <Gallery
         filteredSites={filteredSites.slice(0, MAX_ITEMS)}

@@ -5,7 +5,7 @@ export const statesAU = ["act", "nsw", "nt", "vic", "sa", "tas", "qld", "wa"];
 
 export default function StatesFilter({ selected }: { selected: string }) {
   return (
-    <section className="w-full max-w-screen-xl mx-auto flex flex-row flex-wrap justify-center items-center gap-2 px-6 md:px-12 py-6 lg:py-10 mt-6">
+    <section className="w-full max-w-screen-xl mx-auto flex flex-row flex-wrap justify-center items-center gap-2 px-6 md:px-12 py-6 lg:py-10 mt-8">
       <Link
         href={"/sites/"}
         aria-label="view all featured"
