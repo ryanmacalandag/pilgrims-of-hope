@@ -19,7 +19,7 @@ export default function Page() {
       <MainNav></MainNav>
       <StatesFilter selected="all"></StatesFilter>
       <Gallery
-        filteredSites={allSites.slice(1, MAX_ITEMS)}
+        filteredSites={allSites.slice(0, MAX_ITEMS)}
         filteredTotal={filteredTotal}
         filterBy="All"
         max={MAX_ITEMS}
