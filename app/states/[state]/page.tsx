@@ -8,7 +8,7 @@ import StatesFilter from "@/app/_components/StatesFilter";
 const MAX_ITEMS: number = 8;
 
 export const metadata = {
-  title: "Filter by state",
+  title: "Filter by State",
 };
 
 // Return a list of `params` to populate the [slug] dynamic segment
@@ -28,15 +28,18 @@ export default async function Page({ params }: { params: ParamsType }) {
   const { state } = await params;
   const sites = pilgrimageSites;
   const filteredSites = sites.filter((s) => s.state.toLowerCase() == state);
+
   return (
     <div className="h-full flex flex-col">
       <MainNav></MainNav>
       <StatesFilter selected={state}></StatesFilter>
       <Gallery
         filteredSites={filteredSites}
+        filteredTotal={filteredSites.length}
         filterBy={state}
         max={MAX_ITEMS}
-        page={1}
+        pages={Math.ceil(filteredSites.length / MAX_ITEMS)}
+        current="1"
       ></Gallery>
       <Footer></Footer>
     </div>

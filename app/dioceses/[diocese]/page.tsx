@@ -36,9 +36,11 @@ export default async function Page({ params }: { params: ParamsType }) {
       <StatesFilter selected={diocese}></StatesFilter>
       <Gallery
         filteredSites={filteredSites}
+        filteredTotal={filteredSites.length}
         filterBy={diocese}
         max={MAX_ITEMS}
-        page={1}
+        pages={Math.ceil(filteredSites.length / MAX_ITEMS)}
+        current="1"
       ></Gallery>
       <Footer></Footer>
     </div>

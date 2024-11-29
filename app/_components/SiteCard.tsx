@@ -12,7 +12,7 @@ export default function SiteCard({ site }: SiteCardPropType) {
   return (
     <>
       {/* Site Card */}
-      <div className="group col-span-12 xs:col-span-6 sm:col-span-4 md:col-span-4 lg:col-span-3 grid grid-cols-12 grid-rows-none md:grid-rows-2 place-items-stretch p-4 gap-4 sm:gap-0 overflow-hidden shadow-md hover:shadow-lg hover:-translate-y-1 bg-white rounded-lg transition duration-300">
+      <div className="group col-span-12 xs:col-span-6 sm:col-span-4 md:col-span-4 lg:col-span-3 grid grid-cols-12 grid-rows-none md:grid-rows-2 place-items-stretch p-4 gap-4 sm:gap-0 overflow-hidden shadow-md hover:shadow-lg hover:-translate-y-1 bg-white rounded-lg hover:ring-4 ring-green-500/50 transition duration-300">
         <div className="row-span-1 col-span-4 sm:col-span-12 aspect-square sm:aspect-video rounded overflow-hidden">
           <Link
             href={"/sites/" + site.slug}

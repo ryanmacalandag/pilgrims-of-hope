@@ -27,7 +27,7 @@ const jubileeFAQ = [
     question:
       "What is the significance of the Holy Door, and how can I participate in this tradition?",
     answer:
-      "The Holy Door is a sacred symbol of Christ, who opens the way to salvation. During the Jubilee, Holy Doors at major basilicas in Rome and other designated churches worldwide will open as a gesture of spiritual welcome. Pilgrims who pass through the Holy Door, in a spirit of penance and devotion, are invited to receive a special indulgence. You can participate by visiting any designated Holy Door location and fulfilling the sacramental conditions for indulgences.",
+      "The Holy Door is a sacred symbol of Christ, who opens the way to salvation. During the Jubilee, Holy Doors at major basilicas in Rome and other designated churches worldwide will open as a gesture of spiritual welcome. Pilgrims who pass through the Holy Door, in a spirit of penance and devotion, are invited to receive a special indulgence.",
   },
   {
     question:
@@ -39,7 +39,7 @@ const jubileeFAQ = [
     question:
       "How can Catholics in Australia participate in the Jubilee 2025 if they cannot travel to Rome?",
     answer:
-      "Catholics in Australia can celebrate the Jubilee through local pilgrimages to designated Holy Door churches, special liturgies, and events hosted by dioceses and parishes. In addition, prayer and acts of charity are encouraged as ways to embody the Jubilee&#39;s spirit of hope and unity. The Australian Catholic Bishops Conference will provide resources and information on local events and digital tools to help Australian Catholics participate fully in the Jubilee experience from afar.",
+      "Catholics in Australia can celebrate the Jubilee through local pilgrimages to designated Holy Door churches, special liturgies, and events hosted by dioceses and parishes. In addition, prayer and acts of charity are encouraged as ways to embody the Jubilee&#39;s spirit of hope and unity. The Australian Catholic Bishops Conference is providing resources and information on local events and digital tools to help Australian Catholics participate fully in the Jubilee experience.",
   },
 ];
 

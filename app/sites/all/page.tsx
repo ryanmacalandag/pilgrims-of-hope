@@ -5,23 +5,26 @@ import Footer from "@/app/_sections/Footer";
 import Gallery from "@/app/_sections/Gallery";
 
 const MAX_ITEMS: number = 8;
+const allSites = pilgrimageSites;
+const pagesList = new Array(Math.ceil(allSites.length / MAX_ITEMS));
+const filteredTotal = allSites.length;
 
 export const metadata = {
   title: "Australian Catholic Pilgrimage Sites",
 };
 
-export default function Sites() {
-  const allSites = pilgrimageSites;
-
+export default function Page() {
   return (
     <div>
       <MainNav></MainNav>
       <StatesFilter selected="all"></StatesFilter>
       <Gallery
-        filteredSites={allSites}
+        filteredSites={allSites.slice(1, MAX_ITEMS)}
+        filteredTotal={filteredTotal}
         filterBy="All"
         max={MAX_ITEMS}
-        page={1}
+        pages={pagesList.length}
+        current="1"
       ></Gallery>
       <Footer></Footer>
     </div>

@@ -20,11 +20,6 @@ const pilgrimageFAQ = [
       "Preparation involves spiritual reflection, reviewing the list of pilgrimage sites, choosing accessible locations, considering group pilgrimages, wearing comfortable attire, and bringing essentials like water and weather-appropriate clothing.",
   },
   {
-    question: "What spiritual benefits can I receive from making a pilgrimage?",
-    answer:
-      "Pilgrims who participate with a contrite heart, receive the sacraments, pray for the Pope&#39;s intentions, and perform acts of charity can obtain a plenary indulgence, which is a remission of temporal punishment due to sin.",
-  },
-  {
     question:
       "What practical tips should I follow when traveling to pilgrimage sites?",
     answer:
@@ -37,9 +32,9 @@ const pilgrimageFAQ = [
       "Many pilgrimage sites will host special Jubilee liturgies, Masses, prayer services, and reflections, so it is important to check with the site or diocese for schedules and additional activities.",
   },
   {
-    question: "Can I organize a group pilgrimage with my parish or diocese?",
+    question: "Can I organise a group pilgrimage with my parish or diocese?",
     answer:
-      "Group pilgrimages are encouraged, and you can speak with your parish or diocese to organize transport, accommodations, and shared liturgical activities to enrich the spiritual journey.",
+      "Group pilgrimages are encouraged, and you can speak with your parish or diocese to organise transport, accommodations, and shared liturgical activities to enrich the spiritual journey.",
   },
   {
     question: "How can I participate if I am unable to travel?",
@@ -54,7 +49,7 @@ const pilgrimageFAQ = [
   {
     question: "Who can I contact for more information?",
     answer:
-      "For updates on Jubilee 2025 pilgrimage sites and events in Australia, visit the ACBC website, contact your diocesan office directly, or inquire at your parish for local information and group pilgrimage opportunities.",
+      "For updates on Jubilee 2025 pilgrimage sites and events in Australia, visit this website, contact your diocesan office directly, or inquire at your parish for local information and group pilgrimage opportunities.",
   },
 ];
 
@@ -71,7 +66,7 @@ export default function JubileePlanningPilgrimage() {
         <div className="col-span-12 md:col-span-5 mb-6">
           <div className="flex flex-col gap-4 pl-0 md:pl-0 mb-6">
             <p className="text-2xl md:text-3xl font-serif text-balance">
-              Need help planning your travel?
+              Need help preparing for the pilgrimage?
             </p>
             <p>
               Here are the essential things to know about when planning to visit

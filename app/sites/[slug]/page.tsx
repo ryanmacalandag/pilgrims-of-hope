@@ -3,17 +3,6 @@ import { pilgrimageSites } from "@/app/_data/pilgrimagesite";
 import Footer from "@/app/_sections/Footer";
 import { Metadata } from "next";
 
-// Return a list of `params` to populate the [slug] dynamic segment
-export async function generateStaticParams() {
-  const sites = await pilgrimageSites;
-
-  return sites.map((s) => ({
-    slug: s.slug,
-  }));
-}
-
-type ParamsType = Promise<{ slug: string }>;
-
 export async function generateMetadata({
   params,
 }: {
@@ -43,6 +32,17 @@ export async function generateMetadata({
       type: "website",
     },
   };
+}
+
+type ParamsType = Promise<{ slug: string }>;
+
+// Return a list of `params` to populate the [slug] dynamic segment
+export async function generateStaticParams() {
+  const sites = await pilgrimageSites;
+
+  return sites.map((s) => ({
+    slug: s.slug,
+  }));
 }
 
 // Multiple versions of this page will be statically generated
