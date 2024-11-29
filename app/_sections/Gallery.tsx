@@ -40,11 +40,13 @@ export default function Gallery({
           )}
         </div>
       </div>
-      <GalleryPagination
-        filterBy={filterBy}
-        pages={pages}
-        current={current}
-      ></GalleryPagination>
+      {pages > 1 && (
+        <GalleryPagination
+          filterBy={filterBy}
+          pages={pages}
+          current={current}
+        ></GalleryPagination>
+      )}
     </section>
   );
 }

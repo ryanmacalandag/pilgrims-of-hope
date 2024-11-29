@@ -62,7 +62,7 @@ export default function JubileeEvents() {
       </div>
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-12 md:col-span-5 mb-6">
-          <div className="flex flex-col gap-4 pl-0 md:pl-0 mb-6">
+          <div className="flex flex-col gap-4 pl-0 md:pl-0 mb-2">
             <p className="text-2xl md:text-3xl font-serif text-balance">
               Here is the list of key events next year
             </p>

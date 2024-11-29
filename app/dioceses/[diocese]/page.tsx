@@ -35,7 +35,7 @@ export default async function Page({ params }: { params: ParamsType }) {
       <MainNav></MainNav>
       <StatesFilter selected={diocese}></StatesFilter>
       <Gallery
-        filteredSites={filteredSites}
+        filteredSites={filteredSites.slice(0, MAX_ITEMS)}
         filteredTotal={filteredSites.length}
         filterBy={diocese}
         max={MAX_ITEMS}

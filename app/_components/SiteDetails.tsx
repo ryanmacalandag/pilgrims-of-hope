@@ -127,7 +127,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
             </h4>
             <p>{site!.street + ", " + site!.city + ", " + site!.state}</p>
           </div>
-          <div className="divide-y divide-stone-400 divide-dotted *:py-2">
+          <div className="divide-y divide-stone-400 divide-dotted *:py-2 break-all">
             <h4 className="text-xs text-green-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
               <BiPhone size={16}></BiPhone> Contact
             </h4>
@@ -135,7 +135,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
               return <p key={key}>{contact}</p>;
             })}
             {site.website && (
-              <p className="flex text-orange-700 hover:brightness-150 break-all">
+              <p className="flex text-orange-700 hover:brightness-150">
                 <Link
                   href={site.website!}
                   target="_blank"

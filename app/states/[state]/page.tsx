@@ -5,7 +5,7 @@ import Gallery from "@/app/_sections/Gallery";
 import { MainNav } from "@/app/_sections/MainNav";
 import StatesFilter from "@/app/_components/StatesFilter";
 
-const MAX_ITEMS: number = 8;
+const MAX_ITEMS: number = 1000;
 
 export const metadata = {
   title: "Filter by State",
@@ -34,7 +34,7 @@ export default async function Page({ params }: { params: ParamsType }) {
       <MainNav></MainNav>
       <StatesFilter selected={state}></StatesFilter>
       <Gallery
-        filteredSites={filteredSites}
+        filteredSites={filteredSites.slice(0, MAX_ITEMS)}
         filteredTotal={filteredSites.length}
         filterBy={state}
         max={MAX_ITEMS}
