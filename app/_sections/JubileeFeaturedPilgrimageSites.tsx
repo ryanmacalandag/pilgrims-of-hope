@@ -46,7 +46,7 @@ export default function JubileeFeaturedPilgrimageSites() {
                   key={key}
                   className="relative group col-span-4 lg:col-span-3 flex flex-col justify-between items-center overflow-hidden aspect-square bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl hover:ring-4 ring-green-500/50 transition duration-300"
                 >
-                  <div className="absolute z-20 translate-y-12 group-hover:-translate-y-0 bottom-0 left-0 w-full text-xs uppercase font-bold tracking-wider font-sans text-center text-white bg-stone-700/90 px-4 py-3 transition duration-300">
+                  <div className="absolute z-20 translate-y-12 group-hover:-translate-y-0 bottom-2 left-2 w-fit text-xs uppercase font-bold tracking-wider font-sans text-center text-white bg-stone-700/90 px-3 py-2 rounded-full transition duration-300">
                     {site.state}
                   </div>
                   <Image
