@@ -17,6 +17,7 @@ export default function SitesMap({ location }: { location: string }) {
           mode="place"
           zoom="5"
           q={location.replace(" ", "+") + "+Australia"}
+          allowfullscreen
         />
       </div>
     </Checkbox>

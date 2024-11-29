@@ -104,7 +104,7 @@ export default function JubileeEvents() {
                     "https://www.iubilaeum2025.va/en/calendario/calendario-generale.html"
                   }
                   target="_blank"
-                  className="w-2/12 max-w-fit h-fit text-orange-500 hover:text-orange-300 text-center transition duration-200"
+                  className="w-2/12 max-w-fit h-fit text-orange-800 hover:text-orange-500 text-center border-b border-orange-600 border-dashed transition duration-200"
                 >
                   view
                 </Link>

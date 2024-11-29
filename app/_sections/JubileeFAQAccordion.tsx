@@ -67,7 +67,7 @@ export default function JubileeFAQAccordion() {
               <span className="font-bold">Need help? </span>
               <Link
                 href="mailto:media@catholic.org.au"
-                className="font-serif text-orange-600 hover:text-orange-400 border-b border-orange-500 border-dashed flex flex-row gap-1 items-center transition duration-300"
+                className="font-serif text-orange-800 hover:text-orange-400 border-b border-orange-500 border-dashed flex flex-row gap-1 items-center transition duration-300"
               >
                 Send an email
                 <BiMailSend size={20}></BiMailSend>

@@ -53,7 +53,7 @@ export default function JubileeFeaturedPilgrimageSites() {
                     src={site.image}
                     alt={site.name}
                     width={140}
-                    height={180}
+                    height={140}
                     className="object-cover object-center w-full h-full group-hover:brightness-125 group-hover:scale-105 transition duration-300"
                   />
                 </Link>
