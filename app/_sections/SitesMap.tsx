@@ -15,7 +15,7 @@ export default function SitesMap({ location }: { location: string }) {
           height="320px"
           width="100%"
           mode="place"
-          zoom="7"
+          zoom="5"
           q={location.replace(" ", "+") + "+Australia"}
         />
       </div>
