@@ -807,7 +807,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Our Lady of the Sacred Heart Catholic Church, Ross',
@@ -1334,5 +1334,82 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     website:
       'https://stmaryscathedral.com.au/ ',
     featured: true,
+  },
+  {
+    name: 'St Francis Xavier Cathedral',
+    slug: 'st-francis-xavier-cathedral-adelaide',
+    diocese: 'Archdiocese of Adelaide',
+    street: '39 Wakefield St',
+    city: 'Adelaide',
+    state: 'SA',
+    image: '/sites/st-francis-xavier-cathedral-adelaide.jpg',
+    description: [
+      'The Cathedral is dedicated to the great 16th century Spanish Jesuit missionary saint who is also a patron of the Church in Australia and patron of our first bishop Francis Murphy (1844-58). Initial construction began in 1851 and there have been various phases of activity leading to the installation of the tower in 1996. The building of the Cathedral began in 1851, making it the oldest cathedral in Australia. The tower was not completed until 1996 – 145 years almost to the day after workers had dug the first sod for the beginning of work on the Cathedral site.',
+      'The Cathedral is usually a busy place with several daily Masses, Rosary and confessions as well as weddings, baptisms and funerals. It is both a Cathedral and a parish church, so there are usually many diocesan and parish events held here.',
+    ],
+    sources: [
+      'https://www.adelcathparish.org/find-a-church-mass?church=1706',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '8210 8155',
+      'acp@acp.adelaide.catholic.org.au',
+    ],
+    website:
+      'https://www.adelcathparish.org/',
+    featured: true,
+  },
+  {
+    name: 'Mary MacKillop Penola Centre',
+    slug: 'mary-mackillop-penola-centre',
+    diocese: 'Archdiocese of Adelaide',
+    street: 'Corner Portland Street and Petticoat Ln',
+    city: 'Penola',
+    state: 'SA',
+    image: '/sites/mary-mackillop-penola-centre.jpg',
+    description: [
+      'This museum centre was erected to highlight the impressive life of St. Mary MacKillop, a religious sister who founded the Sisters of St Joseph of the Sacred Heart (known as the Josephites) in 1866 to establish numerous schools for the poor throughout Australia and New Zealand. The centre contains two sections – one that focuses on St. Mary MacKillop, and the other on Fr. Julian Tenison Woods, the co-founder of the order.',
+    ],
+    sources: [
+      'http://www.mackilloppenola.org.au/',
+    ],
+    types: [
+      'museum',
+      'historical'
+    ],
+    contact: [
+      '0887372092',
+    ],
+    website:
+      'http://www.mackilloppenola.org.au/',
+    featured: false,
+  },
+  {
+    name: 'Sevenhill Winery and Ignatian Spirituality Centre',
+    slug: 'sevenhill-winery-and-ignatian-spirituality-centre',
+    diocese: 'Archdiocese of Adelaide',
+    street: '111B College Rd',
+    city: 'Sevenhill',
+    state: 'SA',
+    image: '/sites/sevenhill-winery-and-ignatian-spirituality-centre.jpg',
+    description: [
+      'Jesuit and Ignatian Spirituality Australia (JISA) runs a retreat centre in Clare Valley known as Sevenhill, which was established in 1851 and is considered the birthplace of the Jesuits in Australia.',
+      'The centre offers a space for prayer and contemplation according to the spiritual principles of St. Ignatius. It is also connected to one of Australia&#39;s oldest and most famous wineries, originally constructed by the Jesuits to produce sacramental wine.',
+    ],
+    sources: [
+      'jisa.org.au/sa-sevenhill/',
+    ],
+    types: [
+      'retreat',
+      'historical',
+    ],
+    contact: [
+      '0888435935',
+    ],
+    website:
+      'jisa.org.au/sa-sevenhill/',
+    featured: false,
   },
 ];
