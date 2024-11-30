@@ -7,7 +7,7 @@ export default function HomeHero() {
       <div className="w-full max-w-screen-xl mx-auto grid grid-cols-12 gap-4 px-6 sm:px-12 pt-8 md:pt-12 xl:pt-12">
         <div className="col-span-12 md:col-span-12 flex flex-col gap-2 md:gap-4">
           <h1 className="w-full lg:max-w-screen-md mx-auto text-3xl md:text-4xl xl:text-4.5xl font-serif text-balance text-left sm:text-center tracking-tight mt-4">
-            Jubilee 2025 Resources for Australia
+            Pilgrims of Hope in Australia
           </h1>
           <p className="w-full lg:max-w-screen-md mx-auto text-left sm:text-center text-base sm:text-md">
             &quot;Brothers and sisters. May the Lord, risen from the dead and

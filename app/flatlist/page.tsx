@@ -33,10 +33,12 @@ export default async function Page() {
           <MainContentSectionMargin>
             <div className="pt-6 pb-12">
               {statesAU.map((state, key) => {
-                const filteredByState = sites.filter((s) => s.state == state);
+                const filteredByState = sites.filter(
+                  (s) => s.state.toLowerCase() == state,
+                );
                 return (
                   <div className="py-3 md:py-4" key={key}>
-                    <h3 className="font-bold">{state}</h3>
+                    <h3 className="font-bold">{state.toUpperCase()}</h3>
                     <div className="divide-y divide-dotted divide-green-500">
                       {filteredByState.map((site, key) => {
                         return (
@@ -46,7 +48,7 @@ export default async function Page() {
                             className="w-full flex flex-col py-2 hover:underline hover:text-orange-700"
                             key={key}
                           >
-                            <div className="w-full flex justify-between gap-4">
+                            <div className="w-full flex justify-between gap-1">
                               <div className="w-fit min-w-12 flex justify-end px-4">
                                 <p className="text-right">{key + 1}.</p>
                               </div>

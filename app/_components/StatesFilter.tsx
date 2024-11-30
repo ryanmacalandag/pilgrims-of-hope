@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { BiSolidStar } from "react-icons/bi";
-export const statesAU = ["ACT", "NSW", "NT", "VIC", "SA", "TAS", "QLD", "WA"];
+export const statesAU = ["act", "nsw", "nt", "vic", "sa", "tas", "qld", "wa"];
 
 export default function StatesFilter({ selected }: { selected: string }) {
   return (
