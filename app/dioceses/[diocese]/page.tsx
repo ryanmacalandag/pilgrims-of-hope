@@ -26,8 +26,8 @@ type ParamsType = Promise<{ diocese: string }>;
 // using the `params` returned by `generateStaticParams`
 export default async function Page({ params }: { params: ParamsType }) {
   const { diocese } = await params;
-  const sites = await pilgrimageSites;
-  const filteredSites = await sites.filter(
+  const sites = pilgrimageSites;
+  const filteredSites = sites.filter(
     (s) => s.diocese.toLowerCase().split(" ").join("-") == diocese,
   );
   return (

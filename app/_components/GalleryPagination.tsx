@@ -22,9 +22,9 @@ export default function GalleryPagination({
               key={i}
               className={
                 (current === (i + 1).toString()
-                  ? "bg-black/80 text-white font-bold cursor-default"
+                  ? "bg-green-800 text-white ring-2 ring-green-500/40 font-bold cursor-not-allowed"
                   : "bg-transparent") +
-                " px-2 md:px-3 py-2 border border-black/80 hover:bg-black/80 text-black/80 hover:text-white transition duration-300"
+                " px-2 md:px-3 py-2 border border-green-800 hover:bg-green-800 text-black/80 hover:text-white transition duration-300"
               }
             >
               {i + 1}
