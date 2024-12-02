@@ -23,12 +23,12 @@ export default function StatesHeaderMap({
     <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY!}>
       <Map
         className="w-full h-[200px] md:h-[280px]"
-        zoom={zoom}
+        defaultZoom={zoom}
         minZoom={4}
         maxZoom={12}
-        center={center}
+        defaultCenter={center}
         disableDefaultUI={false}
-        gestureHandling={"greedy"}
+        gestureHandling={"cooperative"}
         reuseMaps={true}
         mapId={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_ID}
       >
