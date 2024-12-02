@@ -24,8 +24,7 @@ export default function StatesHeaderMap({
       <Map
         className="w-full h-[200px] md:h-[280px]"
         defaultZoom={zoom}
-        minZoom={4}
-        maxZoom={12}
+        minZoom={3}
         defaultCenter={center}
         disableDefaultUI={false}
         gestureHandling={"cooperative"}

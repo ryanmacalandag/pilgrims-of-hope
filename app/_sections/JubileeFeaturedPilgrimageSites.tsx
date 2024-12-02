@@ -36,7 +36,7 @@ export default function JubileeFeaturedPilgrimageSites() {
               <Link
                 href="/flatlist"
                 aria-label="View Jubilee 2025 Calendar"
-                className="w-fit uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-6 lg:px-8 py-4 transition duration-300"
+                className="w-fit uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-4 lg:px-8 py-4 transition duration-300"
               >
                 View Table Format ⇢
               </Link>
