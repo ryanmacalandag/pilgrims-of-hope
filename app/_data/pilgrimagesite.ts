@@ -49,8 +49,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Cnr Wattle and Mackenzie Streets',
     city: 'Bendigo',
     state: 'VIC',
-    lat: -33.838860249999996,
-    lng: 151.20492718586553,
+    lat: -36.7600488,
+    lng: 144.2714712,
     image: '/sites/sacred-heart-cathedral-bendigo.jpg',
     description: [
       'The formal laying of the foundation stone occurred on Friday, June 25, 1897 - the feast of the Sacred Heart of Jesus - by Bishop Reville, Bishop Crane being too infirm to be present. A stone with 13 Roman numerals and the Alpha and Omega is to the right hand side of the great west doors (as you face them). The stone has the X symbol for Christ with AD surrounding it and MDCCCLXXXXVII below.',
