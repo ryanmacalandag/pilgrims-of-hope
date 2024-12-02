@@ -22,15 +22,13 @@ export default function Page() {
     };
   });
 
-  console.log(markers);
-
   return (
     <div>
       <MainNav></MainNav>
       <SitesMap
         center={{ lat: -24.719972174177638, lng: 134.2833842225963 }}
         zoom={4}
-        markers={markers}
+        markers={[{ lat: -33.838860249999996, lng: 151.20492718586553 }]}
       ></SitesMap>
       <StatesFilter selected="all"></StatesFilter>
       <Gallery
