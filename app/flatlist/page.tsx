@@ -7,16 +7,12 @@ import MainContentTitle from "../_components/_layout/MainContentTitle";
 import MainContentSectionMargin from "../_components/_layout/MainContentSectionMargin";
 import Divider from "../_components/_layout/Divider";
 import Footer from "../_sections/Footer";
+import JubileeCTANeedHelp from "../_sections/JubileeCTANeedHelp";
 import Link from "next/link";
-import getjson from "../_api/_json/getjson";
-import { statesAU } from "../_components/StatesFilter";
+// import { statesAU } from "../_components/StatesFilter";
 
 export default async function Page() {
   const sites = pilgrimageSites;
-  const file = await getjson("geocode.json");
-  const geosites = JSON.parse(file);
-
-  console.log(geosites[0].lon);
 
   return (
     <div>
@@ -31,43 +27,64 @@ export default async function Page() {
             </>
           </MainContentTitle>
           <MainContentSectionMargin>
-            <div className="pt-6 pb-12">
-              {statesAU.map((state, key) => {
-                const filteredByState = sites.filter(
-                  (s) => s.state.toLowerCase() == state,
-                );
-                return (
-                  <div className="py-3 md:py-4" key={key}>
-                    <h3 className="font-bold">{state.toUpperCase()}</h3>
-                    <div className="divide-y divide-dotted divide-green-500">
-                      {filteredByState.map((site, key) => {
-                        return (
-                          <Link
-                            href={"/sites/" + site.slug}
-                            target="_blank"
-                            className="w-full flex flex-col py-2 hover:underline hover:text-orange-700"
-                            key={key}
-                          >
-                            <div className="w-full flex justify-between gap-1">
-                              <div className="w-fit min-w-12 flex justify-end px-4">
-                                <p className="text-right">{key + 1}.</p>
-                              </div>
-                              <div className="w-full flex flex-grow text-left text-balance">
-                                {site.name.replace("&#39;", "'")}, {site.city},{" "}
-                                {site.state}
-                              </div>
-                            </div>
-                          </Link>
-                        );
-                      })}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
+            <table className="table-auto my-12 border border-stone-200 rounded-lg divide-y-4 divide-stone-200">
+              <thead className="rounded">
+                <tr className="bg-orange-100/40 divide-x divide-stone-200 font-bold">
+                  <td className="w-20 px-4 pb-4 pt-6 items-end text-right">
+                    ID
+                  </td>
+                  <td className="px-4 pb-4 pt-6">Name</td>
+                  <td className="px-4 pb-4 pt-6 text-center">Diocese</td>
+                  <td className="px-4 pb-4 pt-6 text-center">State</td>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-stone-200">
+                {sites.map((site, key) => {
+                  return (
+                    <tr
+                      className="divide-x divide-stone-200 even:bg-orange-50/40"
+                      key={key}
+                    >
+                      <td className="w-20 py-4 px-4 items-end text-right">
+                        {key + 1}
+                      </td>
+                      <td className="py-4 px-4">
+                        <Link
+                          href={"/sites/" + site.slug}
+                          className="border-b border-stone-800 border-dotted hover:text-green-600"
+                        >
+                          {site.name.replace("&#39;", "'")}
+                        </Link>
+                      </td>
+                      <td className="py-4 px-4 text-center">
+                        <Link
+                          href={
+                            "/dioceses/" +
+                            site.diocese.toLowerCase().split(" ").join("-")
+                          }
+                          className="border-b border-stone-800 border-dotted hover:text-green-600"
+                        >
+                          {site.diocese}
+                        </Link>
+                      </td>
+                      <td className="py-4 px-4 text-center">
+                        <Link
+                          href={"/states/" + site.state.toLowerCase()}
+                          className="border-b border-stone-800 border-dotted hover:text-green-600"
+                        >
+                          {site.state.toUpperCase()}
+                        </Link>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </MainContentSectionMargin>
+          <JubileeCTANeedHelp></JubileeCTANeedHelp>
         </>
       </MainContentBoxed>
+
       <Footer></Footer>
     </div>
   );

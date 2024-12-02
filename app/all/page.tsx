@@ -15,10 +15,23 @@ export const metadata = {
 };
 
 export default function Page() {
+  const markers: google.maps.LatLngLiteral[] = allSites.map((s) => {
+    return {
+      lat: s.lat,
+      lng: s.lng,
+    };
+  });
+
+  console.log(markers);
+
   return (
     <div>
       <MainNav></MainNav>
-      <SitesMap lat={-24.719972174177638} lng={134.2833842225963}></SitesMap>
+      <SitesMap
+        center={{ lat: -24.719972174177638, lng: 134.2833842225963 }}
+        zoom={4}
+        markers={markers}
+      ></SitesMap>
       <StatesFilter selected="all"></StatesFilter>
       <Gallery
         filteredSites={allSites.slice(0, MAX_ITEMS)}

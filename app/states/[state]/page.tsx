@@ -9,7 +9,7 @@ import StatesHeaderMap from "@/app/_sections/StatesHeaderMap";
 const MAX_ITEMS: number = 1000;
 
 export const metadata = {
-  title: "Filter by State",
+  title: "Filter Sites by State ",
 };
 
 // Return a list of `params` to populate the [slug] dynamic segment
@@ -29,52 +29,73 @@ export default async function Page({ params }: { params: ParamsType }) {
   const { state } = await params;
   const sites = pilgrimageSites;
   const filteredSites = sites.filter((s) => s.state.toLowerCase() == state);
-  let lat: number;
-  let lng: number;
+
+  let center: google.maps.LatLngLiteral;
+  let zoom: number;
+
+  let markers: google.maps.LatLngLiteral[] = filteredSites.map((s) => {
+    return {
+      lat: s.lat,
+      lng: s.lng,
+    };
+  });
 
   switch (state) {
     case "act":
-      lat = -35.268988359624544;
-      lng = 149.13292360330993;
+      center = { lat: -35.268988359624544, lng: 149.13292360330993 };
+      zoom = 10;
+      markers = markers;
       break;
     case "nsw":
-      lat = -32.29333492652341;
-      lng = 146.21669970564952;
+      center = { lat: -32.29333492652341, lng: 146.21669970564952 };
+      zoom = 5;
+      markers = markers;
       break;
     case "nt":
-      lat = -19.19328997662307;
-      lng = 133.56949379031533;
+      center = { lat: -19.19328997662307, lng: 133.56949379031533 };
+      zoom = 5;
+      markers = markers;
       break;
     case "vic":
-      lat = -36.95444428217735;
-      lng = 144.08224046229466;
+      center = { lat: -36.95444428217735, lng: 144.08224046229466 };
+      zoom = 6;
+      markers = markers;
       break;
     case "sa":
-      lat = -29.692602202325588;
-      lng = 134.85748450266004;
+      center = { lat: -29.692602202325588, lng: 134.85748450266004 };
+      zoom = 5;
+      markers = markers;
       break;
     case "tas":
-      lat = -41.79857478437049;
-      lng = 146.46625309362932;
+      center = { lat: -41.79857478437049, lng: 146.46625309362932 };
+      zoom = 7;
+      markers = markers;
       break;
     case "qld":
-      lat = -22.46509795357956;
-      lng = 144.0743087155315;
+      center = { lat: -22.46509795357956, lng: 144.0743087155315 };
+      zoom = 5;
+      markers = markers;
       break;
     case "wa":
-      lat = -26.0302136427162;
-      lng = 122.15447828251364;
+      center = { lat: -26.0302136427162, lng: 122.15447828251364 };
+      zoom = 5;
+      markers = markers;
       break;
     default:
-      lat = -24.719972174177638;
-      lng = 134.2833842225963;
+      center = { lat: -24.719972174177638, lng: 134.2833842225963 };
+      zoom = 3;
+      markers = markers;
       break;
   }
 
   return (
     <div className="h-full flex flex-col">
       <MainNav></MainNav>
-      <StatesHeaderMap lat={lat} lng={lng}></StatesHeaderMap>
+      <StatesHeaderMap
+        center={center}
+        zoom={zoom}
+        markers={markers}
+      ></StatesHeaderMap>
       <StatesFilter selected={state}></StatesFilter>
       <Gallery
         filteredSites={filteredSites.slice(0, MAX_ITEMS)}

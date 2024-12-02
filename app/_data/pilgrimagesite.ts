@@ -5,7 +5,8 @@ export type PilgrimageSiteType = {
   street: string;
   city: string;
   state: string;
-  maplink?: string;
+  lat: number;
+  lng: number;
   image: string;
   description: string[];
   sources?: string[];
@@ -23,6 +24,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '7 Mount Street',
     city: 'North Sydney',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/mary-mackillop-memorial-chapel.jpg',
     description: [
       'The Chapel was built in 1913 at the instigation of Mother Baptista Molloy in memory of Mary MacKillop. The land was donated in memory of the Daly family. The Chapel was dedicated by the Very Rev Michael Kelly, Archbishop of Sydney on 18 January 1914.',
@@ -46,6 +49,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Cnr Wattle and Mackenzie Streets',
     city: 'Bendigo',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/sacred-heart-cathedral-bendigo.jpg',
     description: [
       'The formal laying of the foundation stone occurred on Friday, June 25, 1897 - the feast of the Sacred Heart of Jesus - by Bishop Reville, Bishop Crane being too infirm to be present. A stone with 13 Roman numerals and the Alpha and Omega is to the right hand side of the great west doors (as you face them). The stone has the X symbol for Christ with AD surrounding it and MDCCCLXXXXVII below.',
@@ -70,6 +75,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '352 Kalangan Road',
     city: 'Galong',
     state: 'NSW',
+    lat: -34.562897,
+    lng: 148.555529,
     image: '/sites/st-celements-monastery.jpg',
     description: [
       'St Clement&#39;s Retreat and Conference Centre, a mission of the Redemptorists, is located in Galong NSW, a little over an hour&#39;s drive from the centre of Canberra.',
@@ -92,6 +99,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Cnr Canberra Avenue and Furneaux Street',
     city: 'Forrest',
     state: 'ACT',
+    lat: -35.3188961,
+    lng: 149.1324451550468,
     image: '/sites/st-christophers-cathedral.jpg',
     description: [
       'St Christopher&#39;s was built as the first parish church in Canberra by the first priest, Father Patrick Haydon, although the beginnings of Catholic life in the district go back to 1862 when the Diocese of Goulburn was erected.',
@@ -115,6 +124,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '36 Verner Street',
     city: 'Goulburn',
     state: 'NSW',
+    lat: -34.755578,
+    lng: 149.715009,
     image: '/sites/st-peter-and-pauls-goulburn.jpg',
     description: [
       'Sts Peter and Paul&#39;s Old Cathedral is a significant example of 19th century Gothic ecclesiastical design and craftsmanship. The Cathedral is constructed from diorite porphyrite (greenstone) and is the only church of this stone in Australia, possibly the world. The organ is the only unaltered William Hill organ in Australia, and is the second most important of his organs after the Sydney Town Hall organ.',
@@ -137,6 +148,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Chandos Street',
     city: 'Eden',
     state: 'NSW',
+    lat: -35.8194507,
+    lng: 145.3361988,
     image: '/sites/our-lady-star-of-the-sea.jpg',
     description: [
       'The original church was built in 1863 and was in use until 1992. St Mary MacKillop visited and then established a school there in 1891. The present church was dedicated in December 1992 and involved a generous input by local businesses and individual volunteers as well as a substantial loan from the Catholic Development Fund.',
@@ -160,6 +173,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Cnr Keppel and William Streets',
     city: 'Bathurst',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/the-cathedral-of-st-michael-and-st-john.jpg',
     description: [
       'The Foundation Stone of St Michael&#39;s, located on the corner George and Keppel Streets, the first Catholic Church in Bathurst, was laid by Bishop Polding in 1840. St Michael&#39;s Church was in use by 1841 and building completed 1848, with leadlight windows. Due to subsidence, the building became unsafe within a decade.',
@@ -188,6 +203,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Collins Street',
     city: 'Carcoar',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/diocesan-shrine-of-our-lady-of-the-immaculate-conception.jpg',
     description: [
       'No description available',
@@ -209,6 +226,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '23 Yardley Avenue',
     city: 'Waitara',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/our-lady-of-the-rosary-cathedral-broken-bay.jpg',
     description: [
       'On 10 February 2008, Our Lady of the Rosary was elevated as the Cathedral of the Diocese of Broken Bay succeeding Corpus Christi, the parish church of St Ives. On 25 August 1991, the foundation stone of Our Lady of the Rosary was laid by the Most Rev. Patrick Murphy.',
@@ -235,6 +254,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '76 York Street',
     city: 'East Gosford',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-patricks-church-east-gosford-with-the-relic-of-st-john-paul-ii-broken-bay.jpg',
     description: [
       'St Patrick&#39;s Parish started its life as Our Lady of the Rosary Parish in Donnison Street, Gosford in 1876, and comprised of a church, presbytery, convent and school which was opened by the Sisters of St Joseph in 1910.',
@@ -263,6 +284,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '94 Archer St',
     city: 'Chatswood',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/our-lady-of-dolours-church-chatswood-with-the-relic-of-blessed-carlo-acutis.jpg',
     description: [
       'No description available',
@@ -286,6 +309,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '6 Raglan Street',
     city: 'Manly',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-marys-church-manly-with-the-relic-of-st-john-vianney.jpg',
     description: [
       'No description available',
@@ -309,6 +334,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '9 Church Street',
     city: 'Wagga Wagga',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-michaels-cathedral-wagga-wagga.jpg',
     description: [
       'No description available',
@@ -331,6 +358,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '515 Smollett Street',
     city: 'Albury',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-patricks-church-albury.jpg',
     description: [
       'St. Patrick&#39;s Church was blessed and opened on November 24, 1872. The priest who formulated, planned and supervised its building was buried behind the altar. He was Dr. Michael McAlroy, Albury&#39;s parish priest from 1868 to his death in 1880, and was known as the “Apostle of the South”.',
@@ -360,6 +389,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '11 Warrambool Street',
     city: 'Griffith',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/sacred-heart-church-griffith.jpg',
     description: [
       'No description available',
@@ -382,6 +413,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '-36.10412696094545, 146.89646957380847',
     city: 'C319 Gateway Island',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/the-plinth-on-the-old-road-causeway.jpg',
     description: [
       'Linking the two cities commemorating the stay by Mary MacKillop in the hotel there (after she was refused bed and lodging at the Mercy Sisters in Albury by the then Vicar General).',
@@ -404,6 +437,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '62 Audley Street',
     city: 'Narrandera',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-mels-church-narrandera.jpg',
     description: [
       'No description available',
@@ -426,6 +461,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '4 Wade Avenue',
     city: 'Leeton',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-josephs-church-leeton.jpg',
     description: [
       'No description available',
@@ -448,6 +485,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '161 McCrae Street',
     city: 'Bendigo',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/grave-of-rev-dr-henry-backhaus.jpg',
     description: [
       'Pioneer priest on Bendigo goldfields, at St Kilian&#39;s Church, Bendigo',
@@ -470,6 +509,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '25 Ford Street',
     city: 'Wangaratta',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/grave-of-rev-george-galen.jpg',
     description: [
       'Pioneer priest of north-east Victoria, at St Patrick&#39;s Church, Wangaratta.',
@@ -493,6 +534,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Reserve Road',
     city: 'Wahgunyah',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/wagunyah-mass-tree.jpg',
     description: [
       'A 600-year old red gum where Dean Tierney celebrated the first Wagunyah Mass in 1869.',
@@ -515,6 +558,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '20A Tocumwal Road',
     city: 'Numurkah',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/mary-mackillop-indigenous-gardens-and-historic-trail.jpg',
     description: [
       'Mary MacKillop was present at Numurkah for the institute&#39;s expansion into Victoria in 1890. Mary also stayed 3 nights at Numurkah in 1896 and one night in 1899. She founded St Joseph&#39;s School, Numurkah, as the first Josephite school in Victoria.',
@@ -538,6 +583,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '47 Adelaide Street',
     city: 'Fremantle',
     state: 'WA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/basilica-of-st-patrick-fremantle.jpg',
     description: [
       'No description available',
@@ -560,6 +607,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '100 Adelma Road',
     city: 'Dalkeith',
     state: 'WA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/carmelite-monastery-nedlands.jpg',
     description: [
       'No description available',
@@ -583,6 +632,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '6 Kurrajong Boulevard',
     city: 'Banksia Grove',
     state: 'WA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-john-paul-ii-catholic-church-banksia-grove.jpg',
     description: [
       'Image: ©Silverstone Photography/DWA Architects/Metrocon for St John Paul II Church, Banksia Grove',
@@ -605,6 +656,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Victoria Square',
     city: 'Perth',
     state: 'WA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-marys-cathedral-perth.jpg',
     description: [
       'On 8 February 1863, Bishop Salvado laid the foundation stone of the Cathedral of the Immaculate Conception of the Blessed Virgin Mary on a reserve of land known as Victoria Square. Fr Martin Griver, later Bishop of Perth, was responsible for the building. The architect and master mason was Joseph Ascione. The Cathedral of the Immaculate Conception of the Blessed Virgin Mary was blessed and opened on 29 January 1865. Two porches and the spire were added by Bishop Matthew Gibney in 1905.',
@@ -632,6 +685,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '9 Talus Drive',
     city: 'Mt Richon',
     state: 'WA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/schoenstatt-shrine.jpg',
     description: [
       'No description available',
@@ -655,6 +710,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '',
     city: 'Geraldton',
     state: 'WA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/monsignor-hawes-heritage-trail.jpg',
     description: [
       'No description available',
@@ -676,6 +733,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '',
     city: 'Geraldton',
     state: 'WA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/camino-san-francisco.jpg',
     description: [
       'No description available',
@@ -701,6 +760,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '627 Elizabeth Street',
     city: 'Redfern',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-marouns-cathedral.jpg',
     description: [
       'No description available',
@@ -723,6 +784,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '40 Alice Street',
     city: 'Harris Park',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/our-lady-of-lebanon-cocathedral.jpg',
     description: [
       'The 12th of January 1968 marked the beginning of the history of Our Lady of Lebanon Church in Sydney, Australia. On this day, Monsignor Peter Amin Ziade returned from Lebanon with the intention of building a Church with a presbytery, school and hall in Parramatta. After searching for a suitable property, the Church Committee successfully located a piece of land with a beautiful elevated view in Harris Park.',
@@ -751,6 +814,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '142 Highclere Avenue',
     city: 'Punchbowl',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-charbels-church.jpg',
     description: [
       'No description available',
@@ -773,6 +838,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '230 Normanby Avenue',
     city: 'Thornbury',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/our-lady-of-lebanon-church.jpg',
     description: [
       'No description available',
@@ -794,6 +861,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '94 Meander Valley Road',
     city: 'Westbury',
     state: 'TAS',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/holy-trinity-catholic-church-westbury.jpg',
     description: [
       'No description available',
@@ -816,6 +885,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '42 Church St',
     city: 'Ross',
     state: 'TAS',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/our-lady-of-the-sacred-heart-catholic-church-ross.jpg',
     description: [
       'The Church of Our Lady of the Sacred Heart occupies a prominent site at the heart of the Northern Midlands village of Ross, a beautiful settlement which, with its historic bridge, sandstone buildings and convict history, is listed on Australia&#39;s Register of the National Estate. ',
@@ -843,6 +914,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '38 St John’s Circle',
     city: 'Richmond',
     state: 'TAS',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-john-the-evangelist-church-richmond.jpg',
     description: [
       'In its setting beyond the historic 1825 bridge spanning the Coal River, St John the Evangelist Church in the hugely popular tourist destination of Richmond can justly claim the title of Tasmania&#39;s most visited and photographed church. It also has the distinction of being the oldest continuously-used Catholic church in Australia, having been opened on 31 December 1837.',
@@ -871,6 +944,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '12 Ashbolt Crescent',
     city: 'Lutana',
     state: 'TAS',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/diocesan-shrine-of-our-lady-of-victories-lutana.jpg',
     description: [
       'No description available',
@@ -894,6 +969,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '35 Canning Street',
     city: 'North Melbourne',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/sts-peter-and-paul-ukrainian-cathedral.jpg',
     description: [
       'Ukrainians who came to Australia did not have their own church. That is why on 4 June 1950, two priests Fr. Pavlo Smal and Fr. Dr. Ivan Prasko gathered the faithful to start fundraising for the purchase of a plot of land and the construction of their own church in Melbourne.',
@@ -924,6 +1001,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '82 Archibald Street',
     city: 'Lyneham',
     state: 'ACT',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-volodymyrs-church.jpg',
     description: [
       'The memorial church of St. Volodymyr in Canberra is the newest Ukrainian Church in Australia and was built in 1988 to mark the Millennium of Christianity in Ukraine.',
@@ -954,6 +1033,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '32 Weld Street',
     city: 'Broome',
     state: 'WA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/our-lady-queen-of-peace-cathedral.jpg',
     description: [
       'No description available',
@@ -976,6 +1057,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'PMB 90',
     city: 'Broome',
     state: 'WA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/sacred-heart-church-beagle-bay.jpg',
     description: [
       'No description available',
@@ -998,6 +1081,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'PMB 293',
     city: 'Wyndham',
     state: 'WA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/our-lady-of-the-assumption-church.jpg',
     description: [
       'No description available',
@@ -1020,6 +1105,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '47 Foster Street',
     city: 'Sale',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-marys-cathedral-sale.jpg',
     description: [
       'St Mary&#39;s Cathedral, Sale is the cathedral church of the diocese, under the patronage of Our Lady of Perpetual Help. Purpose-built as a cathedral, St Mary&#39;s boasts a Romanesque onyx high altar, notable stained glass windows and a large statue of Mary Help of Christians as its features. Four of Sale&#39;s bishops are buried in the cathedral: Bishop Corbett lies in the main section of the church beneath the front rows of pews on the right hand side and Bishops Ryan, Lyons and Fox are interred in the Lady Chapel.',
@@ -1047,6 +1134,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '23 Pyke Street',
     city: 'Bairnsdale',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-marys-church-bairnsdale.jpg',
     description: [
       'St. Mary&#39;s is one of the most notable landmarks of Bairnsdale. Construction of the Church commenced in 1913, replacing an earlier brick church which had been built thirty years earlier in 1883.',
@@ -1069,6 +1158,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '',
     city: 'Ballarat',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/the-mary-mackillop-walk.jpg',
     description: [
       'No description available',
@@ -1090,6 +1181,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '3 Lyons Street South',
     city: 'Ballarat',
     state: 'VIC',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-patricks-cathedral-ballarat.jpg',
     description: [
       'On February 7th, 1858, Bishop James Alipius Goold OSA laid the foundation stone for the church. Use commenced on a regular basis for Mass in 1863.',
@@ -1115,6 +1208,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '36 Harbour Street',
     city: 'Wollongong',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-francis-xavier-cathedral.jpg',
     description: [
       'Saint Francis Xavier&#39;s church was established by Monsignor John Rigney in 1838. This was the first Catholic place of worship in the Illawarra. Archbishop Polding had a fondness for the Illawarra. The existing church was begun in 1848, was extended at the turn of the century and, again, in the 1930s. In 1951 the church was raised to cathedral status when Wollongong was declared a diocese by Pope Pius XII. The first Bishop, Thomas McCabe and his successor, William Murray, had plans for the construction of a new cathedral. However, after the restoration projects of Bishop Philip Wilson in 1999 and Bishop Peter Ingham in 2009, the current Bishop decided not to proceed with this plan. With a rapidly expanding region in the Macarthur and the downturn in the world economy Bishop Peter confirmed his decision by dedicating the Cathedral of Saint Francis Xavier on 16th March, 2010, on the death anniversary of Archbishop John Bede Polding, one hundred and sixty-two years after the church was begun.',
@@ -1143,6 +1238,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '80 Demetrius Road',
     city: 'Rosemeadow',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/our-lady-help-of-christians-catholic-church.jpg',
     description: [
       'In 1984, Masses began to be celebrated in the Ambarvale area by priests from St. John&#39;s Parish, Campbelltown.',
@@ -1179,6 +1276,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '48-50 Princes Highway',
     city: 'Unanderra',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/immaculate-conception-catholic-church.jpg',
     description: [
       'The Parish of Unanderra was established on 16 November 1952. The first parish priest was Fr Tarcisius Prevedello who was assisted by Brother John Setti. They belonged to the Scalabrinian Missionaries, which at that time was known as the Pious Society of Saint Charles.',
@@ -1209,6 +1308,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '130 Moss Vale Road',
     city: 'Kangaroo Valley',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-josephs-catholic-church.jpg',
     description: [
       '',
@@ -1231,6 +1332,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '120 Hanging Rock Road',
     city: 'Sutton Forest',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/shrine-of-our-lady-of-mercy.jpg',
     description: [
       'Fr. Augustine Lazur arrived in Australia in 1981 and established the Shrine of our Lady of Mercy in the Southern Highlands of New South Wales in 1984. The Shrine Church is dedicated to Our Lady under the title of Our Lady of Mercy, as represented by a replica of the icon of the Black Madonna. The original icon of the Black Madonna has been under the custodianship of the Pauline Fathers since 1382, and they promote devotion to her where ever they go. So naturally, when building a new shrine, she becomes the centre of devotion.',
@@ -1259,6 +1362,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Lot 1 Corks Lane',
     city: 'Milton',
     state: 'NSW',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-mary-star-of-the-sea-catholic-church.jpg',
     description: [
       '',
@@ -1281,6 +1386,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '270 Stanley Street',
     city: 'Townsville',
     state: 'QLD',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/sacred-heart-cathedral-townsville.jpg',
     description: [
       'In January 1892, the Church of St Joseph on the Strand collapsed into a small creek, which had become a raging torrent after a downpour, described as "practically a waterspout", struck Townsville. It was after this, and a series of other calamities, that the decision was made to build the main church in Townsville on the foundation of rock on Castle Hill. The foundation stone for the new Church of the Sacred Heart was laid on 7 October 1900 and the church was completed and opened on 16 November 1902. It remained the parish church until it was consecrated as a Cathedral in 1930, when the Diocese of Townsville was divided from the Diocese of Rockhampton.',
@@ -1307,6 +1414,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '90 Smith Street',
     city: 'Darwin',
     state: 'NT',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-marys-cathedral-darwin.jpg',
     description: [
       'St Mary&#39;s Star of the Sea Cathedral is situated in the heart of the central business district of Darwin, and is the principal church of the Diocese of Darwin.',
@@ -1342,6 +1451,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '39 Wakefield St',
     city: 'Adelaide',
     state: 'SA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/st-francis-xavier-cathedral-adelaide.jpg',
     description: [
       'The Cathedral is dedicated to the great 16th century Spanish Jesuit missionary saint who is also a patron of the Church in Australia and patron of our first bishop Francis Murphy (1844-58). Initial construction began in 1851 and there have been various phases of activity leading to the installation of the tower in 1996. The building of the Cathedral began in 1851, making it the oldest cathedral in Australia. The tower was not completed until 1996 – 145 years almost to the day after workers had dug the first sod for the beginning of work on the Cathedral site.',
@@ -1368,6 +1479,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Corner Portland Street and Petticoat Ln',
     city: 'Penola',
     state: 'SA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/mary-mackillop-penola-centre.jpg',
     description: [
       'This museum centre was erected to highlight the impressive life of St. Mary MacKillop, a religious sister who founded the Sisters of St Joseph of the Sacred Heart (known as the Josephites) in 1866 to establish numerous schools for the poor throughout Australia and New Zealand. The centre contains two sections – one that focuses on St. Mary MacKillop, and the other on Fr. Julian Tenison Woods, the co-founder of the order.',
@@ -1393,6 +1506,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '111B College Rd',
     city: 'Sevenhill',
     state: 'SA',
+    lat: -33.838860249999996,
+    lng: 151.20492718586553,
     image: '/sites/sevenhill-winery-and-ignatian-spirituality-centre.jpg',
     description: [
       'Jesuit and Ignatian Spirituality Australia (JISA) runs a retreat centre in Clare Valley known as Sevenhill, which was established in 1851 and is considered the birthplace of the Jesuits in Australia.',
