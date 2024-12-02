@@ -3,7 +3,7 @@ import { pilgrimageSites } from "@/app/_data/pilgrimagesite";
 import StatesFilter from "@/app/_components/StatesFilter";
 import Footer from "@/app/_sections/Footer";
 import Gallery from "@/app/_sections/Gallery";
-import SitesMap from "../_sections/SitesMap";
+import SitesMap from "../_sections/StatesHeaderMap";
 
 const MAX_ITEMS: number = 8;
 const allSites = pilgrimageSites;
@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <div>
       <MainNav></MainNav>
-      <SitesMap location="Alice Springs Northern Territory"></SitesMap>
+      <SitesMap lat={-24.719972174177638} lng={134.2833842225963}></SitesMap>
       <StatesFilter selected="all"></StatesFilter>
       <Gallery
         filteredSites={allSites.slice(0, MAX_ITEMS)}

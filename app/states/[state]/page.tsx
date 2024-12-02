@@ -4,7 +4,7 @@ import Footer from "@/app/_sections/Footer";
 import Gallery from "@/app/_sections/Gallery";
 import { MainNav } from "@/app/_sections/MainNav";
 import StatesFilter from "@/app/_components/StatesFilter";
-import SitesMap from "@/app/_sections/SitesMap";
+import StatesHeaderMap from "@/app/_sections/StatesHeaderMap";
 
 const MAX_ITEMS: number = 1000;
 
@@ -29,11 +29,52 @@ export default async function Page({ params }: { params: ParamsType }) {
   const { state } = await params;
   const sites = pilgrimageSites;
   const filteredSites = sites.filter((s) => s.state.toLowerCase() == state);
+  let lat: number;
+  let lng: number;
+
+  switch (state) {
+    case "act":
+      lat = -35.268988359624544;
+      lng = 149.13292360330993;
+      break;
+    case "nsw":
+      lat = -32.29333492652341;
+      lng = 146.21669970564952;
+      break;
+    case "nt":
+      lat = -19.19328997662307;
+      lng = 133.56949379031533;
+      break;
+    case "vic":
+      lat = -36.95444428217735;
+      lng = 144.08224046229466;
+      break;
+    case "sa":
+      lat = -29.692602202325588;
+      lng = 134.85748450266004;
+      break;
+    case "tas":
+      lat = -41.79857478437049;
+      lng = 146.46625309362932;
+      break;
+    case "qld":
+      lat = -22.46509795357956;
+      lng = 144.0743087155315;
+      break;
+    case "wa":
+      lat = -26.0302136427162;
+      lng = 122.15447828251364;
+      break;
+    default:
+      lat = -24.719972174177638;
+      lng = 134.2833842225963;
+      break;
+  }
 
   return (
     <div className="h-full flex flex-col">
       <MainNav></MainNav>
-      <SitesMap location={state}></SitesMap>
+      <StatesHeaderMap lat={lat} lng={lng}></StatesHeaderMap>
       <StatesFilter selected={state}></StatesFilter>
       <Gallery
         filteredSites={filteredSites.slice(0, MAX_ITEMS)}

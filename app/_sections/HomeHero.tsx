@@ -12,7 +12,7 @@ export default function HomeHero() {
           <p className="w-full lg:max-w-screen-md mx-auto text-left sm:text-center text-base sm:text-md">
             &quot;Brothers and sisters. May the Lord, risen from the dead and
             ascended into heaven, grant us the grace to rediscover hope, to
-            proclaim hope and to build hope.&quot;
+            proclaim hope and to build hope.&q1uot;
           </p>
           <div className="w-full flex flex-wrap gap-3 justify-start sm:justify-center items-center mt-6">
             <Link

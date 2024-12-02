@@ -22,7 +22,7 @@ export default function SiteCardPortrait({
               <h3 className="text-base sm:text-lg md:text-2xl font-serif leading-tight group-hover:text-orange-300">
                 {site.name.replace(/&#39;/g, "'")}
               </h3>
-              <div className="w-fit text-xxs font-bold tracking-widest px-[6px] py-1 leading-4 text-white bg-black/80">
+              <div className="w-fit text-xxs font-bold tracking-widest px-[6px] py-1 leading-4 text-white bg-green-700">
                 {site.state}
               </div>
               <div className="relative max-w-[90%] w-[80px] sm:w-[180px] group-hover:w-[550px] h-4 md:h-8 border-b-2 border-dotted group-hover:orange-500 border-orange-300 mb-2 transition-max-w duration-500">
