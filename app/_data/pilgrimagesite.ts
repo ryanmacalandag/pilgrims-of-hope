@@ -207,7 +207,12 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 144.4036928,
     image: '/sites/diocesan-shrine-of-our-lady-of-the-immaculate-conception.jpg',
     description: [
-      'No description available',
+      'The Immaculate Conception Catholic Church, Carcoar, was proclaimed a shrine of the Diocese of Bathurst in 2022 by Bishop Michael McKenna.',
+      'Part of the Parish of Blayney, the church building designed by Edward Gell was erected in 1870.',
+      'A nearby convent was built in 1874.',
+    ],
+    sources: [
+      'https://www.churchesaustralia.org/list-of-churches/locations/new-south-wales/directory/2284-the-immaculate-conception-catholic-church',
     ],
     types: [
       'cathedral',
@@ -264,6 +269,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     sources: [
       'https://www.bbcatholic.org.au/gosford/our-parish/history',
+      'https://catholic-parish-of-st-patricks-gosford.square.site/',
     ],
     types: [
       'church',
@@ -288,7 +294,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.1793841,
     image: '/sites/our-lady-of-dolours-church-chatswood-with-the-relic-of-blessed-carlo-acutis.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -313,7 +320,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.2837963,
     image: '/sites/st-marys-church-manly-with-the-relic-of-st-john-vianney.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -338,7 +346,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: -35.106724,
     image: '/sites/st-michaels-cathedral-wagga-wagga.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'cathedral',
@@ -393,7 +402,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 149.413599,
     image: '/sites/sacred-heart-church-griffith.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -441,7 +451,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/st-mels-church-narrandera.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -465,7 +476,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/st-josephs-church-leeton.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -587,7 +599,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/basilica-of-st-patrick-fremantle.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'cathedral',
@@ -611,7 +624,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 115.7992628,
     image: '/sites/carmelite-monastery-nedlands.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'monastery',
@@ -689,7 +703,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 116.0185165,
     image: '/sites/schoenstatt-shrine.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'shrine',
@@ -714,7 +729,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 114.6112318,
     image: '/sites/monsignor-hawes-heritage-trail.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'trail',
@@ -737,7 +753,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 114.6112014,
     image: '/sites/camino-san-francisco.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     sources: [
       'https://www.monsignorhawes.com',
@@ -764,7 +781,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/st-marouns-cathedral.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'cathedral',
@@ -818,7 +836,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/st-charbels-church.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -842,7 +861,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/our-lady-of-lebanon-church.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -865,7 +885,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 146.8323988,
     image: '/sites/holy-trinity-catholic-church-westbury.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -948,7 +969,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 147.3091423,
     image: '/sites/diocesan-shrine-of-our-lady-of-victories-lutana.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -1037,7 +1059,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 122.238615,
     image: '/sites/our-lady-queen-of-peace-cathedral.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'cathedral',
@@ -1061,7 +1084,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 128.1241439,
     image: '/sites/sacred-heart-church-beagle-bay.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -1085,7 +1109,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/our-lady-of-the-assumption-church.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'church',
@@ -1162,7 +1187,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/the-mary-mackillop-walk.jpg',
     description: [
-      'No description available',
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
     types: [
       'trail',

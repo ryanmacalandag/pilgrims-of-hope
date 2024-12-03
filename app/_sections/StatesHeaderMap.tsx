@@ -26,7 +26,7 @@ export default function StatesHeaderMap({
         defaultZoom={zoom}
         minZoom={3}
         defaultCenter={center}
-        disableDefaultUI={false}
+        disableDefaultUI={true}
         gestureHandling={"cooperative"}
         reuseMaps={true}
         mapId={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_ID}

@@ -27,7 +27,7 @@ export default async function Page() {
             </>
           </MainContentTitle>
           <MainContentSectionMargin>
-            <table className="table-auto my-12 border border-stone-200 rounded-lg divide-y-4 divide-stone-200">
+            <table className="table-auto my-12 border border-stone-200 rounded-lg divide-y-4 divide-stone-200 overflow-x-auto overflow-hidden">
               <thead className="rounded">
                 <tr className="bg-orange-100/40 divide-x divide-stone-200 font-bold">
                   <td className="w-20 px-4 pb-4 pt-6 items-end text-right">
