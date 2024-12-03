@@ -300,6 +300,9 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
       'Carlo Acutis grew up in Milan where his faith inspired him to create websites displaying Catholic miracles, encouraging people to return to the Eucharist. While he also loved computer games, he spent many hours helping the homeless and poor.',
       'He died within a week of his diagnosis on 12 October 2006 and is buried in Assisi.',
     ],
+    sources: [
+      'https://catholicweekly.com.au/carlo-acutis-relic-installation-chatswood/',
+    ],
     types: [
       'church',
       'relic'
@@ -325,6 +328,9 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'Information currently unavailable.',
       'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+    ],
+    sources: [
+      'https://www.churchhistories.net.au/church-catalog/manly-nsw-st-marys-catholic',
     ],
     types: [
       'church',
@@ -353,6 +359,9 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
       "A new church was consecrated on 2 October 1887.",
       "Joseph Wilfrid Dwyer was consecrated the first bishop of Wagga Wagga on 13 October 1918 and transform it from a parish church to a diocesan cathedral.",
       "The cathedral was opened and blessed on 22 March 1925 by the Apostolic Delegate to Australia Archbishop Bartholomeo Cattaneo.  ",
+    ],
+    sources: [
+      "St Michael's Cathedral, Wagga Wagga",
     ],
     types: [
       'cathedral',

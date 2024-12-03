@@ -99,7 +99,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
             })}
             {site.sources && (
               <div className="flex flex-col mt-16 py-3 border-y break-all">
-                <p>Source(s):</p>
+                <p>Text/image source(s):</p>
                 {site.sources.map((src, key) => {
                   return (
                     <a
