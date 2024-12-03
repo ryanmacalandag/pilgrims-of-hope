@@ -294,8 +294,10 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.1793841,
     image: '/sites/our-lady-of-dolours-church-chatswood-with-the-relic-of-blessed-carlo-acutis.jpg',
     description: [
-      'Information currently unavailable.',
-      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+      'A first-class relic of Blessed Carlo Acutis, who will be the Church’s first millennial saint when he is canonised in 2025, was installed at a Vigil Mass at Our Lady of Dolours, Chatswood, in October 2024.',
+      'The church has a chapel for Eucharistic Adoration which is home to the Carlo Acutis reliquary with the relic – two strands of hair from the young computer enthusiast and web designer who died of leukemia in Italy in 2006 aged 15.',
+      'Carlo Acutis grew up in Milan where his faith inspired him to create websites displaying Catholic miracles, encouraging people to return to the Eucharist. While he also loved computer games, he spent many hours helping the homeless and poor.',
+      'He died within a week of his diagnosis on 12 October 2006 and is buried in Assisi.',
     ],
     types: [
       'church',
@@ -346,8 +348,10 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: -35.106724,
     image: '/sites/st-michaels-cathedral-wagga-wagga.jpg',
     description: [
-      'Information currently unavailable.',
-      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+      "The original St Michael's Church was built in the late 1850s, with the foundation stone laid on 27 September 1858 by Reverend Michael McAlroy of the Yass Diocese  (now the Archdiocese of Canberra-Goulburn).",
+      "A new church was consecrated on 2 October 1887.",
+      "Joseph Wilfrid Dwyer was consecrated the first bishop of Wagga Wagga on 13 October 1918 and transform it from a parish church to a diocesan cathedral.",
+      "The cathedral was opened and blessed on 22 March 1925 by the Apostolic Delegate to Australia Archbishop Bartholomeo Cattaneo.  ",
     ],
     types: [
       'cathedral',
@@ -402,8 +406,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 149.413599,
     image: '/sites/sacred-heart-church-griffith.jpg',
     description: [
-      'Information currently unavailable.',
-      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+      'Sacred Heart Parish was founded in 1921.',
     ],
     types: [
       'church',
@@ -451,8 +454,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/st-mels-church-narrandera.jpg',
     description: [
-      'Information currently unavailable.',
-      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+      'St Mel’s Parish was founded in 1908.',
     ],
     types: [
       'church',
@@ -476,8 +478,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/st-josephs-church-leeton.jpg',
     description: [
-      'Information currently unavailable.',
-      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+      'St Joseph’s church was opened in May 1955.',
     ],
     types: [
       'church',
@@ -599,8 +600,9 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/basilica-of-st-patrick-fremantle.jpg',
     description: [
-      'Information currently unavailable.',
-      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+      "St Patrick's, Fremantle was established around 1850, the third Catholic community in Western Australia after St Mary's Cathedral Parish, Perth and the Benedictine community of New Norcia.",
+      "Until 1894 the Parish was served by Diocesan and Benedictine Priests.",
+      "Since 1894 the Parish has been entrusted to the Missionary Oblates of Mary Immaculate. It was their first foundation in Australia and they have now been responsible for its pastoral care for more than 125 years.",
     ],
     types: [
       'cathedral',
@@ -1187,8 +1189,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 151.20492718586553,
     image: '/sites/the-mary-mackillop-walk.jpg',
     description: [
-      'Information currently unavailable.',
-      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+      'The Aussie Camino® is a pilgrimage route running from Portland in Victoria to Penola in South Australia, inspired by the life and journeys of Australia’s Saint Mary of the Cross MacKillop and her mentor Fr Julian Tenison Woods. Based on the traditions of the Camino de Santiago de Compostela, pilgrims receive a guidebook, passport, scallop shell and stay in the local towns along the way.',
     ],
     types: [
       'trail',
