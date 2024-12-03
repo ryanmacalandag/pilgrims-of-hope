@@ -3,12 +3,12 @@ import React from "react";
 
 export default function JubileeCTADownload() {
   return (
-    <div className="flex flex-col gap-8 lg:gap-12 px-6 md:px-12 lg:px-16">
-      <div className="flex flex-col md:flex-row gap-4 items-start px-12 lg:px-20 py-12 md:py-16 text-white bg-green-800 border rounded-lg">
+    <div className="flex flex-col gap-8 lg:gap-12 px-8 md:px-12 lg:px-16">
+      <div className="flex flex-col md:flex-row gap-4 items-start px-10 lg:px-20 py-10 md:py-16 text-white bg-green-800 border rounded-lg">
         <div className="">
           <div className="flex flex-col gap-6 pl-0 md:pl-0">
             <p className="text-2xl md:text-3xl font-serif text-balance">
-              We have prepared Jubilee 2025 resources for Australians Catholics.
+              We have prepared Jubilee 2025 resources for Australian Catholics.
             </p>
           </div>
         </div>

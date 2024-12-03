@@ -55,8 +55,8 @@ export default function JubileePlenaryIndulgences() {
           </ul>
         </div>
         <div className="col-span-12 md:col-span-12">
-          <div className="flex flex-col gap-4 pl-6 pr- md:pr-8 mt-4 border-y py-4">
-            <p className="flex justify-start sm:justify-center items-center gap-3 text-amber-700">
+          <div className="flex flex-col gap-4 pl-0 pr- md:pr-8 mt-4 py-4">
+            <p className="flex flex-col sm:flex-row justify-start sm:justify-center items-start sm:items-center gap-3 text-amber-700">
               <BiBookmarkAltPlus className="flex-shrink-0 size-6"></BiBookmarkAltPlus>
               Plenary indulgences obtained during the Jubilee Year can also be
               applied to souls in purgatory.
