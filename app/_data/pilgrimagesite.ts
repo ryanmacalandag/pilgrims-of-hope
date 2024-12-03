@@ -392,7 +392,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
       'St. Patrick&#39;s was Albury&#39;s second Catholic church. The first church, St. Brigid&#39;s, was built in 1858 as a brick schoolroom. It continued as a school after St. Patrick&#39;s was completed and was demolished in 1938.',
     ],
     sources: [
-      'https://www.stpatricksalbury.org.au/history/',
+      'https://www.stpatricksalbury.org.au',
     ],
     types: [
       'church',
@@ -417,6 +417,9 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/sacred-heart-church-griffith.jpg',
     description: [
       'Sacred Heart Parish was founded in 1921.',
+    ],
+    sources: [
+      'https://wagga.catholic.org.au/directory/listing/griffith-parish/',
     ],
     types: [
       'church',
@@ -466,6 +469,9 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'St Mel’s Parish was founded in 1908.',
     ],
+    sources: [
+      "https://www.churchesaustralia.org",
+    ],
     types: [
       'church',
     ],
@@ -489,6 +495,9 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     image: '/sites/st-josephs-church-leeton.jpg',
     description: [
       'St Joseph’s church was opened in May 1955.',
+    ],
+    sources: [
+      'https://www.facebook.com/p/St-Josephs-Parish-Leeton-100083052244807/',
     ],
     types: [
       'church',
