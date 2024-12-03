@@ -8,7 +8,7 @@ export default function JubileeCTADownload() {
         <div className="">
           <div className="flex flex-col gap-6 pl-0 md:pl-0">
             <p className="text-2xl md:text-3xl font-serif text-balance">
-              We have repared Jubilee 2025 resources for Australians Catholics.
+              We have prepared Jubilee 2025 resources for Australians Catholics.
             </p>
           </div>
         </div>

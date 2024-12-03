@@ -42,10 +42,12 @@ export default function SocialShareButtons({
       </Link>
       <Link
         href={
-          "https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fpilgrims-of-hope.vercel.app%2Fsites%2F" +
-          site.slug +
-          "&title=" +
-          site.name
+          "mailto:?subject=" +
+          site.name +
+          "+-+Jubilee+2025+Pilgrimage+Site&body=Sharing+this+Jubilee+2025+Pilgrimage+site+located+in+the+" +
+          site.diocese +
+          ":+https://pilgrimsofhope.catholic.au/sites/" +
+          site.slug
         }
         target="_blank"
         className="w-full sm:w-fit flex gap-3 pr-4 justify-between items-center bg-red-600 saturate-50 hover:saturate-100 hover:-translate-y-2 text-white text-xs uppercase font-sans font-extrabold tracking-wider transition duration-300"
