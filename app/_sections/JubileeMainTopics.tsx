@@ -8,7 +8,7 @@ export default function JubileeMainTopics() {
       <Link
         href="https://www.iubilaeum2025.va/en.html"
         target="_blank"
-        className="relative col-span-12 md:col-span-4 aspect-video sm:aspect-banner md:aspect-square lg:aspect-video bg-green-800 text-white overflow-hidden hover:brightness-150 transition duration-300"
+        className="relative col-span-12 md:col-span-4 aspect-video sm:aspect-banner md:aspect-square lg:aspect-video bg-green-800 text-white overflow-hidden transition duration-300"
       >
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
           <div className="absolute bottom-0 left-0 w-full items-end z-10 font-bold px-8 py-8">
@@ -22,14 +22,15 @@ export default function JubileeMainTopics() {
             alt="main topic 1"
             width={395}
             height={148}
-            className="absolute top-0 left-0 z-0 w-full h-full object-cover object-center group-hover:scale-105 transition duration-300"
+            className="absolute top-0 left-0 z-0 w-full h-full object-cover object-center group-hover:scale-105 group-hover:brightness-75 transition duration-300"
           />
-          <div className="absolute bottom-0 left-0 z-0 w-full h-2/3 bg-gradient-to-t from-black/80 via-black/40 to-transparent translate-y-full group-hover:translate-y-1 transition duration-300"></div>
+          <div className="absolute bottom-0 left-0 z-0 w-full h-2/3 bg-gradient-to-t from-black/80 via-black/40 to-transparent translate-y-full transition duration-300"></div>
         </div>
+        <div className="absolute z-0 bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
       </Link>
       <Link
         href="#resources"
-        className="relative col-span-12 md:col-span-4 aspect-video sm:aspect-banner md:aspect-square lg:aspect-video px-8 py-8 bg-green-800 text-white overflow-hidden hover:brightness-150 transition duration-300"
+        className="relative col-span-12 md:col-span-4 aspect-video sm:aspect-banner md:aspect-square lg:aspect-video px-8 py-8 bg-green-800 text-white overflow-hidden transition duration-300"
       >
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
           <div className="absolute bottom-0 left-0 w-full items-end z-10 font-bold px-8 py-8">
@@ -43,20 +44,21 @@ export default function JubileeMainTopics() {
             alt="main topic 1"
             width={1080}
             height={720}
-            className="absolute top-0 left-0 z-0 w-full h-full object-cover object-center group-hover:scale-105 transition duration-300"
+            className="absolute top-0 left-0 z-0 w-full h-full object-cover object-center group-hover:scale-105 group-hover:brightness-75 transition duration-300"
           />
-          <div className="absolute bottom-0 left-0 z-0 w-full h-2/3 bg-gradient-to-t from-black/80 via-black/40 to-transparent translate-y-full group-hover:translate-y-1 transition duration-300"></div>
+          <div className="absolute bottom-0 left-0 z-0 w-full h-2/3 bg-gradient-to-t from-black/80 via-black/40 to-transparent translate-y-full transition duration-300"></div>
         </div>
+        <div className="absolute z-0 bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
       </Link>
       <Link
         href="#faq"
-        className="relative col-span-12 md:col-span-4 aspect-video sm:aspect-banner md:aspect-square lg:aspect-video px-8 py-8 bg-green-800 text-white overflow-hidden hover:brightness-150 transition duration-300"
+        className="relative col-span-12 md:col-span-4 aspect-video sm:aspect-banner md:aspect-square lg:aspect-video px-8 py-8 bg-green-800 text-white overflow-hidden transition duration-300"
       >
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
           <div className="absolute bottom-0 left-0 w-full items-end z-10 font-bold px-8 py-8">
             <div className="text-xs uppercase text-yellow-200">FAQ</div>
             <h3 className="text-2xl md:text-2xl font-serif font-bold">
-              Questions people ask
+              Questions pilgrims ask
             </h3>
           </div>
           <Image
@@ -64,10 +66,11 @@ export default function JubileeMainTopics() {
             alt="main topic 1"
             width={1080}
             height={720}
-            className="absolute top-0 left-0 z-0 w-full h-full object-cover object-center group-hover:scale-105 transition duration-300"
+            className="absolute top-0 left-0 z-0 w-full h-full object-cover object-center group-hover:scale-105 group-hover:brightness-75 transition duration-300"
           />
-          <div className="absolute bottom-0 left-0 z-0 w-full h-2/3 bg-gradient-to-t from-black/80 via-black/40 to-transparent translate-y-full group-hover:translate-y-1 transition duration-300"></div>
+          <div className="absolute bottom-0 left-0 z-10 w-full h-2/3 bg-gradient-to-t from-black/80 via-black/80 to-transparent translate-y-full transition duration-300"></div>
         </div>
+        <div className="absolute z-0 bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
       </Link>
     </div>
   );
