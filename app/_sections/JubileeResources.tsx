@@ -1,46 +1,11 @@
 import Link from "next/link";
 import React from "react";
 import { BiCloudDownload, BiFile } from "react-icons/bi";
-
-const downloads = [
-  {
-    title: "Download #",
-    type: "document",
-    url: "#",
-  },
-  {
-    title: "Download #2",
-    type: "document",
-    url: "#",
-  },
-  {
-    title: "Download #3",
-    type: "document",
-    url: "#",
-  },
-  {
-    title: "Download #4",
-    type: "document",
-    url: "#",
-  },
-  {
-    title: "Download #5",
-    type: "document",
-    url: "#",
-  },
-  {
-    title: "Download #6",
-    type: "document",
-    url: "#",
-  },
-  {
-    title: "Download #7",
-    type: "document",
-    url: "#",
-  },
-];
+import downloadables from "../_data/downloadables";
 
 export default function JubileeResources() {
+  const downloads = downloadables;
+
   return (
     <div
       id="resources"
@@ -64,20 +29,22 @@ export default function JubileeResources() {
           </div>
         </div>
         <div className="col-span-12 md:col-span-7">
-          <div className="grid grid-cols-12 gap-4">
+          <div className="grid grid-cols-12 gap-3 md:gap-4">
             {downloads.map((items, key) => {
               return (
                 <Link
-                  href={items.url}
+                  href={items.link}
+                  target="_blank"
                   key={key}
-                  className="group col-span-4 lg:col-span-3 flex flex-col justify-between items-center overflow-hidden aspect-document rounded-lg bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl transition duration-300"
+                  className="group relative col-span-4 sm:col-span-4 lg:col-span-3 grid grid-rows-12 overflow-hidden aspect-document rounded-lg bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl hover:ring-4 ring-green-700/40 hover:-translate-y-2 transition duration-300"
                 >
-                  <div className="flex flex-grow content-center items-center text-stone-600 group-hover:text-green-700 transition duration-300">
-                    <BiFile size={48}></BiFile>
+                  <div className="row-span-7 flex justify-center items-center text-stone-600/90 group-hover:text-green-700 transition duration-300 p-2 md:p-4">
+                    <BiFile className="size-10 md:size-12"></BiFile>
                   </div>
-                  <p className="w-full flex justify-center uppercase text-xxs bg-yellow-500/30 py-2">
-                    {items.title}
+                  <p className="row-span-5 w-full flex justify-center text-center text-balance text-xxs bg-stone-200 p-2 md:p-4 leading-tight text-ellipsis overflow-hidden">
+                    {items.name}
                   </p>
+                  <div className="absolute bottom-0 left-0 w-full h-[20px] bg-gradient-to-t from-stone-200 via-stone-200  to-transparent"></div>
                 </Link>
               );
             })}

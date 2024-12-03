@@ -9,10 +9,10 @@ import { openGraphImage } from "./shared-metadata";
 export const metadata: Metadata = {
   metadataBase: new URL("https://pilgrims-of-hope.vercel.app"),
   title: {
-    default: "Pilgrims of Hope | Guide to Jubilee 2025",
-    template: "%s - Jubilee 2025: Pilgrims of Hope",
+    default: "Pilgrims of Hope - Jubilee 2025 Resources",
+    template: "%s | Pilgrims of Hope - Jubilee 2025 Resources",
   },
-  description: "Australia's guide to the Jubilee 2025 pilgrimage sites.",
+  description: "Jubilee 2025 resources for Australian pilgrims.",
   ...openGraphImage,
   icons: {
     icon: "/favicon.ico",
