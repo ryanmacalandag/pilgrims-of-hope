@@ -1,7 +1,7 @@
 import { MainNav } from "../_sections/MainNav";
 import StatesFilter from "../_components/StatesFilter";
 import Footer from "../_sections/Footer";
-import JubileeFeaturedPilgrimageSites from "../_sections/JubileeFeaturedPilgrimageSites";
+import JubileeFeaturedPilgrimageSitesGridOnly from "../_sections/JubileeFeaturedPilgrimageSitesGridOnly";
 import JubileePlanningPilgrimage from "../_sections/JubileePlanningPilgrimage";
 
 export const metadata = {
@@ -15,7 +15,7 @@ export default function Sites() {
       <StatesFilter selected="featured"></StatesFilter>
       <div className="w-full max-w-screen-xl mx-auto px-4 md:px-12">
         <div className="py-10 md:py-20 bg-white rounded-xl shadow-lg space-y-16">
-          <JubileeFeaturedPilgrimageSites></JubileeFeaturedPilgrimageSites>
+          <JubileeFeaturedPilgrimageSitesGridOnly></JubileeFeaturedPilgrimageSitesGridOnly>
           <JubileePlanningPilgrimage></JubileePlanningPilgrimage>
         </div>
       </div>
