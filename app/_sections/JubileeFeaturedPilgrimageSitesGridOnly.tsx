@@ -24,7 +24,7 @@ export default function JubileeFeaturedPilgrimageSitesGridOnly() {
                   href={"/sites/" + site.slug}
                   title={site.name}
                   key={key}
-                  className="relative group col-span-6 sm:col-span-4 lg:col-span-3 [&:nth-child(5n+1)]:row-span-2 flex flex-col justify-between items-center overflow-hidden bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl hover:ring-4 ring-green-500/50 transition duration-300"
+                  className="relative group col-span-6 sm:col-span-4 lg:col-span-3 [&:nth-child(5n+1)]:row-span-2 aspect-video [&:nth-child(5n+1)]:aspect-auto flex flex-col justify-between items-center overflow-hidden bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl hover:ring-4 ring-green-500/50 transition duration-300"
                 >
                   <div className="absolute z-20 top-1/2 translate-y-60 group-hover:-translate-y-1/2 left-1/12 w-fit flex items-center gap-1 text-xs uppercase font-bold tracking-wider font-sans text-center text-white bg-green-700 px-3 py-2 rounded-full transition duration-300">
                     <BiSolidStar></BiSolidStar>

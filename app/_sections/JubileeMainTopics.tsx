@@ -8,7 +8,7 @@ export default function JubileeMainTopics() {
       <Link
         href="https://www.iubilaeum2025.va/en.html"
         target="_blank"
-        className="relative col-span-12 md:col-span-4 aspect-video sm:aspect-banner md:aspect-square lg:aspect-video bg-green-800 text-white overflow-hidden transition duration-300"
+        className="relative col-span-12 md:col-span-4 aspect-video md:aspect-square lg:aspect-video bg-green-800 text-white overflow-hidden transition duration-300"
       >
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
           <div className="absolute bottom-0 left-0 w-full items-end z-10 font-bold px-8 py-8">
@@ -30,7 +30,7 @@ export default function JubileeMainTopics() {
       </Link>
       <Link
         href="#resources"
-        className="relative col-span-12 md:col-span-4 aspect-video sm:aspect-banner md:aspect-square lg:aspect-video px-8 py-8 bg-green-800 text-white overflow-hidden transition duration-300"
+        className="relative col-span-12 md:col-span-4 aspect-video md:aspect-square lg:aspect-video px-8 py-8 bg-green-800 text-white overflow-hidden transition duration-300"
       >
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
           <div className="absolute bottom-0 left-0 w-full items-end z-10 font-bold px-8 py-8">
@@ -52,7 +52,7 @@ export default function JubileeMainTopics() {
       </Link>
       <Link
         href="#faq"
-        className="relative col-span-12 md:col-span-4 aspect-video sm:aspect-banner md:aspect-square lg:aspect-video px-8 py-8 bg-green-800 text-white overflow-hidden transition duration-300"
+        className="relative col-span-12 md:col-span-4 aspect-video md:aspect-square lg:aspect-video px-8 py-8 bg-green-800 text-white overflow-hidden transition duration-300"
       >
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
           <div className="absolute bottom-0 left-0 w-full items-end z-10 font-bold px-8 py-8">

@@ -30,11 +30,13 @@ export default function StatesHeaderMap({
         gestureHandling={"cooperative"}
         reuseMaps={true}
         mapId={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_ID}
+        zoomControl={false}
+        fullscreenControl={true}
       >
         {markers &&
           markers.map((marker, key) => {
             return (
-              <AdvancedMarker position={marker} key={key}>
+              <AdvancedMarker position={marker} key={key} title={"hello"}>
                 <Pin
                   background={"#0f9d58"}
                   borderColor={"#006425"}

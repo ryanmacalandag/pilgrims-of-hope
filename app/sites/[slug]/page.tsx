@@ -1,6 +1,7 @@
 import SiteDetails from "@/app/_components/SiteDetails";
 import { pilgrimageSites } from "@/app/_data/pilgrimagesite";
 import Footer from "@/app/_sections/Footer";
+import { MainNav } from "@/app/_sections/MainNav";
 import { Metadata } from "next";
 
 export async function generateMetadata({
@@ -54,6 +55,7 @@ export default async function Page({ params }: { params: ParamsType }) {
 
   return (
     <div className="h-full flex flex-col">
+      <MainNav></MainNav>
       <SiteDetails site={site!}></SiteDetails>
       <Footer></Footer>
     </div>

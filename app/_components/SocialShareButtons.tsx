@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { BiLogoFacebook, BiLogoLinkedin } from "react-icons/bi";
+import { BiEnvelope, BiLogoFacebook, BiLogoLinkedin } from "react-icons/bi";
 import { PilgrimageSiteType } from "../_data/pilgrimagesite";
 
 export default function SocialShareButtons({
@@ -20,7 +20,7 @@ export default function SocialShareButtons({
       >
         <BiLogoFacebook
           size={20}
-          className="w-fit h-fit px-4 py-5 bg-blue-900/40"
+          className="w-fit h-fit px-4 py-4 bg-blue-900/40"
         ></BiLogoFacebook>
         Share on Facebook
       </Link>
@@ -36,9 +36,25 @@ export default function SocialShareButtons({
       >
         <BiLogoLinkedin
           size={20}
-          className="w-fit h-fit px-4 py-5 bg-sky-800"
+          className="w-fit h-fit px-4 py-4 bg-sky-800"
         ></BiLogoLinkedin>
         Share on LinkedIn
+      </Link>
+      <Link
+        href={
+          "https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fpilgrims-of-hope.vercel.app%2Fsites%2F" +
+          site.slug +
+          "&title=" +
+          site.name
+        }
+        target="_blank"
+        className="w-full sm:w-fit flex gap-3 pr-4 justify-between items-center bg-red-600 saturate-50 hover:saturate-100 hover:-translate-y-2 text-white text-xs uppercase font-sans font-extrabold tracking-wider transition duration-300"
+      >
+        <BiEnvelope
+          size={20}
+          className="w-fit h-fit px-4 py-4 bg-red-700"
+        ></BiEnvelope>
+        Share by Email
       </Link>
     </div>
   );

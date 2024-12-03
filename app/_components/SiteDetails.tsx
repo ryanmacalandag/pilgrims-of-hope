@@ -3,7 +3,14 @@ import { PilgrimageSiteType } from "../_data/pilgrimagesite";
 import { BackButton } from "@/app/_components/BackButton";
 import Image from "next/image";
 import Link from "next/link";
-import { BiHome, BiEnvelope, BiMap, BiPhone, BiZoomIn } from "react-icons/bi";
+import {
+  BiHome,
+  BiEnvelope,
+  BiMap,
+  BiPhone,
+  BiZoomIn,
+  BiSolidStar,
+} from "react-icons/bi";
 import SocialShareButtons from "./SocialShareButtons";
 
 type SiteDetailsPropsType = {
@@ -29,14 +36,18 @@ function imageLoader(name: string, type: string, city: string, state: string) {
 export default async function SiteDetails({ site }: SiteDetailsPropsType) {
   return (
     <section className="w-full flex-grow max-w-screen-lg mx-auto flex flex-col gap-6 mt-12">
-      <BackButton></BackButton>
-      <div className="flex flex-col gap-2 mt-2 pl-12 overflow-hidden">
-        <div className="flex gap-2">
+      <div className="flex flex-col gap-3 mt-2 pl-6 sm:pl-12 overflow-hidden">
+        <div className="flex gap-1">
+          <Link href={"/sites/"} aria-label="favourites">
+            <div className="text-yellow-50 bg-stone-600 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-green-600 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xxs font-sans uppercase tracking-wider">
+              <BiSolidStar></BiSolidStar>
+            </div>
+          </Link>
           <Link
             href={"/states/" + site.state.toLowerCase()}
             aria-label={site.state}
           >
-            <div className="text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-green-700 rounded-full px-3 sm:px-3 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider">
+            <div className="text-yellow-50 bg-green-700 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-green-600 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xxs font-sans uppercase tracking-wider">
               {site!.state}
             </div>
           </Link>
@@ -46,7 +57,7 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
             }
             aria-label={site.diocese}
           >
-            <div className="text-stone-700 bg-stone-300/60 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-green-700 rounded-full px-3 sm:px-3 py-1 sm:py-2 transition duration-300 text-xs font-sans uppercase tracking-wider">
+            <div className="text-yellow-50 bg-green-700 w-fit h-full flex justify-center items-center text-nowrap hover:text-white hover:bg-green-600 rounded-full px-3 sm:px-3 py-1 sm:py-1 transition duration-300 text-xxs font-sans uppercase tracking-wider">
               {site!.diocese}
             </div>
           </Link>

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function PopeFrancisQuotes() {
   return (
-    <div className="flex flex-col gap-8 text-center mt-6 lg:mt-12 py-12 lg:py-16 bg-stone-50">
+    <div className="flex flex-col gap-8 text-center mt-6 lg:mt-12 py-12 lg:py-16 bg-stone-100">
       <p className="w-full max-w-screen-lg mx-auto text-balance font-serif tracking-tight text-lg md:text-xl px-6 pt-6">
         &quot;For all of us, may the Jubilee be an opportunity to be renewed in
         hope. God&apos;s word helps us find reasons for that hope. Taking it as
@@ -14,7 +14,7 @@ export default function PopeFrancisQuotes() {
       <Link
         href="https://www.iubilaeum2025.va/en/giubileo-2025/bolla.html"
         target="_blank"
-        className="group flex justify-center items-center gap-2 hover:brightness-125 transition duration-300"
+        className="group flex justify-center items-center gap-2 hover:brightness-125 transition duration-300 mb-4"
       >
         <p className="bg-stone-300 rounded-full overflow-hidden">
           <Image

@@ -52,7 +52,7 @@ export default async function Page({ params }: { params: ParamsType }) {
       markers = markers;
       break;
     case "nt":
-      center = { lat: -19.19328997662307, lng: 133.56949379031533 };
+      center = { lat: -15.259139520617234, lng: 132.67229338139367 };
       zoom = 5;
       markers = markers;
       break;
@@ -62,13 +62,13 @@ export default async function Page({ params }: { params: ParamsType }) {
       markers = markers;
       break;
     case "sa":
-      center = { lat: -29.692602202325588, lng: 134.85748450266004 };
+      center = { lat: -33.92023440324915, lng: 138.62806742773373 };
       zoom = 5;
       markers = markers;
       break;
     case "tas":
       center = { lat: -41.79857478437049, lng: 146.46625309362932 };
-      zoom = 7;
+      zoom = 6;
       markers = markers;
       break;
     case "qld":
@@ -77,8 +77,8 @@ export default async function Page({ params }: { params: ParamsType }) {
       markers = markers;
       break;
     case "wa":
-      center = { lat: -26.0302136427162, lng: 122.15447828251364 };
-      zoom = 5;
+      center = { lat: -21.896351736145117, lng: 125.58119010528085 };
+      zoom = 4;
       markers = markers;
       break;
     default:

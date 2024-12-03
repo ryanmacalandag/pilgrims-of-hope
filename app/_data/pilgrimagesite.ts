@@ -109,6 +109,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     sources: [
       'https://saintchristopher.org.au/history',
+      'https://ryanmacalandag.com'
     ],
     types: [
       'cathedral',
@@ -587,7 +588,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'Basilica of St Patrick, Fremantle',
@@ -596,8 +597,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '47 Adelaide Street',
     city: 'Fremantle',
     state: 'WA',
-    lat: -33.838860249999996,
-    lng: 151.20492718586553,
+    lat: -32.0508629,
+    lng: 115.7500751,
     image: '/sites/basilica-of-st-patrick-fremantle.jpg',
     description: [
       "St Patrick's, Fremantle was established around 1850, the third Catholic community in Western Australia after St Mary's Cathedral Parish, Perth and the Benedictine community of New Norcia.",
@@ -622,7 +623,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '100 Adelma Road',
     city: 'Dalkeith',
     state: 'WA',
-    lat: -31.9921065,
+    lat: -31.9921065, 
     lng: 115.7992628,
     image: '/sites/carmelite-monastery-nedlands.jpg',
     description: [
@@ -731,14 +732,19 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 114.6112318,
     image: '/sites/monsignor-hawes-heritage-trail.jpg',
     description: [
-      'Information currently unavailable.',
-      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+      "Monsignor John Hawes was a priest and architect who designed and built many inspirational churches and other buildings in Western Australia's Mid-West, Gascoyne and Murchison areas  between 1915 and 1939.  He was a kind, passionate, and determined man who struggled daily to balance his architectural work with his religious duties.",
+      'The Hawes Heritage Trail takes you on a journey to the buildings he created where you will discover the fascinating story of his life and work.',
+      "The Trail takes you through diverse landscapes ranging from  stunning beaches to the edges of the outback and colourful spring wildflowers.   Step back in time and imagine this countryside as it would have been in John Hawes' day.",
+    ],
+    sources: [
+      'https://www.monsignorhawes.com/hawes-heritage-trail/',
     ],
     types: [
       'trail',
     ],
     contact: [
-      '',
+      '(08) 99379504',
+      'mhhc@geraldtoncatholic.org,au',
     ],
     website:
       'https://www.monsignorhawes.com/hawes-heritage-trail/',
@@ -755,11 +761,14 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 114.6112014,
     image: '/sites/camino-san-francisco.jpg',
     description: [
-      'Information currently unavailable.',
-      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+      "The Perenjori/Morawa Route is new territory for the Camino and will take us to 3 unique Hawes buildings - two churches and the Priest's Lodge in Morawa.",
+      "Depending on the winter rains, it promises to take in some beautiful wildflower country.",
+      "The group will be based at the Perenjori Caravan Park where they will have a choice of accommodation options from camping under the stars  to powered sites to cabins with ensuites.",
+      "The walk will begin at St Joseph's  Church  Perenjori on Saturday 27th  and finish at the Church of the Holy Cross in Morawa on Sunday 28th. Walkers will be transported back to Perenjori by coach for overnight stay on Saturday afternoon.",
     ],
     sources: [
-      'https://www.monsignorhawes.com',
+      'https://www.monsignorhawes.com/camino-san-francisco-2024-information-for-registration/',
+      'https://therecord.com.au/news/local/the-camino-san-francisco-in-search-of-western-australias-spiritual-heritage/',
     ],
     types: [
       'camino',
@@ -908,8 +917,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '42 Church St',
     city: 'Ross',
     state: 'TAS',
-    lat: -41.5263152,
-    lng: 146.8323988,
+    lat: -42.0307528,
+    lng: 147.4918955,
     image: '/sites/our-lady-of-the-sacred-heart-catholic-church-ross.jpg',
     description: [
       'The Church of Our Lady of the Sacred Heart occupies a prominent site at the heart of the Northern Midlands village of Ross, a beautiful settlement which, with its historic bridge, sandstone buildings and convict history, is listed on Australia&#39;s Register of the National Estate. ',
@@ -1025,8 +1034,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '82 Archibald Street',
     city: 'Lyneham',
     state: 'ACT',
-    lat: -33.838860249999996,
-    lng: 151.20492718586553,
+    lat: -35.2440203,
+    lng: 149.1186057,
     image: '/sites/st-volodymyrs-church.jpg',
     description: [
       'The memorial church of St. Volodymyr in Canberra is the newest Ukrainian Church in Australia and was built in 1988 to mark the Millennium of Christianity in Ukraine.',
@@ -1107,8 +1116,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'PMB 293',
     city: 'Wyndham',
     state: 'WA',
-    lat: -33.838860249999996,
-    lng: 151.20492718586553,
+    lat: -14.2961607,
+    lng: 126.6422389,
     image: '/sites/our-lady-of-the-assumption-church.jpg',
     description: [
       'Information currently unavailable.',
@@ -1191,6 +1200,9 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'The Aussie Camino® is a pilgrimage route running from Portland in Victoria to Penola in South Australia, inspired by the life and journeys of Australia’s Saint Mary of the Cross MacKillop and her mentor Fr Julian Tenison Woods. Based on the traditions of the Camino de Santiago de Compostela, pilgrims receive a guidebook, passport, scallop shell and stay in the local towns along the way.',
     ],
+    sources: [
+      'http://www.lifestyletravel.com.au/aussie-camino',
+    ],
     types: [
       'trail',
     ],
@@ -1199,7 +1211,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://www.aussiecamino.org/',
-    featured: false,
+    featured: true,
   },
   {
     name: 'St Patrick&#39;s Cathedral',
@@ -1441,8 +1453,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '90 Smith Street',
     city: 'Darwin',
     state: 'NT',
-    lat: -33.838860249999996,
-    lng: 151.20492718586553,
+    lat: -12.4591432,
+    lng: 130.8381873,
     image: '/sites/st-marys-cathedral-darwin.jpg',
     description: [
       'St Mary&#39;s Star of the Sea Cathedral is situated in the heart of the central business district of Darwin, and is the principal church of the Diocese of Darwin.',
@@ -1478,8 +1490,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: '39 Wakefield St',
     city: 'Adelaide',
     state: 'SA',
-    lat: -33.838860249999996,
-    lng: 151.20492718586553,
+    lat: -34.9290207,
+    lng: 138.6013943,
     image: '/sites/st-francis-xavier-cathedral-adelaide.jpg',
     description: [
       'The Cathedral is dedicated to the great 16th century Spanish Jesuit missionary saint who is also a patron of the Church in Australia and patron of our first bishop Francis Murphy (1844-58). Initial construction began in 1851 and there have been various phases of activity leading to the installation of the tower in 1996. The building of the Cathedral began in 1851, making it the oldest cathedral in Australia. The tower was not completed until 1996 – 145 years almost to the day after workers had dug the first sod for the beginning of work on the Cathedral site.',
@@ -1506,8 +1518,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Corner Portland Street and Petticoat Ln',
     city: 'Penola',
     state: 'SA',
-    lat: -37.5618795,
-    lng: 143.8527784,
+    lat: -37.5889566,
+    lng: 139.3662967,
     image: '/sites/mary-mackillop-penola-centre.jpg',
     description: [
       'This museum centre was erected to highlight the impressive life of St. Mary MacKillop, a religious sister who founded the Sisters of St Joseph of the Sacred Heart (known as the Josephites) in 1866 to establish numerous schools for the poor throughout Australia and New Zealand. The centre contains two sections – one that focuses on St. Mary MacKillop, and the other on Fr. Julian Tenison Woods, the co-founder of the order.',

@@ -31,7 +31,7 @@ export default function JubileeFeaturedPilgrimageSites() {
                 aria-label="View Jubilee 2025 Calendar"
                 className="w-fit flex flex-nowrap uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-4 md:px-6 lg:px-8 py-4 transition duration-300"
               >
-                View All Sites ⇢
+                All Pilgrimage Sites ⇢
               </Link>
               <Link
                 href="/flatlist"
