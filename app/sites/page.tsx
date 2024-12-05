@@ -5,6 +5,7 @@ import JubileeFeaturedPilgrimageSitesGridOnly from "../_sections/JubileeFeatured
 import JubileePlanningPilgrimage from "../_sections/JubileePlanningPilgrimage";
 import JubileeCTADownload from "../_sections/JubileeCTADownload";
 import PopeFrancisQuotes from "../_sections/PopeFrancisQuotes";
+import JubileePlenaryIndulgences from "../_sections/JubileePlenaryIndulgences";
 
 export const metadata = {
   title: "Australian Catholic Pilgrimage Sites",
@@ -20,6 +21,7 @@ export default function Sites() {
           <JubileeFeaturedPilgrimageSitesGridOnly></JubileeFeaturedPilgrimageSitesGridOnly>
           <JubileePlanningPilgrimage></JubileePlanningPilgrimage>
           <JubileeCTADownload></JubileeCTADownload>
+          <JubileePlenaryIndulgences></JubileePlenaryIndulgences>
           <PopeFrancisQuotes></PopeFrancisQuotes>
         </div>
       </div>
