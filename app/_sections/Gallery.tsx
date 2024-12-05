@@ -21,6 +21,17 @@ export default function Gallery({
 }) {
   return (
     <section>
+      {pages > 1 && (
+        <div className="w-full max-w-screen-xl mx-auto px-6 md:px-12">
+          <div className="border-t-2 border-green-500/40 border-dotted pt-8">
+            <GalleryPagination
+              filterBy={filterBy}
+              pages={pages}
+              current={current}
+            ></GalleryPagination>
+          </div>
+        </div>
+      )}
       <FilterLabel
         filterBy={filterBy}
         filteredTotal={filteredTotal}
@@ -40,13 +51,15 @@ export default function Gallery({
           )}
         </div>
       </div>
-      {pages > 1 && (
-        <GalleryPagination
-          filterBy={filterBy}
-          pages={pages}
-          current={current}
-        ></GalleryPagination>
-      )}
+      <div className="mt-12">
+        {pages > 1 && (
+          <GalleryPagination
+            filterBy={filterBy}
+            pages={pages}
+            current={current}
+          ></GalleryPagination>
+        )}
+      </div>
     </section>
   );
 }

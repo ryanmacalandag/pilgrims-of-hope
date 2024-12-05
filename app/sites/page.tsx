@@ -16,7 +16,7 @@ export default function Sites() {
       <MainNav></MainNav>
       <StatesFilter selected="featured"></StatesFilter>
       <div className="w-full max-w-screen-xl mx-auto px-4 md:px-12">
-        <div className="pt-12 md:pt-20 bg-white rounded-xl shadow-lg space-y-16 overflow-hidden">
+        <div className="pt-12 md:pt-16 bg-white rounded-xl shadow-lg space-y-16 overflow-hidden">
           <JubileeFeaturedPilgrimageSitesGridOnly></JubileeFeaturedPilgrimageSitesGridOnly>
           <JubileePlanningPilgrimage></JubileePlanningPilgrimage>
           <JubileeCTADownload></JubileeCTADownload>
