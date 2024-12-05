@@ -53,7 +53,10 @@ export const upcomingEvents: JubileeEvent[] = [
 
 export default function JubileeEvents() {
   return (
-    <div className="flex flex-col gap-8 lg:gap-12 px-8 md:px-12 lg:px-16">
+    <div
+      id="events"
+      className="flex flex-col gap-8 lg:gap-12 px-8 md:px-12 lg:px-16"
+    >
       <div className="border-b-2 border-green-500/40 border-dotted pb-1">
         <h3 className="flex gap-2 items-center text-sm md:text-base text-left font-sans font-bold text-green-700 uppercase tracking-wider">
           <BiCalendar></BiCalendar>

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function JubileeMainTopics() {
   return (
-    <div className="grid grid-cols-12 mt-4">
+    <div id="vatican" className="grid grid-cols-12 mt-4">
       <Link
         href="https://www.iubilaeum2025.va/en.html"
         target="_blank"

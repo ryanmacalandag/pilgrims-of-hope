@@ -15,7 +15,7 @@ const indulgences = [
 export default function JubileePlenaryIndulgences() {
   return (
     <div
-      id="indulgences"
+      id="plenary-indulgence"
       className="flex flex-col gap-8 lg:gap-12 px-8 md:px-12 lg:px-16"
     >
       <div className="border-b-2 border-green-500/40 border-dotted pb-1">

@@ -1,10 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import FooterMenu from "./FooterMenu";
 
 export default function Footer() {
   return (
-    <footer className="relative w-full mt-12">
-      <div className="w-full max-w-screen-xl mx-auto flex flex-col gap-2 px-6 py-16">
+    <footer className="relative w-full bg-green-800 text-amber-50/70 pt-16 md:pt-20 mt-24">
+      <FooterMenu></FooterMenu>
+      <div
+        id="copyright"
+        className="w-full max-w-screen-xl mx-auto flex flex-col gap-2 px-6 py-12 md:py-20"
+      >
         <p className="font-serif text-center text-lg sm:text-xl">
           pilgrimsofhope.catholic.au
         </p>

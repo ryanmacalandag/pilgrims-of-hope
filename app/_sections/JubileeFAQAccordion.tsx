@@ -69,10 +69,10 @@ export default function JubileeFAQAccordion() {
             <p className="flex gap-3">
               <span className="font-bold">Need help? </span>
               <Link
-                href="mailto:media@catholic.org.au"
+                href="https://www.catholic.au/s/contactus"
                 className="font-serif text-orange-800 hover:text-orange-400 border-b border-orange-500 border-dashed flex flex-row gap-1 items-center transition duration-300"
               >
-                Send an email
+                Contact us here
                 <BiMailSend size={20}></BiMailSend>
               </Link>
             </p>
