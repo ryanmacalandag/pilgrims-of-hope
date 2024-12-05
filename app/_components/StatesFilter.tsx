@@ -12,7 +12,7 @@ export default function StatesFilter({ selected }: { selected: string }) {
         className={
           (selected == "featured"
             ? "text-stone-100 bg-green-700 font-bold "
-            : "text-stone-700 bg-stone-300/60 ") +
+            : "text-green-700 bg-stone-300/60 ") +
           "w-fit flex justify-center hover:text-white hover:bg-green-700 rounded-full px-3 sm:px-3 py-[6px] sm:py-[9px] transition duration-300 text-sm font-sans uppercase tracking-wider"
         }
       >

@@ -2,7 +2,7 @@ import React from "react";
 import { PilgrimageSiteType } from "../_data/pilgrimagesite";
 import Link from "next/link";
 import Image from "next/image";
-import { BiRightArrowAlt } from "react-icons/bi";
+import { BiRightArrowAlt, BiSolidStar } from "react-icons/bi";
 
 type SiteCardPropType = {
   site: PilgrimageSiteType;
@@ -12,12 +12,20 @@ export default function SiteCard({ site }: SiteCardPropType) {
   return (
     <>
       {/* Site Card */}
-      <div className="group col-span-12 xs:col-span-6 sm:col-span-4 md:col-span-4 lg:col-span-3 grid grid-cols-12 grid-rows-none md:grid-rows-2 place-items-stretch p-4 gap-4 sm:gap-0 overflow-hidden shadow-md hover:shadow-lg hover:-translate-y-1 bg-white rounded-lg hover:ring-4 ring-green-500/50 transition duration-300">
+      <div className="group relative col-span-12 xs:col-span-6 sm:col-span-4 md:col-span-4 lg:col-span-3 grid grid-cols-12 grid-rows-none md:grid-rows-2 place-items-stretch p-4 gap-4 sm:gap-0 overflow-hidden shadow-md hover:shadow-lg hover:-translate-y-1 bg-white rounded-lg hover:ring-4 ring-green-500/50 transition duration-300">
         <div className="row-span-1 col-span-4 sm:col-span-12 aspect-square sm:aspect-video rounded overflow-hidden">
           <Link
             href={"/sites/" + site.slug}
             aria-label={site.name.replace(/&#39;/g, "'")}
           >
+            {site.featured && (
+              <div
+                title="featured"
+                className="absolute z-20 top-0 right-0 translate-y-full -translate-x-full w-fit flex items-center gap-1 text-xs uppercase font-bold tracking-wider font-sans text-center text-green-700 group-hover:text-white/90 bg-white/60 group-hover:bg-green-700 px-3 py-2 rounded-full transition duration-300"
+              >
+                <BiSolidStar></BiSolidStar>
+              </div>
+            )}
             <Image
               src={site!.image}
               alt={site!.name}

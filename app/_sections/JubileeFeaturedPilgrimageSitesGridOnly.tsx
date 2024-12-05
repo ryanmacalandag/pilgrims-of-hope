@@ -26,9 +26,14 @@ export default function JubileeFeaturedPilgrimageSitesGridOnly() {
                   key={key}
                   className="relative group col-span-6 sm:col-span-4 lg:col-span-3 [&:nth-child(5n+1)]:row-span-2 aspect-video [&:nth-child(5n+1)]:aspect-auto flex flex-col justify-between items-center overflow-hidden bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl hover:ring-4 ring-green-500/50 transition duration-300"
                 >
-                  <div className="absolute z-20 top-1/2 translate-y-60 group-hover:-translate-y-1/2 left-1/12 w-fit flex items-center gap-1 text-xs uppercase font-bold tracking-wider font-sans text-center text-white bg-green-700 px-3 py-2 rounded-full transition duration-300">
+                  <div
+                    title="featured"
+                    className="absolute z-20 top-0 right-0 translate-y-1/2 -translate-x-1/2 w-fit flex items-center gap-1 text-xs uppercase font-bold tracking-wider font-sans text-center text-green-700 group-hover:text-white/90 bg-white/60 group-hover:bg-green-700 px-3 py-2 rounded-full transition duration-300"
+                  >
                     <BiSolidStar></BiSolidStar>
-                    {site.state}
+                  </div>
+                  <div className="absolute z-50 bottom-0 left-0 translate-y-full group-hover:translate-y-0 w-full text-white text-xxs sm:text-xs text-balance px-2 sm:px-4 pb-2 sm:pb-4 pt-6 sm:pt-8 bg-gradient-to-t from-black/60 via-black/60 to-transparent transition duration-300">
+                    <span>{site.name.replace(/&#39;/g, "'")}</span>
                   </div>
                   <Image
                     src={site.image}
