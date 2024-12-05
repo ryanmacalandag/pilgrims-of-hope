@@ -12,6 +12,7 @@ import {
   BiSolidStar,
 } from "react-icons/bi";
 import SocialShareButtons from "./SocialShareButtons";
+import SocialShareIcons from "./SocialShareIcons";
 
 type SiteDetailsPropsType = {
   site: PilgrimageSiteType;
@@ -67,7 +68,8 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
           {site?.name.replace(/&#39;/g, "'")}
         </h1>
       </div>
-      <div className="group w-full aspect-video md:aspect-banner overflow-hidden">
+      <div className="group relative w-full aspect-video md:aspect-banner overflow-hidden">
+        <SocialShareIcons site={site}></SocialShareIcons>
         <Link href={"/photos/" + site.slug} className="cursor-zoom-in">
           <div className="relative flex flex-col justify-center items-center">
             <p className="absolute top-0 left-0 z-20 w-full h-full flex justify-center items-center gap-2 text-center text-stone-100 text-sm tracking-wider uppercase translate-y-12 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition duration-300">
