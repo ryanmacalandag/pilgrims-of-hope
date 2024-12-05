@@ -6,7 +6,7 @@ export default function HomeHero() {
     <section className="relative w-full">
       <div className="w-full max-w-screen-xl mx-auto grid grid-cols-12 gap-4 px-8 sm:px-12 pt-12 md:pt-12 xl:pt-20">
         <div className="col-span-12 md:col-span-12 flex flex-col gap-2 md:gap-4">
-          <div className="text-xxs md:text-xs lg:text-sm uppercase tracking-widest text-green-700 text-left sm:text-center mt-4">
+          <div className="text-xxs md:text-xs lg:text-sm uppercase font-semibold tracking-wide text-green-700 text-left sm:text-center mt-4">
             Jubilee 2025 Resources
           </div>
           <h1 className="w-full lg:max-w-screen-md mx-auto text-3xl md:text-4xl xl:text-4.5xl font-serif text-balance text-left sm:text-center tracking-tight">
@@ -23,7 +23,7 @@ export default function HomeHero() {
               aria-label="Download printable PDF"
               className="w-fit whitespace-nowrap uppercase text-sm font-bold tracking-widest border border-green-800 hover:border-green-800 bg-green-800 hover:bg-green-700 text-white px-8 py-4 transition duration-300"
             >
-              Learn More
+              Get Started
             </Link>
             <Link
               href="/sites/"
