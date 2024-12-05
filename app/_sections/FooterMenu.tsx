@@ -39,11 +39,11 @@ const pilgrimagemenulist: { label: string; href: string; icon?: string }[] = [
   },
   {
     label: "All Sites",
-    href: "/sites/all",
+    href: "/all/",
   },
   {
     label: "Flatlist",
-    href: "/sites/flatlist",
+    href: "/flatlist/",
   },
 ];
 
