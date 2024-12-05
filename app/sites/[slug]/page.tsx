@@ -10,7 +10,7 @@ export async function generateMetadata({
   params: ParamsType;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const sites = pilgrimageSites;
+  const sites = pilgrimageSites.sort((a, b) => a.name.localeCompare(b.name));
   const site = sites.find((s) => s.slug == slug);
 
   return {

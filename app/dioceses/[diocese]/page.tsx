@@ -13,7 +13,7 @@ export const metadata = {
 
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
-  const dioceses = await getAllDioceses;
+  const dioceses = getAllDioceses.sort((a, b) => a.localeCompare(b));
 
   return dioceses.map((d) => ({
     diocese: d.toLowerCase().split(" ").join("-"),
@@ -26,7 +26,7 @@ type ParamsType = Promise<{ diocese: string }>;
 // using the `params` returned by `generateStaticParams`
 export default async function Page({ params }: { params: ParamsType }) {
   const { diocese } = await params;
-  const sites = pilgrimageSites;
+  const sites = pilgrimageSites.sort((a, b) => a.name.localeCompare(b.name));
   const filteredSites = sites.filter(
     (s) => s.diocese.toLowerCase().split(" ").join("-") == diocese,
   );

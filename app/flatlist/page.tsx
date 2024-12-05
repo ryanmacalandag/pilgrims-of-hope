@@ -12,7 +12,7 @@ import Link from "next/link";
 // import { statesAU } from "../_components/StatesFilter";
 
 export default async function Page() {
-  const sites = pilgrimageSites;
+  const sites = pilgrimageSites.sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <div>

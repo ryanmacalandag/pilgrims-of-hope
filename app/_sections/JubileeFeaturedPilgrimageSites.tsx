@@ -49,7 +49,7 @@ export default function JubileeFeaturedPilgrimageSites() {
               return (
                 <Link
                   href={"/sites/" + site.slug}
-                  title={site.name}
+                  title={site.name.replace(/&#39;/g, "'")}
                   key={key}
                   className="relative group col-span-4 lg:col-span-3 flex flex-col justify-between items-center overflow-hidden aspect-square bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl hover:ring-4 ring-green-500/50 transition duration-300"
                 >

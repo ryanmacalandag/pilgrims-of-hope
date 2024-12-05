@@ -6,7 +6,7 @@ import Gallery from "@/app/_sections/Gallery";
 import StatesHeaderMap from "../_sections/StatesHeaderMap";
 
 const MAX_ITEMS: number = 16;
-const allSites = pilgrimageSites;
+const allSites = pilgrimageSites.sort((a, b) => a.name.localeCompare(b.name));
 const pagesList = new Array(Math.ceil(allSites.length / MAX_ITEMS));
 const filteredTotal = allSites.length;
 

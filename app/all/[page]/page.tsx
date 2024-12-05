@@ -7,7 +7,7 @@ import StatesHeaderMap from "@/app/_sections/StatesHeaderMap";
 
 const MAX_ITEMS: number = 16;
 const pages = new Array(Math.ceil(pilgrimageSites.length / MAX_ITEMS));
-const allSites = pilgrimageSites;
+const allSites = pilgrimageSites.sort((a, b) => a.name.localeCompare(b.name));
 const filteredTotal = allSites.length;
 
 export const metadata = {

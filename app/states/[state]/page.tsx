@@ -28,7 +28,9 @@ type ParamsType = Promise<{ state: string }>;
 export default async function Page({ params }: { params: ParamsType }) {
   const { state } = await params;
   const sites = pilgrimageSites;
-  const filteredSites = sites.filter((s) => s.state.toLowerCase() == state);
+  const filteredSites = sites
+    .filter((s) => s.state.toLowerCase() == state)
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   let center: google.maps.LatLngLiteral;
   let zoom: number;

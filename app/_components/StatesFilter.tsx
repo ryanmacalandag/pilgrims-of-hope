@@ -1,7 +1,16 @@
 import Link from "next/link";
 import React from "react";
 import { BiSolidStar } from "react-icons/bi";
-export const statesAU = ["act", "nsw", "nt", "vic", "sa", "tas", "qld", "wa"];
+export const statesAU = [
+  "act",
+  "nsw",
+  "nt",
+  "vic",
+  "sa",
+  "tas",
+  "qld",
+  "wa",
+].sort((a, b) => a.localeCompare(b));
 
 export default function StatesFilter({ selected }: { selected: string }) {
   return (

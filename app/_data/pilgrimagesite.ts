@@ -329,9 +329,9 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
       'Information currently unavailable.',
       'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
     ],
-    sources: [
-      'https://www.churchhistories.net.au/church-catalog/manly-nsw-st-marys-catholic',
-    ],
+      sources: [
+        'https://www.churchhistories.net.au/church-catalog/manly-nsw-st-marys-catholic',
+      ],
     types: [
       'church',
       'relic',
@@ -372,7 +372,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'www.stpatricksalbury.org.au',
-    featured: false,
+    featured: true,
   },
   {
     name: 'St Patrick&#39;s Church Albury',
@@ -454,7 +454,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       '',
-    featured: true,
+    featured: false,
   },
   {
     name: 'St Mel&#39;s Church, Narrandera',
@@ -547,6 +547,9 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     description: [
       'Pioneer priest of north-east Victoria, at St Patrick&#39;s Church, Wangaratta.',
       'Rev. George Galen is buried inside St Patrick’s Church, Wangaratta (need to visit when Church is open or prearrange).',
+    ],
+    sources: [
+      "https://stainedglassaustralia.wordpress.com",
     ],
     types: [
       'grave',
@@ -671,7 +674,11 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 115.8050431,
     image: '/sites/st-john-paul-ii-catholic-church-banksia-grove.jpg',
     description: [
+      'Building plans of St John Paul II Banksia Grove commenced in 2015.',
       'Image: ©Silverstone Photography/DWA Architects/Metrocon for St John Paul II Church, Banksia Grove',
+    ],
+    sources: [
+      'https://therecord.com.au/news/local/perths-newest-church-of-st-john-paul-ii-banksia-grove-dedicated-and-opened-on-australia-day/',
     ],
     types: [
       'church',
@@ -1582,6 +1589,92 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'jisa.org.au/sa-sevenhill/',
+    featured: false,
+  },
+  {
+    name: "St Patrick's Cathedral",
+    slug: 'st-patricks-cathedral-melbourne',
+    diocese: 'Archdiocese of Melbourne',
+    street: '1 Cathedral Place',
+    city: 'East Melbourne',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-patricks-cathedral-melbourne.jpg',
+    description: [
+      'The chief draw card might be the ascending basalt columns, the gleaming mosaics and marble which highlight architect William Wardell’s wonderful design. But for the Catholic community this building holds Archbishop Peter A Comensoli’s chair (Latin: cathedra) on the sanctuary, which represents his prayerful leadership of our sacramental celebrations and pastoral life. Our parishes are connected to, and look towards, the cathedral for spiritual inspiration and connection to the Church of Rome.',
+      'Our cathedral is dedicated to St Patrick, the pioneering Irish bishop who faithfully and courageously led the Church in Ireland and who initiated many changes to that society.',
+      'Our cathedral also enjoys a rare distinction in design. The windows in the nave, unlike the usual stained-glass style, are made of translucent alabaster that gives the body of the building a golden glow. The lay people who pray and celebrate the sacred mysteries at ‘St Pat’s’ are placed in a luminous clearing and bathed in a glorious tint. The dignity of their baptism, friendship with Christ and membership of his body is affirmed in this unique hue.',
+      'The central spire is no longer the tallest structure in the Melbourne cityscape, nevertheless, for the friends of Christ, everything we celebrate about God’s love for us in the cathedral is meant to be heard throughout our city and state.',
+    ],
+    sources: [
+      'https://melbournecatholic.org/about/st-patricks-cathedral',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '9662 2233',
+      'cathedral@cam.org.au',
+    ],
+    website:
+      'http://www.cam.org.au/cathedral',
+    featured: false,
+  },
+  {
+    name: "St Mary Star of the Sea (Archdiocesan Shrine of the Holy Family)",
+    slug: 'st-mary-star-of-the-sea-archdiocesan-shrine-of-the-holy-family',
+    diocese: 'Archdiocese of Melbourne',
+    street: '33 Howard Street',
+    city: 'West Melbourne',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-mary-star-of-the-sea-archdiocesan-shrine-of-the-holy-family.jpg',
+    description: [
+      "Saint Mary Star of the Sea is one of the most strikingly beautiful churches in Australia.",
+      "Since 2001, this parish has been entrusted to the care of priests of Opus Dei. In 2012, St Mary's became Melbourne Archdiocesan Shrine of the Holy Family.",
+    ],
+    sources: [
+      'https://www.stmaryswestmelbourne.org/about',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 9328 3474',
+      'melbournewest@cam.org.au',
+    ],
+    website:
+      'http://www.stmaryswestmelbourne.org/',
+    featured: false,
+  },
+  {
+    name: "St Mary MacKillop",
+    slug: 'st-mary-mackillop-keilor-downs',
+    diocese: 'Archdiocese of Melbourne',
+    street: '152 Odessa Avenue',
+    city: 'Keilor Downs',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-mary-mackillop-keilor-downs.jpg',
+    description: [
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+    ],
+    sources: [
+      'https://www.stmaryoftheassumption.org.au/',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 9364 0440',
+      'reception@stma.com.au',
+    ],
+    website:
+      'http://www.stmaryoftheassumption.org.au/ ',
     featured: false,
   },
 ];

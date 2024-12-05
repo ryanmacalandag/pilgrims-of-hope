@@ -5,7 +5,9 @@ import { pilgrimageSites } from "../_data/pilgrimagesite";
 import Image from "next/image";
 
 export default function JubileeFeaturedPilgrimageSitesGridOnly() {
-  const allFeaturedSites = pilgrimageSites.filter((s) => s.featured);
+  const allFeaturedSites = pilgrimageSites
+    .filter((s) => s.featured)
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <div className="flex flex-col gap-4 lg:gap-6">
@@ -22,7 +24,7 @@ export default function JubileeFeaturedPilgrimageSitesGridOnly() {
               return (
                 <Link
                   href={"/sites/" + site.slug}
-                  title={site.name}
+                  title={site.name.replace(/&#39;/g, "'")}
                   key={key}
                   className="relative group col-span-6 sm:col-span-4 lg:col-span-3 [&:nth-child(5n+1)]:row-span-2 aspect-video [&:nth-child(5n+1)]:aspect-auto flex flex-col justify-between items-center overflow-hidden bg-stone-100 hover:bg-stone-200/50 hover:shadow-xl hover:ring-4 ring-green-500/50 transition duration-300"
                 >
