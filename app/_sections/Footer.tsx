@@ -65,7 +65,7 @@ export default function Footer() {
                 alt="Jubilee 2025 logo"
                 width={260}
                 height={235}
-                className="w-auto h-full min-h-fit"
+                className="w-auto h-full min-h-fit object-contain"
               />
             </Link>
           </div>
