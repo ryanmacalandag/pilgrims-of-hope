@@ -3,11 +3,8 @@ import { pilgrimageSites } from "@/app/_data/pilgrimagesite";
 import StatesFilter from "@/app/_components/StatesFilter";
 import Footer from "@/app/_sections/Footer";
 import StatesHeaderMap from "../_sections/StatesHeaderMap";
-import JubileeCTADownload from "../_sections/JubileeCTADownload";
-import PopeFrancisQuotes from "../_sections/PopeFrancisQuotes";
 import PilgrimageDioceses from "../_sections/PilgrimageDioceses";
 
-const MAX_ITEMS: number = 16;
 const allSites = pilgrimageSites.toSorted((a, b) =>
   a.name.localeCompare(b.name),
 );
@@ -34,10 +31,8 @@ export default function Page() {
       ></StatesHeaderMap>
       <StatesFilter selected="all"></StatesFilter>
       <div className="w-full max-w-screen-xl mx-auto px-4 md:px-12">
-        <div className="pt-12 md:pt-16 bg-white rounded-xl shadow-lg space-y-16 overflow-hidden">
+        <div className="py-12 md:py-16 bg-white rounded-xl shadow-lg space-y-16 overflow-hidden">
           <PilgrimageDioceses></PilgrimageDioceses>
-          <JubileeCTADownload></JubileeCTADownload>
-          <PopeFrancisQuotes></PopeFrancisQuotes>
         </div>
       </div>
       <Footer></Footer>
