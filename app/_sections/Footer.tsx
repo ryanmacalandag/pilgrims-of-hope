@@ -26,28 +26,49 @@ export default function Footer() {
             {Number(new Date().getFullYear()) + 1} All rights reserved.
           </p>
         </div>
-        <div id="acbc" className="flex gap-4 py-4">
-          <Link href="https://www.catholic.au/s/" target="_blank">
-            <Image
-              src="/branding/acbc-logo-160x235px.png"
-              alt="ACBC logo"
-              width={160}
-              height={235}
-              className="w-fit"
-            />
-          </Link>
-          <Link
-            href="https://www.acsltd.org.au/ncss-commitment/"
-            target="_blank"
-          >
-            <Image
-              src="/branding/jubilee2025-logo-260x235px.png"
-              alt="NCSS Commitment badge"
-              width={260}
-              height={235}
-              className="w-fit"
-            />
-          </Link>
+        <div
+          id="logos"
+          className="w-full flex gap-4 justify-between py-4 h-[100] lg:h-[120] overflow-hidden"
+        >
+          <div className="flex flex-grow justify-normal">
+            <Link href="https://www.catholic.au/s/" target="_blank">
+              <Image
+                src="/branding/acbc-logo-160x235px.png"
+                alt="ACBC logo"
+                width={260}
+                height={235}
+                className="w-fit h-full min-h-fit"
+              />
+            </Link>
+            <Link
+              href="https://www.acsltd.org.au/ncss-commitment/"
+              target="_blank"
+              className="w-full"
+            >
+              <Image
+                src="/branding/ncss-commitment-badge-130px.png"
+                alt="NCSS Commitment Badge"
+                width={260}
+                height={235}
+                className="w-fit h-full min-h-fit"
+              />
+            </Link>
+          </div>
+          <div className="w-fit flex-grow-0 flex justify-end">
+            <Link
+              href="https://www.iubilaeum2025.va/en.html"
+              target="_blank"
+              className="flex justify-end"
+            >
+              <Image
+                src="/branding/jubilee2025-logo-300px.png"
+                alt="Jubilee 2025 logo"
+                width={260}
+                height={235}
+                className="w-auto h-full min-h-fit"
+              />
+            </Link>
+          </div>
         </div>
       </div>
 

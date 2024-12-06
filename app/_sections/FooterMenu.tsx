@@ -163,10 +163,10 @@ export default function FooterMenu() {
           </div>
         </div>
         <div className="col-span-12 sm:col-span-12 lg:col-span-4 flex justify-center py-8 lg:py-0">
-          <Link href="https://www.iubilaeum2025.va/en.html" target="_blank">
+          <Link href="/">
             <Image
-              src="/branding/jubilee2025-logo-300px.png"
-              alt="Jubilee 2025 Official Logo"
+              src="/branding/pilgrims-logo-reverse.png"
+              alt="Piligrims of Hope"
               width={300}
               height={300}
               className="w-fit"

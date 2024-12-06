@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-//@fontscource
-// Supports weights 100-900
+import { openGraphImage } from "./shared-metadata";
+
+//@fontscource -- Supports weights 100-900
 import "@fontsource-variable/roboto-slab";
 import "@fontsource-variable/noto-sans";
-import { openGraphImage } from "./shared-metadata";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pilgrims-of-hope.vercel.app"),
@@ -34,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth scroll-pt-6">
       <body className={`antialiased bg-shale`}>{children}</body>
     </html>
   );
