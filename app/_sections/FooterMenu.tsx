@@ -88,9 +88,9 @@ export default function FooterMenu() {
       <div className="w-full max-w-screen-xl mx-auto px-8 md:px-20 grid grid-cols-12 gap-6 md:gap-8 gap-y-12 xl:gap-12">
         <div className="col-span-6 sm:col-span- lg:col-span-2">
           <div className="flex flex-col gap-2">
-            <h3 className="text-xs uppercase font-bold text-orange-300 tracking-wider mb-4 md:mb-6">
+            <h2 className="text-xs uppercase font-bold text-orange-300 tracking-wider mb-4 md:mb-6">
               Jubilee Links
-            </h3>
+            </h2>
             {jubileemenulist &&
               jubileemenulist.map((item, key) => {
                 return (
@@ -107,9 +107,9 @@ export default function FooterMenu() {
         </div>
         <div className="col-span-6 sm:col-span- lg:col-span-2">
           <div className="flex flex-col gap-2">
-            <h3 className="text-xs uppercase font-bold text-orange-300 tracking-wider mb-4 md:mb-6">
+            <h2 className="text-xs uppercase font-bold text-orange-300 tracking-wider mb-4 md:mb-6">
               Pilgrimage Links
-            </h3>
+            </h2>
             {pilgrimagemenulist &&
               pilgrimagemenulist.map((item, key) => {
                 return (
@@ -126,9 +126,9 @@ export default function FooterMenu() {
         </div>
         <div className="col-span-6 sm:col-span- lg:col-span-2">
           <div className="flex flex-col gap-2">
-            <h3 className="text-xs uppercase font-bold text-orange-300 tracking-wider mb-4 md:mb-6">
+            <h2 className="text-xs uppercase font-bold text-orange-300 tracking-wider mb-4 md:mb-6">
               Site Filters
-            </h3>
+            </h2>
             {sitefiltersmenulist &&
               sitefiltersmenulist.map((item, key) => {
                 return (
@@ -145,9 +145,9 @@ export default function FooterMenu() {
         </div>
         <div className="col-span-6 sm:col-span- lg:col-span-2">
           <div className="flex flex-col gap-2">
-            <h3 className="text-xs uppercase font-bold text-orange-300 tracking-wider mb-4 md:mb-6">
+            <h2 className="text-xs uppercase font-bold text-orange-300 tracking-wider mb-4 md:mb-6">
               Essential Policies
-            </h3>
+            </h2>
             {productionmenulist &&
               productionmenulist.map((item, key) => {
                 return (
@@ -163,13 +163,13 @@ export default function FooterMenu() {
           </div>
         </div>
         <div className="col-span-12 sm:col-span-12 lg:col-span-4 flex justify-center py-8 lg:py-0">
-          <Link href="/">
+          <Link href="/#">
             <Image
               src="/branding/pilgrims-logo-reverse.png"
               alt="Piligrims of Hope"
-              width={300}
-              height={300}
-              className="w-fit mt-8 lg:mt-0"
+              width={170}
+              height={170}
+              className="w-fit mt-8 lg:mt-0 opacity-85 hover:opacity-100 hover:-translate-y-1 transition duration-300"
             />
           </Link>
         </div>

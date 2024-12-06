@@ -12,10 +12,10 @@ export default function JubileeFeaturedPilgrimageSitesGridOnly() {
   return (
     <div id="sites-featured" className="flex flex-col gap-4 lg:gap-6">
       <div className="border-b-2 border-green-500/40 border-dotted pb-1 px-6 md:px-12 lg:px-16">
-        <h3 className="flex gap-2 items-center text-sm md:text-base text-left font-sans font-bold text-green-700 uppercase tracking-wider">
+        <h2 className="flex gap-2 items-center text-sm md:text-base text-left font-sans font-bold text-green-700 uppercase tracking-wider">
           <BiSolidStar></BiSolidStar>
           Featured Pilgrimage Sites
-        </h3>
+        </h2>
       </div>
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-12">

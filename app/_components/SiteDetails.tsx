@@ -138,7 +138,11 @@ export default async function SiteDetails({ site }: SiteDetailsPropsType) {
             <h4 className="text-xs text-green-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">
               <BiEnvelope size={16}></BiEnvelope> Address
             </h4>
-            <p>{site!.street + ", " + site!.city + ", " + site!.state}</p>
+            <p>
+              {site.street && site!.street.replace(/&#39;/g, "'") + ", "}
+              {site.city && site!.city.replace(/&#39;/g, "'") + ", "}{" "}
+              {site.state && site!.state}
+            </p>
           </div>
           <div className="divide-y divide-stone-400 divide-dotted *:py-2 break-all">
             <h4 className="text-xs text-green-800 font-extrabold tracking-widest uppercase mt-2 sm:mt-0 flex items-center gap-2">

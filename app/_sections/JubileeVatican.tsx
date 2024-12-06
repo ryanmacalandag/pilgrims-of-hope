@@ -11,9 +11,9 @@ export default function JubileeMainTopics() {
         className="relative col-span-12 md:col-span-4 aspect-video sm:aspect-banner md:aspect-square lg:aspect-video bg-green-800 text-white overflow-hidden hover:brightness-150 transition duration-300"
       >
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
-          <h3 className="absolute bottom-0 left-0 w-full items-end z-10 text-2xl md:text-2xl font-serif font-bold px-8 py-8">
+          <h2 className="absolute bottom-0 left-0 w-full items-end z-10 text-2xl md:text-2xl font-serif font-bold px-8 py-8">
             What is Jubilee 2025?
-          </h3>
+          </h2>
           <Image
             src="/jubilee/jubilee-main-topic-1.jpg"
             alt="main topic 1"

@@ -4,7 +4,7 @@ import { BiGridAlt, BiHome } from "react-icons/bi";
 
 export const MainMenu = () => {
   return (
-    <div className="">
+    <div id="top">
       <div className="flex flex-row">
         <Link
           href="/"

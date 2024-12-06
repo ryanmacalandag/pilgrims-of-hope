@@ -13,9 +13,9 @@ export default function JubileeMainTopics() {
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
           <div className="absolute bottom-0 left-0 w-full items-end z-10 font-bold px-8 py-8">
             <div className="text-xs uppercase text-yellow-200">Watch Video</div>
-            <h3 className="text-2xl md:text-2xl font-serif font-bold">
+            <h2 className="text-2xl md:text-2xl font-serif font-bold">
               What is Jubilee 2025?
-            </h3>
+            </h2>
           </div>
           <Image
             src="/jubilee/jubilee-main-topic-1.jpg"
@@ -35,9 +35,9 @@ export default function JubileeMainTopics() {
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
           <div className="absolute bottom-0 left-0 w-full items-end z-10 font-bold px-8 py-8">
             <div className="text-xs uppercase text-yellow-200">Downloads</div>
-            <h3 className="text-2xl md:text-2xl font-serif font-bold">
+            <h2 className="text-2xl md:text-2xl font-serif font-bold">
               Australian Resources
-            </h3>
+            </h2>
           </div>
           <Image
             src="/jubilee/jubilee-main-topic-2.jpg"
@@ -57,9 +57,9 @@ export default function JubileeMainTopics() {
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
           <div className="absolute bottom-0 left-0 w-full items-end z-10 font-bold px-8 py-8">
             <div className="text-xs uppercase text-yellow-200">FAQ</div>
-            <h3 className="text-2xl md:text-2xl font-serif font-bold">
+            <h2 className="text-2xl md:text-2xl font-serif font-bold">
               Questions pilgrims ask
-            </h3>
+            </h2>
           </div>
           <Image
             src="/jubilee/jubilee-main-topic-3.jpg"
