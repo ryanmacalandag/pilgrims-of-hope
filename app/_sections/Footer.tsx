@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative w-full bg-green-900 text-amber-50/70 pt-16 md:pt-20 mt-24">
+    <footer className="relative w-full bg-green-900 bg-gradient-to-bl from-green-950/70 via-transparent to-transparent text-amber-50/70 pt-16 md:pt-20 mt-24">
       <FooterMenu></FooterMenu>
       <div className="w-full max-w-screen-xl mx-auto flex flex-col gap-8 px-8 md:px-20 py-12 md:py-16">
         <div id="acknowledgement">
@@ -65,16 +65,16 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full">
+      <div className="relative w-full h-[80px] overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/40 via-black/20 to-black/20"></div>
         <Image
-          src="/bg/edge-mountains.svg"
+          src="/bg/topographic-hue.png"
           alt="mountains"
           width={1200}
-          height={50}
-          className="w-full"
+          height={60}
+          className="w-full h-full min-h-full object-cover"
         />
       </div>
-      <div className="absolute -z-10 bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-stone-300 via-transparent to-transparent"></div>
     </footer>
   );
 }

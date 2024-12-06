@@ -169,7 +169,7 @@ export default function FooterMenu() {
               alt="Piligrims of Hope"
               width={300}
               height={300}
-              className="w-fit"
+              className="w-fit mt-8 lg:mt-0"
             />
           </Link>
         </div>

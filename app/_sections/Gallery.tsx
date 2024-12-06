@@ -38,7 +38,7 @@ export default function Gallery({
         max={max}
         current={current}
       ></FilterLabel>
-      <div className="w-full max-w-screen-xl mx-auto px-2 md:px-12 py-4">
+      <div className="w-full max-w-screen-xl mx-auto px-6 md:px-12 py-4 mb-6">
         <div id="gallery" className="grid grid-cols-12 gap-4">
           {filteredSites.length === 0 ? (
             <p className="col-span-12 text-center font-serif text-stone-800/70 h-[30dvh]">
@@ -51,15 +51,15 @@ export default function Gallery({
           )}
         </div>
       </div>
-      <div className="mt-12">
-        {pages > 1 && (
+      {pages > 1 && (
+        <div className="mt-12">
           <GalleryPagination
             filterBy={filterBy}
             pages={pages}
             current={current}
           ></GalleryPagination>
-        )}
-      </div>
+        </div>
+      )}
     </section>
   );
 }
