@@ -30,13 +30,13 @@ export default function Footer() {
           id="logos"
           className="w-full flex gap-4 justify-between py-4 h-[100] lg:h-[120] overflow-hidden"
         >
-          <div className="flex justify-normal">
+          <div className="flex">
             <Link href="https://www.catholic.au/s/" target="_blank">
               <Image
                 src="/branding/acbc-logo-160x235px.png"
                 alt="ACBC logo"
-                width={260}
-                height={235}
+                width={90}
+                height={120}
                 className="w-fit h-full min-h-fit object-contain"
               />
             </Link>
@@ -49,12 +49,12 @@ export default function Footer() {
                 src="/branding/ncss-commitment-badge-130px.png"
                 alt="NCSS Commitment Badge"
                 width={260}
-                height={235}
+                height={120}
                 className="w-fit h-full min-h-fit object-contain"
               />
             </Link>
           </div>
-          <div className="w-fit flex-grow-0 flex justify-end">
+          <div className="flex justify-end">
             <Link
               href="https://www.iubilaeum2025.va/en.html"
               target="_blank"
@@ -63,8 +63,8 @@ export default function Footer() {
               <Image
                 src="/branding/jubilee2025-logo-300px.png"
                 alt="Jubilee 2025 logo"
-                width={260}
-                height={235}
+                width={120}
+                height={120}
                 className="w-auto h-full min-h-fit object-contain"
               />
             </Link>
