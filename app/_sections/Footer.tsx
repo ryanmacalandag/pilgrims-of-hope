@@ -30,14 +30,14 @@ export default function Footer() {
           id="logos"
           className="w-full flex gap-4 justify-between py-4 h-[100] lg:h-[120] overflow-hidden"
         >
-          <div className="flex flex-grow justify-normal">
+          <div className="flex justify-normal">
             <Link href="https://www.catholic.au/s/" target="_blank">
               <Image
                 src="/branding/acbc-logo-160x235px.png"
                 alt="ACBC logo"
                 width={260}
                 height={235}
-                className="w-fit h-full min-h-fit"
+                className="w-fit h-full min-h-fit object-contain"
               />
             </Link>
             <Link
@@ -50,7 +50,7 @@ export default function Footer() {
                 alt="NCSS Commitment Badge"
                 width={260}
                 height={235}
-                className="w-fit h-full min-h-fit"
+                className="w-fit h-full min-h-fit object-contain"
               />
             </Link>
           </div>
