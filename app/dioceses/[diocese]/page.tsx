@@ -13,7 +13,7 @@ export const metadata = {
 
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
-  const dioceses = getAllDioceses.sort((a, b) => a.localeCompare(b));
+  const dioceses = getAllDioceses.toSorted((a, b) => a.localeCompare(b));
 
   return dioceses.map((d) => ({
     diocese: d.toLowerCase().split(" ").join("-"),

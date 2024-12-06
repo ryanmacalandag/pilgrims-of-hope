@@ -2,13 +2,15 @@ import { MainNav } from "@/app/_sections/MainNav";
 import { pilgrimageSites } from "@/app/_data/pilgrimagesite";
 import StatesFilter from "@/app/_components/StatesFilter";
 import Footer from "@/app/_sections/Footer";
-import Gallery from "@/app/_sections/Gallery";
 import StatesHeaderMap from "../_sections/StatesHeaderMap";
+import JubileeCTADownload from "../_sections/JubileeCTADownload";
+import PopeFrancisQuotes from "../_sections/PopeFrancisQuotes";
+import PilgrimageDioceses from "../_sections/PilgrimageDioceses";
 
 const MAX_ITEMS: number = 16;
-const allSites = pilgrimageSites.sort((a, b) => a.name.localeCompare(b.name));
-const pagesList = new Array(Math.ceil(allSites.length / MAX_ITEMS));
-const filteredTotal = allSites.length;
+const allSites = pilgrimageSites.toSorted((a, b) =>
+  a.name.localeCompare(b.name),
+);
 
 export const metadata = {
   title: "Australian Catholic Pilgrimage Sites",
@@ -31,14 +33,13 @@ export default function Page() {
         markers={markers}
       ></StatesHeaderMap>
       <StatesFilter selected="all"></StatesFilter>
-      <Gallery
-        filteredSites={allSites.slice(0, MAX_ITEMS)}
-        filteredTotal={filteredTotal}
-        filterBy="All"
-        max={MAX_ITEMS}
-        pages={pagesList.length}
-        current="1"
-      ></Gallery>
+      <div className="w-full max-w-screen-xl mx-auto px-4 md:px-12">
+        <div className="pt-12 md:pt-16 bg-white rounded-xl shadow-lg space-y-16 overflow-hidden">
+          <PilgrimageDioceses></PilgrimageDioceses>
+          <JubileeCTADownload></JubileeCTADownload>
+          <PopeFrancisQuotes></PopeFrancisQuotes>
+        </div>
+      </div>
       <Footer></Footer>
     </div>
   );
