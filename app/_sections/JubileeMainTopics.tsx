@@ -6,15 +6,14 @@ export default function JubileeMainTopics() {
   return (
     <div id="maintopics" className="grid grid-cols-12 mt-0 lg:mt-4">
       <Link
-        href="https://www.iubilaeum2025.va/en.html"
-        target="_blank"
+        href="/videos/invitation"
         className="relative col-span-12 md:col-span-4 aspect-video md:aspect-square lg:aspect-video bg-green-800 text-white overflow-hidden transition duration-300"
       >
         <div className="group w-full h-full flex flex-row justify-start items-end gap-2">
           <div className="absolute bottom-0 left-0 w-full items-end z-10 font-bold px-8 py-8">
             <div className="text-xs uppercase text-yellow-200">Watch Video</div>
             <h2 className="text-2xl md:text-2xl font-serif font-bold">
-              What is Jubilee 2025?
+              An Invitation
             </h2>
           </div>
           <Image
