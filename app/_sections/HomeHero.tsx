@@ -22,14 +22,14 @@ export default function HomeHero() {
             <Link
               href="#primer"
               aria-label="Download printable PDF"
-              className="w-fit whitespace-nowrap uppercase text-sm font-bold tracking-widest border border-green-800 hover:border-green-800 bg-green-800 hover:bg-green-700 text-white px-8 py-4 transition duration-300"
+              className="w-fit whitespace-nowrap uppercase text-sm font-bold tracking-widest border border-green-800 hover:border-green-800 bg-green-800 hover:bg-green-700 text-white px-4 lg:px-8 py-4 transition duration-300"
             >
               Get Started
             </Link>
             <Link
               href="/sites/"
               aria-label="Download printable PDF"
-              className="w-fit whitespace-nowrap uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-8 py-4 transition duration-300"
+              className="w-fit whitespace-nowrap uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-4 lg:px-8 py-4 transition duration-300"
             >
               View Pilgrimage Sites ⇢
             </Link>

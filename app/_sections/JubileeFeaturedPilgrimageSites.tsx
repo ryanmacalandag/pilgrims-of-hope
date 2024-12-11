@@ -16,7 +16,7 @@ export default function JubileeFeaturedPilgrimageSites() {
         </h2>
       </div>
       <div className="grid grid-cols-12 gap-4">
-        <div className="col-span-12 md:col-span-5 lg:col-span-4 mb-6">
+        <div className="col-span-12 md:col-span-6 lg:col-span-5 mb-6">
           <div className="flex flex-col gap-4 pl-8 md:pl-12 lg:pl-16 mb-2">
             <p className="text-2xl md:text-3xl font-serif text-balance">
               Australian pilgrimage sites you can visit
@@ -29,21 +29,21 @@ export default function JubileeFeaturedPilgrimageSites() {
               <Link
                 href="/all"
                 aria-label="View Jubilee 2025 Calendar"
-                className="w-fit flex flex-nowrap uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-4 lg:px-6 py-4 transition duration-300"
+                className="w-fit flex flex-nowrap uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-4 lg:px-8 py-4 transition duration-300"
               >
                 All Sites ⇢
               </Link>
               <Link
                 href="/flatlist"
                 aria-label="View Jubilee 2025 Calendar"
-                className="w-fit uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-4 lg:px- py-4 transition duration-300"
+                className="w-fit uppercase text-sm font-bold tracking-widest border border-stone-800 hover:bg-stone-700 hover:text-stone-100 px-4 lg:px-8 py-4 transition duration-300"
               >
                 View Flat List ⇢
               </Link>
             </div>
           </div>
         </div>
-        <div className="col-span-12 md:col-span-7 lg:col-span-8">
+        <div className="col-span-12 md:col-span-6 lg:col-span-7">
           <div className="grid grid-cols-12">
             {allFeaturedSites.map((site, key) => {
               return (

@@ -26,7 +26,7 @@ export default function JubileePlenaryIndulgences() {
         </h2>
       </div>
       <div className="grid grid-cols-12 gap-4">
-        <div className="col-span-12 md:col-span-6 lg:col-span-4">
+        <div className="col-span-12 md:col-span-6 lg:col-span-5">
           <div className="flex flex-col gap-4 pr-4 md:pr-0 mb-2">
             <p className="text-2xl md:text-3xl font-serif text-pretty">
               Learn more about plenary indulgence
@@ -39,7 +39,7 @@ export default function JubileePlenaryIndulgences() {
             </p>
           </div>
         </div>
-        <div className="col-span-12 md:col-span-6 lg:col-span-8">
+        <div className="col-span-12 md:col-span-6 lg:col-span-7">
           <ul className="pl-4 sm:pl-0 pr-8 sm:pr-10 divide-y">
             {indulgences &&
               indulgences.map((item, key) => {
