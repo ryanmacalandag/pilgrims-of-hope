@@ -20,6 +20,7 @@ const config: Config = {
         banner: "10 / 3",
         document: "4 / 5",
         portrait: "3.5 / 5",
+        regular: "5 /3.5 ",
       },
       fontFamily: {
         serif: "var(--font-serif)",
