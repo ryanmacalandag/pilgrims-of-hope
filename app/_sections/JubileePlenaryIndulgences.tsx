@@ -9,6 +9,7 @@ const indulgences = [
   "Have the interior disposition of complete detachment from sin, even venial sin.",
   "Make a sacramental Confession.",
   "Receive the Holy Eucharist.",
+  "Perform acts of mercy.",
   "Pray for the intentions of the pope. This can usually be done by praying one Our Father, one Hail Mary, and one Glory Be.",
 ];
 
