@@ -254,7 +254,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     featured: false,
   },
   {
-    name: 'St Patrick&#39;s Church East Gosford, with the Relic of St John Paul II',
+    name: 'St Patrick&#39;s Church East Gosford with the Relic of St John Paul II',
     slug: 'st-patricks-church-east-gosford-with-the-relic-of-st-john-paul-ii-broken-bay',
     diocese: 'Diocese of Broken Bay',
     street: '76 York Street',
@@ -406,7 +406,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     featured: false,
   },
   {
-    name: 'Sacred Heart Church, Griffith',
+    name: 'Sacred Heart Church Griffith',
     slug: 'sacred-heart-church-griffith',
     diocese: 'Diocese of Wagga Wagga',
     street: '11 Warrambool Street',
@@ -1543,8 +1543,8 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     street: 'Corner Portland Street and Petticoat Ln',
     city: 'Penola',
     state: 'SA',
-    lat: -37.5889566,
-    lng: 139.3662967,
+    lat: -37.3792195,
+    lng: 140.839399,
     image: '/sites/mary-mackillop-penola-centre.jpg',
     description: [
       'This museum centre was erected to highlight the impressive life of St. Mary MacKillop, a religious sister who founded the Sisters of St Joseph of the Sacred Heart (known as the Josephites) in 1866 to establish numerous schools for the poor throughout Australia and New Zealand. The centre contains two sections – one that focuses on St. Mary MacKillop, and the other on Fr. Julian Tenison Woods, the co-founder of the order.',
@@ -2014,7 +2014,7 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     lng: 144.2714712,
     image: '/sites/st-michaels-church-deniliquin.jpg',
     description: [
-      'No information currently available.',
+      'No information currently available.', 
     ],
     types: [
       'church',
@@ -2087,6 +2087,279 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
     ],
     website:
       'https://cairns.catholic.org.au',
+    featured: false,
+  },
+  {
+    name: "St Carthage’s Cathedral",
+    slug: 'st-carthages-cathedral',
+    diocese: 'Diocese of Lismore',
+    street: '6 Leycester Street',
+    city: 'Lismore',
+    state: 'NSW',
+    lat: -28.8043722,
+    lng: 153.2817061,
+    image: '/sites/st-carthages-cathedral.jpg',
+    description: [
+      'No information currently available.',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(02) 6626 0200',
+      'admin@stcarthages.org.au',
+    ],
+    website:
+      'http://www.stcarthages.org.au/',
+    featured: false,
+  },
+  {
+    name: "Sacred Heart Catholic Church Murwillumbah",
+    slug: 'sacred-heart-catholic-church-murwillumbah',
+    diocese: 'Diocese of Lismore',
+    street: '143 Murwillumbah St',
+    city: 'Murwillumbah',
+    state: 'NSW',
+    lat: -28.8043722,
+    lng: 153.2817061,
+    image: '/sites/sacred-heart-catholic-church-murwillumbah.jpg',
+    description: [
+      'No information currently available.',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(02) 6672 1118',
+      'murwillumbah@lismore.catholic.org.au',
+    ],
+    website:
+      'https://shpmurwillumbah.com.au/',
+    featured: false,
+  },
+  {
+    name: "St Augustine's Catholic Church",
+    slug: 'st-augustines-catholic-church',
+    diocese: 'Diocese of Lismore',
+    street: '21 Gordon Street',
+    city: 'Coffs Harbour',
+    state: 'NSW',
+    lat: -28.8043722,
+    lng: 153.2817061,
+    image: '/sites/st-augustines-catholic-church.jpg',
+    description: [
+      "St. Augustine's Catholic Parish of Coffs Harbour in the Diocese of Lismore, was formed on December 9, 1906. The original parish embraced a stretch of country skirting the coast including the townships of Coffs Harbour and Woolgoolga, as well as the districts of Moonee and Corindi.",
+      'The Parish of Sawtell was formed on July 1, 1983, when the towns of Sawtell, Boambee and Bonville areas were transferred from the Parish of Coffs Harbour.',
+      "The Coffs Harbour Parish Church is St. Augustine's War Memorial Church built in 1962 and is located in Gordon Street overlooking the city centre. December 9, 2006 marked the Centenary of the establishment of Coffs Harbour Parish.",
+    ],
+    sources: [
+      'https://www.coffscatholic.com/History-of-St-Augustines-Catholic-Parish',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(02) 6651 0000',
+      'parish@coffscatholic.com',
+    ],
+    website:
+      'https://www.coffscatholic.com',
+    featured: false,
+  },
+  {
+    name: "St Agnes' Catholic Church",
+    slug: 'st-agnes-catholic-church',
+    diocese: 'Diocese of Lismore',
+    street: '47 Hay Street',
+    city: 'Port Macquarie',
+    state: 'NSW',
+    lat: -28.8043722,
+    lng: 153.2817061,
+    image: '/sites/st-agnes-catholic-church.jpg',
+    description: [
+      'No information currently available.',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(02) 6588 7444',
+      'communications@stagnesparish.org.au',
+    ],
+    website:
+      'https://stagnesparish.org.au/',
+    featured: false,
+  },
+  {
+    name: "St Patrick’s Cathedral Parramatta",
+    slug: 'st-patricks-cathedral-parramatta',
+    diocese: 'Diocese of Parramatta',
+    street: '1 Marist Place',
+    city: 'Parramatta',
+    state: 'NSW',
+    lat: -33.8086466,
+    lng: 151.0035436,
+    image: '/sites/st-patricks-cathedral-parramatta.jpg',
+    description: [
+      'Rev James Dixon celebrated the first Mass in Parramatta near the present-day St Patrick’s on 22 May 1803.',
+      'After the Vinegar Hill Rebellion of 1804, Mass privileges were withdrawn. Rev Therry’s arrival in 1820 reinstated Mass celebrations. Rev Daniel Power started the first church in Parramatta in 1827. Archbishop Polding OSB laid the Foundation Stone on 17 March 1836, and the church was consecrated on 28 May 1837.',
+      'A larger church was commissioned in 1854, and the Foundation Stone was laid on 13 August. The Pugin Tower’s Foundation Stone was laid on 10 November 1878, and the tower was consecrated on 17 March 1880.',
+      'A new church was built in 1936, incorporating the tower and spire. The Cathedral was destroyed by fire on 19 February 1996, and rebuilt to its current form, dedicated on 29 November 2003.',
+    ],
+    sources: [
+      'https://parracatholic.org/about/st-patricks-cathedral/',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(02) 8839 8400',
+      'enquiry@stpatscathedral.com.au',
+    ],
+    website:
+      'https://stpatscathedral.com.au',
+    featured: false,
+  },
+  {
+    name: "Mt Shoenstatt Shrine",
+    slug: 'mt-shoenstatt-shrine',
+    diocese: 'Diocese of Parramatta',
+    street: '230 Fairlight Road',
+    city: 'Mulgoa',
+    state: 'NSW',
+    lat: -33.8086466,
+    lng: 151.0035436,
+    image: '/sites/mt-shoenstatt-shrine.jpg',
+    description: [
+      'No information currently available.',
+    ],
+    sources: [
+      'https://schoenstatt.org.au/',
+    ],
+    types: [
+      'shrine',
+    ],
+    contact: [
+      '(02) 4773 8338',
+      'bookings@schoenstatt.org.au',
+    ],
+    website:
+      'https://schoenstatt.org.au',
+    featured: false,
+  },
+  {
+    name: "Shrine of the Holy Innocents",
+    slug: 'shrine-of-the-holy-innocents',
+    diocese: 'Diocese of Parramatta',
+    street: '8 Greyfriar Place',
+    city: 'Kellyville',
+    state: 'NSW',
+    lat: -33.8086466,
+    lng: 151.0035436,
+    image: '/sites/shrine-of-the-holy-innocents.jpg',
+    description: [
+      "The building of the new shrine dedicated to the Holy Innocents began in November 2011. It has taken two years to see the dream become a reality after more than $500,000 was raised by the residents of the parish of Our Lady of the Rosary and the wider community, including major sponsor Kenthurst businessman Walter Bachmann of BAC Systems. Donations came from people all over Australia who learnt of the project through the Franciscan order’s newsletter, 'The Little Troubadour'.",
+      'In the interior, artist Theodore Velin, originally from Bulgaria, has painted a beautiful fresco on the chapel’s impressive domed ceiling and also created four religious mosaics for the chapel. Each mosaic took three months to complete.',
+      "His icons of St Clare and St Francis flank the entrance to the shrine. The fresco on the dome features the Virgin Mary and St Maximilian Kolbe, who established the Marian apostolate the 'Militia Immaculata' or Knights of the Immaculate; he is also a patron saint of the Pro-Life movement. The Franciscans consider the shrine a place of holy beauty and are continuing to landscape the surrounding grounds.",
+      'The walk through the garden is modelled on the 14 Stations of the Cross, depicting Jesus’ path to His crucifixion with sculptural representations in almost life-size figures.',
+    ],
+    sources: [
+      'https://www.franciscanfriarsaustralia.org/shrineoftheholyinnocents',
+    ],
+    types: [
+      'shrine',
+    ],
+    contact: [
+      '0429 441 955',
+      'kellyville.shrine@franciscanfriarsaustralia.org',
+    ],
+    website:
+      'https://www.franciscanfriarsaustralia.org/shrineoftheholyinnocents',
+    featured: false,
+  },
+  {
+    name: "St Joseph’s Cathedral Rockhampton",
+    slug: 'st-josephs-cathedral-rockhampton',
+    diocese: 'Diocese of Rockhampton',
+    street: '169 William Street',
+    city: 'Rockhampton',
+    state: 'NSW',
+    lat: -33.8086466,
+    lng: 151.0035436,
+    image: '/sites/st-josephs-cathedral-rockhampton.jpg',
+    description: [
+      "St Joseph’s Catholic Cathedral has stood for over a century on the inner city corner of William and West Streets, Rockhampton. Its architecture and beauty and the magnitude of its stature, make it a focal point of the Rockhampton Diocese. It is as much for the people of the Diocese as visitors.",
+      "St Joseph’s features a particularly fine black and white chequered Italian marble floor, sandstone block construction and authentic leadlight windows hand-crafted in England. These windows depict themes from the New Testament. Balancing the sandstone and tile construction is the deliberate use of timber, creating a warm and natural atmosphere. Compared to modern church design, the design of St Joseph’s and its character remind us of the transcendence of God.",
+      "On 21 May 1882, Bishop John Cani was consecrated the first Bishop of Rockhampton. Plans were completed for the cathedral by 1892. The architect was FDG Stanley of Brisbane. Two years later tenders were called and construction began on 11 June 1894.",
+      "On Sunday 15 October 1899, Cardinal Moran, Archbishop of Sydney, celebrated a Pontifical High Mass and preached to open the Cathedral. St Joseph’s has occupied much time and energy of subsequent Rockhampton Bishops. Many of the Cathedral’s historic stained glass windows were commissioned and installed during Bishop Higgins’ six years episcopacy.",
+    ],
+    sources: [
+      'https://rok.catholic.net.au/our-diocese/st-josephs-cathedral/',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(07) 4927 6744',
+      'CPOSJ.Admin@rok.catholic.net.au',
+    ],
+    website:
+      'www.rockhamptoncatholics.org.au',
+    featured: false,
+  },
+  {
+    name: "St Mark’s Cathedral",
+    slug: 'st-marks-cathedral',
+    diocese: 'Diocese of Port Pirie',
+    street: '107 Gertrude Street',
+    city: 'Port Pirie',
+    state: 'SA',
+    lat: -33.1791144,
+    lng: 138.007966,
+    image: '/sites/st-marks-cathedral.jpg',
+    description: [
+      "Since 1875 there has been a Church on this site. In 1881 a more permanent Church was built. The stone on the north side of the Church dated 1911 marked the extension and completion of St Mark’s Church. ",
+      "St Mark’s Church in Port Pirie was destroyed in a disastrous fire in 1947. Because of rigorous post-war building restrictions, nothing could be done immediately to restore the church and when this became possible, it was decided to rebuild it as the Cathedral of the Diocese.",
+      "The Cathedral stands on the exact site of the old church, the walls of the church and the hall behind becoming the walls of the Cathedral.",
+      "The Diocese of Port Pirie began as the Diocese of Port Augusta in 1887, under Bishop O’Reily. Successive Bishops lived at Pekina and Peterborough and it was in 1951 that Bishop McCabe announced the change of name of the Diocese, that the Bishop’s official residence would be at Port Pirie and that St. Mark’s would become the Cathedral.",
+      "Before this could be carried out, Bishop McCabe was transferred to the Diocese of Wollongong and it was left to his successor, Bishop Gallagher, to take up residence in Port Pirie and to oversee the completion of the Cathedral which was blessed and opened on 1st March 1953 by a former Bishop of the Diocese, Cardinal Gilroy of Sydney.",
+    ],
+    sources: [
+      'https://piriecathparish.org.au/st-marks-cathedral',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(08) 8632 3977',
+      'saintmarkscatholic@pp.catholic.org.au',
+    ],
+    website:
+      'www.piriecathparish.org.au',
+    featured: false,
+  },
+  {
+    name: "Sts Peter and Paul Church",
+    slug: 'sts-peter-and-paul-church',
+    diocese: 'Diocese of Port Pirie',
+    street: '27 Hutchison Street',
+    city: 'Coober Pedy',
+    state: 'SA',
+    lat: -29.0121714,
+    lng: 134.7553371,
+    image: '/sites/sts-peter-and-paul-church.jpg',
+    description: [
+      "No information currently available.",
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(08) 8672 5011',
+      'inlandmission@pp.catholic.org.au',
+    ],
+    website:
+      'https://ppcatholic.org/parishes/coober-pedy',
     featured: false,
   },
 ];
