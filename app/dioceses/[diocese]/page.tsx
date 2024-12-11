@@ -6,7 +6,7 @@ import { MainNav } from "@/app/_sections/MainNav";
 import StatesFilter from "@/app/_components/StatesFilter";
 import PilgrimageDioceses from "@/app/_sections/PilgrimageDioceses";
 
-const MAX_ITEMS: number = 8;
+const MAX_ITEMS: number = 16;
 
 export const metadata = {
   title: "Filter by diocese",
@@ -43,7 +43,7 @@ export default async function Page({ params }: { params: ParamsType }) {
         pages={Math.ceil(filteredSites.length / MAX_ITEMS)}
         current="1"
       ></Gallery>
-      <div className="w-full max-w-screen-xl mx-auto px-6 md:px-12">
+      <div className="w-full max-w-screen-xl mx-auto px-6 md:px-12 mt-12">
         <div className="py-10 md:py-16 bg-white rounded-xl shadow-lg space-y-16 overflow-hidden">
           <PilgrimageDioceses></PilgrimageDioceses>
         </div>

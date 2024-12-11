@@ -1677,4 +1677,416 @@ export const pilgrimageSites: PilgrimageSiteType[] = [
       'http://www.stmaryoftheassumption.org.au/ ',
     featured: false,
   },
+  {
+    name: "St Luke's Lalor",
+    slug: 'st-lukes-lalor',
+    diocese: 'Archdiocese of Melbourne',
+    street: '1A David Street',
+    city: 'Lalor',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-lukes-lalor.jpg',
+    description: [
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 9465 2180',
+      'lalor@cam.org.au',
+    ],
+    website:
+      'https://www.stlukesparishlalor.com/',
+    featured: false,
+  },
+  {
+    name: "St Mary Magdalen’s Trentham",
+    slug: 'st-mary-magdalens-trentham',
+    diocese: 'Archdiocese of Melbourne',
+    street: '1-3 Bridge Street',
+    city: 'Trentham',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-mary-magdalens-trentham.jpg',
+    description: [
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 5422 1261',
+      'kyneton@cam.org.au',
+    ],
+    website:
+      'https://www.melbcatholic.org/s/kyneton-trentham',
+    featured: false,
+  },
+  {
+    name: "Polish Marian Shrine Essendon",
+    slug: 'polish-marian-shrine-essendon',
+    diocese: 'Archdiocese of Melbourne',
+    street: '6-8 Aberfeldie Street',
+    city: 'Essendon',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/polish-marian-shrine-essendon.jpg',
+    description: [
+      'Information currently unavailable.',
+      'Please see diocese or parish website for details. You may also use the contacts listed on this page to inquire.',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 9337 6395',
+    ],
+    featured: false,
+  },
+  {
+    name: "St Dominic's Camberwell",
+    slug: 'st-dominics-camberwell',
+    diocese: 'Archdiocese of Melbourne',
+    street: '816 Riversdale Road',
+    city: 'Camberwell',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-dominics-camberwell.jpg',
+    description: [
+      'Ever since the first public Mass was celebrated for the first 29 people in the parlour of Holyrood House on 16 March 1924, countless parishioners and worshippers have made St Dominic’s their home.',
+      'Our beautiful church was begun in 1936 with the turning of the first sod and dedicated by Archbishop Justin Symonds on 31 March 1960. The altar contains relics of Pope St Clement and St Dominic.',
+      'Visitors to the Church will be able to appreciate William Patrick Connolly’s elegant design and Henry Clarke’s magnificent windows.  Finally completed in 1958 and consecrated in 1960, St Dominic’s Church has been described as “a defiant finale to the Gothic Revival in Australia”. Even more importantly, St Dominic’s Church is a sign of eternal hope and an oasis of abiding peace in Melbourne’s eastern suburbs.',
+    ],
+    sources: [
+      "https://www.stdominics.org.au/aboutus",
+      "http://www.stdominics.org.au",
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '0468 584 309',
+      'camberwelleast@cam.org.au',
+    ],
+    website:
+      'http://www.stdominics.org.au',
+    featured: false,
+  },
+  {
+    name: "St Francis Xavier Mansfield",
+    slug: 'st-francis-xavier-mansfield',
+    diocese: 'Archdiocese of Melbourne',
+    street: '54 Hunter Street',
+    city: 'Mansfield',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-francis-xavier-mansfield.jpg',
+    description: [
+      'Mansfield Catholic Parish is situated in the High Country in Victoria including parts of the Victorian Alps.',
+      'The Parish was established when Melbourne was a Diocese under the newly established Archdiocese of Sydney and before the Dioceses of Sale and Sandhurst had been set up.',
+      "The early parishioners were mostly Irish Catholics, who settled here since the 1840's. The descendants of these setters still live in the parish. A lot of them are farmers, a few of them are professionals as well.",
+      'The present Catholic Parish of Mansfield, with churches at Mansfield, Woods Point, Jamieson, Bonnie Doon, Tolmie and Mount Buller, is in the Archdiocese of Melbourne and shares its borders with Sale and Sandhurst Dioceses.',
+    ],
+    sources: [
+      "https://www.melbcatholic.org/s/articles/a198w0000001CI3AAM/mansfield-catholic-parish-history",
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 5775 2005',
+      'mansfield@cam.org.au',
+    ],
+    website:
+      'https://www.melbcatholic.org/mansfield',
+    featured: false,
+  },
+  {
+    name: "Sacred Heart Catholic Parish Croydon",
+    slug: 'sacred-heart-catholic-parish-croydon',
+    diocese: 'Archdiocese of Melbourne',
+    street: '35 Wicklow Avenue',
+    city: 'Croydon',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/sacred-heart-catholic-parish-croydon.jpg',
+    description: [
+      'Sacred Heart Catholic parish is located within the old Sacred Heart Monastery, which was owned by the Missionaries of the Sacred Heart and opened by Archbishop Mannix in April 1939.',
+      'The complex included a chapel, library, cloisters, classrooms, refectory, kitchens and domestic offices. Accommodation was provided for 65 students, 10 priests and several lay brothers. Due to declining numbers, at the end of 1985, the location for seminary studies was changed to apartments in Drummoyne, Sydney.',
+      'In 1991 the monastery and a surrounding parcel of 5 hectares of land was sold to the Archdiocese of Melbourne to serve as the parish centre of Croydon and East Ringwood. In 1993 the new parish of Sacred Heart, Croydon, was established using the monastery and chapel as its centre of worship and community activities.',
+      'The original chapel was extended in 2000 to handle the greater number of people attending Mass from the merged Croydon and East Ringwood parishes. It now seats 500.',
+      'The monastery building is heritage listed and the parish hopes to maintain the heritage of the monastery as a place of learning, spiritual living and a communal hub for the surrounding district.',
+    ],
+    sources: [
+      "https://www.sacredheartcroydon.org/history/a-brief-history",
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '0416 923 484',
+      'croydon@cam.org.au',
+    ],
+    website:
+      'http://www.sacredheartcroydon.org/',
+    featured: false,
+  },
+  {
+    name: "Divine Mercy Shrine Keysborough",
+    slug: 'divine-mercy-shrine-keysborough',
+    diocese: 'Archdiocese of Melbourne',
+    street: '337-343 Greens Road',
+    city: 'Keysborough',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/divine-mercy-shrine-keysborough.jpg',
+    description: [
+      'The idea of buying a plot of land in Keysborough on Greens Road was born from the initiative of Father Maksymilian Szura SChr in May 1998. The purchased land was very quickly tidied up and developed, and the metal shed was converted into a temporary chapel. In a letter dated 17 June 1998, Archbishop George Pell gave permission to open the Polish Catholic Centre and to celebrate Holy Mass in the temporary chapel.',
+      'On December 6, 1998, Archbishop Stefan Wesoły consecrated the chapel and the grounds.',
+      'Efforts were made to obtain permission to build a church at the Dandenong City Council, where plans by Canberra architect Jacek Łukaszyk were presented. After many adventures and prohibitions, to the joy of the ministering priests and the faithful, construction began two years later.',
+      'On November 23, 2003, Bishop Christopher Prowse blessed the foundations for the future sanctuary. The following year, also on the feast of Christ the King, on November 21, 2004, he blessed the Cornerstone brought from the grave of St. Faustina.',
+      'On April 22, 2006, on the eve of the Feast of Divine Mercy, the long-awaited moment came, the Consecration of the Shrine of Divine Mercy. The liturgy was led by Archbishop Denis Hart, assisted by the shepherd of the Polish community, Bishop Ryszard Karpiński, who came from Poland, and Bishop Hilton Deakin, the local guardian of emigrants and refugees.',
+    ],
+    sources: [
+      "https://dms.org.au/",
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 9701 6071',
+      'dms@cam.org.au',
+    ],
+    website:
+      'https://dms.org.au/',
+    featured: false,
+  },
+  {
+    name: "Our Lady of La Vang Shrine",
+    slug: 'our-lady-of-la-vang-shrine',
+    diocese: 'Archdiocese of Melbourne',
+    street: '225 Hutton Road',
+    city: 'Keysborough',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/our-lady-of-la-vang-shrine.jpg',
+    description: [
+      'No information currently available.',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 9701 6033',
+      'ttlavang225@gmail.com',
+    ],
+    website:
+      'https://trungtamthanhmaulavang.org.au/',
+    featured: false,
+  },
+  {
+    name: "St Patrick's Mentone",
+    slug: 'st-patricks-mentone',
+    diocese: 'Archdiocese of Melbourne',
+    street: '10 Rogers Street',
+    city: 'Mentone',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-patricks-mentone.jpg',
+    description: [
+      'No information currently available.',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 9583 2103',
+      'mentoneparkdaleeast@cam.org.au',
+    ],
+    website:
+      'https://www.sspjv.org/',
+    featured: false,
+  },
+  {
+    name: "St Macartan’s Mornington",
+    slug: 'st-macartans-mornington',
+    diocese: 'Archdiocese of Melbourne',
+    street: '4 Drake Street',
+    city: 'Mornington',
+    state: 'VIC',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-macartans-mornington.jpg',
+    description: [
+      'No information currently available.',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 5975 2200',
+      'mornington@cam.org.au',
+    ],
+    website:
+      'https://www.melbcatholic.org/s/mornington',
+    featured: false,
+  },
+  {
+    name: "Sacred Heart Cathedral Broken Hill",
+    slug: 'sacred-heart-cathedral-broken-hill',
+    diocese: 'Diocese of Wilcannia-Forbes',
+    street: '235 Lane Street',
+    city: 'Broken Hill',
+    state: 'NSW',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/sacred-heart-cathedral-broken-hill.jpg',
+    description: [
+      'In June 1903, a meeting of over 800 people took place on the grounds of the Bishops house to discuss the building of a Cathedral for the diocese. Additionally it would also serve as the cities parish church.',
+      'The Sisters of Mercy donated the corner land of their new convent for the Cathedral to be built on. Mr Knox of Broken Hill was employed as the architect under the supervision of Bishop Dunne. What made this Cathedral unique was the decision to use the silver quarry stone leftover from the silver mines; this meant the Cathedral would be made out of a silver stone a priceless gem that could never be replaced. The stone was donated to the diocese by the North silver mines of Broken Hill. On December 6th 1903, Bishop John Dunne laid the foundation stone of the new Cathedral of the Sacred Heart of Jesus in the presence of various visiting Bishops and the Catholic faithful.',
+      'Two years later and after 7,000 pounds spent, the Cathedral of the Sacred Heart was opened and consecrated by Bishop Dunne on July 2nd 1905. In attendance were various bishops from Australia. Noted prelates in attendance were the Archbishop of Melbourne, Archbishop Carr and Coadjutor Archbishop Kelly of Sydney.',
+      'An estimated 1,500 people were in attendance to witness this wonderful occasion for the diocese and it was noted as the largest gathering seen in western outback New South Wales.',
+      'The Sacred Heart Cathedral building is a living reminder of Bishop Dunne’s durable work and care for his diocese, sadly eleven years later, on Christmas Day 1916, Bishop John Dunne passed away aged 71. Bishop Dunne was praised for his 29 years of apostolic service and, in building up the newly established diocese.',
+    ],
+    sources: [
+      'https://www.wf.catholic.org.au/our-diocese/cathedral/',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(08) 8087 3198',
+      'parish.brokenhill@wf.catholic.org.au ',
+    ],
+    website:
+      'https://www.wf.catholic.org.au',
+    featured: false,
+  },
+  {
+    name: "St Laurence O’Toole Church",
+    slug: 'st-laurence-otoole-church',
+    diocese: 'Diocese of Wilcannia-Forbes',
+    street: '13 Johnson Street',
+    city: 'Forbes',
+    state: 'NSW',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-laurence-otoole-church.jpg',
+    description: [
+      'In 1880 St. Laurence O’Toole Church of Gothic design was consecrated and opened, it consisted of the present nave only.',
+      'Other additions consist in: 1905 Sanctuary and Sacristy, 1923 Gallery, 1936 Copper sheeting replaced and shingle roof, and 1958 Confessionals.',
+      'More recently the whole church was air-conditioned and a new organ was purchased. This was partly funded by a deceased estate and the parishioners helped by purchasing an organ key. In 2017 the Gallery was updated making it more secure and beautiful.',
+    ],
+    sources: [
+      'https://www.catholicforbes.org/our-parish',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(02) 6852 2213',
+      'parish.forbes@wf.catholic.org.au',
+    ],
+    website:
+      'https://www.catholicforbes.org/ ',
+    featured: false,
+  },
+  {
+    name: "St Michael’s Church Deniliquin",
+    slug: 'st-michaels-church-deniliquin',
+    diocese: 'Diocese of Wilcannia-Forbes',
+    street: '366 Harrison Street',
+    city: 'Deniliquin',
+    state: 'NSW',
+    lat: -36.7600488,
+    lng: 144.2714712,
+    image: '/sites/st-michaels-church-deniliquin.jpg',
+    description: [
+      'No information currently available.',
+    ],
+    types: [
+      'church',
+    ],
+    contact: [
+      '(03) 5881 1482',
+      'parish.deniliquin@wf.catholic.org.au',
+    ],
+    website:
+      'https://wf.catholic.org.au',
+    featured: false,
+  },
+  {
+    name: "St Stephen’s Cathedral Brisbane",
+    slug: 'st-stephens-cathedral-brisbane',
+    diocese: 'Archdiocese of Brisbane',
+    street: '3249 Elizabeth Street',
+    city: 'Brisbane',
+    state: 'QLD',
+    lat: -27.4687648,
+    lng: 153.0290513,
+    image: '/sites/st-stephens-cathedral-brisbane.jpg',
+    description: [
+      'Work began on this little stone church in 1848, using a design of Gothic revival architect, AWN Pugin. Fr James Hanly celebrated the first Mass in the church on 12 May 1850 when there were just sixty Catholic families in town.',
+      'In 1859, with the appointment of Bishop James Quinn, Brisbane became a diocese and the church a cathedral. When the new cathedral was opened in 1874 this church became a school room. During the past century it was used for school, church offices and storage, and was several times threatened with demolition.',
+      'Based on painstaking historical research and heritage reports, the bell tower has been rebuilt, the stone tracery in the windows reconstructed, and a timber shingle roof reinstated. In fact, it has been enhanced with treasures our ancestors could not have imagined: the West window is now filled with magnificent stained glass depicting Christ in glory and the story of St Stephen.',
+      'The building now provides the cathedral with a small-scale worship space. The seating and sanctuary can be rearranged so that it is suitable for the Liturgy of the Hours, small group Masses, meditation groups, and weddings. The occasional spiritual talks or musical performances will also find a home in this sacred space.',
+      'The whole of the worship space is located in the nave which is divided off from the apse by four solid timber panels and a rood bar with a crucifix in the midpoint. The apse space has been devoted to the diocesan shrine of Mary MacKillop.',
+      'Archbishop John Bathersby solemnly dedicated the restored St Stephen’s Chapel on 5 February 1999.',
+    ],
+    sources: [
+      'https://www.cathedralofststephen.org.au/st-stephens-chapel.html',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(07) 3324 3030',
+      'cathedral@bne.catholic.net.au ',
+    ],
+    website:
+      'https://www.cathedralofststephen.org.au/ ',
+    featured: false,
+  },
+  {
+    name: "St Monica's Cathedral Cairns",
+    slug: 'st-monicas-cathedral-cairns',
+    diocese: 'Diocese of Cairns',
+    street: '181 Abbott Street',
+    city: 'Cairns',
+    state: 'QLD',
+    lat: -16.9170834,
+    lng: 145.7725937,
+    image: '/sites/st-monicas-cathedral-cairns.jpg',
+    description: [
+      'On 10th January 1886, Cairns’ first catholic church and priory, St Monica’s, was opened on the corner of Abbott and Minnie Streets.',
+      'Sadly, it was destroyed in the 1927 cyclone, but was rebuilt in 1928. This building is now home to Catholic Services.',
+      'St Monica’s was not the first church in the diocese, nor – at the time - was it a Cathedral. In 1886 other churches had already been established at Cooktown, Herberton, Port Douglas, Normanton and Croydon.',
+      'In 1941, Cairns became a diocese, and the most recent incarnation of St Monica’s Cathedral was blessed and opened in July 1968. It can be found at 181 Abbott Street, Cairns.',
+    ],
+    sources: [
+      'https://cairns.catholic.org.au/about/st-monicas-cathedral',
+    ],
+    types: [
+      'cathedral',
+    ],
+    contact: [
+      '(07) 4046 5285',
+      'cathedral@cairns.catholic.org.au',
+    ],
+    website:
+      'https://cairns.catholic.org.au',
+    featured: false,
+  },
 ];

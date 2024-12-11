@@ -54,7 +54,7 @@ export default async function Page() {
                             href={"/sites/" + site.slug}
                             className="border-b border-stone-800 border-dotted hover:text-green-600"
                           >
-                            {site.name.replace("&#39;", "'")}
+                            {site.name.replace(/&#39;/g, "'")}
                           </Link>
                         </td>
                         <td className="py-4 px-4 text-center">

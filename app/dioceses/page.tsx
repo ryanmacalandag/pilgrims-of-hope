@@ -30,7 +30,7 @@ export default function Page() {
         markers={markers}
       ></StatesHeaderMap>
       <StatesFilter selected="all"></StatesFilter>
-      <div className="w-full max-w-screen-xl mx-auto px-6 md:px-12">
+      <div className="w-full max-w-screen-xl mx-auto px-6 md:px-12 mt-12">
         <div className="py-12 md:py-16 bg-white rounded-xl shadow-lg space-y-16 overflow-hidden">
           <PilgrimageDioceses></PilgrimageDioceses>
         </div>
